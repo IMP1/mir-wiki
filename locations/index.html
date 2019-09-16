@@ -1,0 +1,155 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <meta charset="utf-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <title>Locations | Mir</title>
+        <link rel="stylesheet" href="https://igoradamenko.github.io/awsm.css/css/awsm.css">
+    </head>
+    <body>
+        <header>
+            <h1>Mir</h1>
+            <span class="tagline">A world of stories</span>
+        </header>
+        <main>
+            <article>
+                <h1>Locations of Mir</h1>
+                <ul id="location-list"></ul>
+                <button onclick="sortByName()">Sort Alphabetically</button>
+                <button onclick="sortByScale()">Sort By Size</button>
+            </article>
+        </main>
+        <footer>
+            <h2 id="quick-links">Quick Links</h2>
+            <nav>
+                <ul>
+                    <li>
+                        <a href="/mir-wiki/locations">Locations</a>
+                    </li>
+                    <li>
+                        <a href="/mir-wiki/events">Events</a>
+                    </li>
+                    <li>
+                        <a href="/mir-wiki/categories">Mir Index</a>
+                    </li>
+                    <li>
+                        <a href="/mir-wiki/stories">Stories</a>
+                    </li>
+                </ul>
+            </nav>
+        </footer>
+        <script type="text/javascript">
+            let scale = {
+                continent: 1,
+                island_group: 2,
+                island: 3,
+                country: 4,
+                region: 5,
+                city: 6,
+                town: 7,
+                village: 8,
+                settlement: 9,
+                feature: 10,
+            }
+            let locations = [];
+
+            function sortByName() {
+                locations.sort( (a, b) => a.name < b.name ? -1 : 1 )
+                populateList();
+            }
+
+            function sortByScale() {
+                locations.sort( (a, b) => a.scale < b.scale ? -1 : 1 )
+                populateList();
+            }
+
+            function populateList() {
+                let list = document.getElementById("location-list");
+                while (list.lastChild) {
+                    list.removeChild(list.lastChild);
+                }
+                locations.forEach(function(loc) {
+                    let item = document.createElement("li");
+                    let link = document.createElement("a");
+                    link.href = loc.link;
+                    link.textContent = loc.name;
+                    item.appendChild(link);
+                    list.appendChild(item);
+                });
+            }
+
+            locations.push({
+                name: "Ridgeback",
+                scale: scale.continent,
+                link: "",
+            });
+            locations.push({
+                name: "Wetlands",
+                scale: scale.region,
+                link: "",
+            });
+            locations.push({
+                name: "Frosthelm",
+                scale: scale.region,
+                link: "",
+            });
+            locations.push({
+                name: "Ashvale (Region)",
+                scale: scale.region,
+                link: "",
+            });
+            locations.push({
+                name: "Ashvale (City)",
+                scale: scale.city,
+                link: "",
+            });
+            locations.push({
+                name: "Ashport",
+                scale: scale.town,
+                link: "",
+            });
+            locations.push({
+                name: "Coldwood",
+                scale: scale.town,
+                link: "",
+            });
+            locations.push({
+                name: "Proudwatch",
+                scale: scale.town,
+                link: "",
+            });
+            locations.push({
+                name: "Dawnstar Bay",
+                scale: scale.feature,
+                link: "",
+            });
+            locations.push({
+                name: "Berrywood",
+                scale: scale.village,
+                link: "",
+            });
+            locations.push({
+                name: "Little Seaton",
+                scale: scale.settlement,
+                link: "",
+            });
+            locations.push({
+                name: "Hackle",
+                scale: scale.feature,
+                link: "",
+            });
+            locations.push({
+                name: "Mourning Forest",
+                scale: scale.feature,
+                link: "",
+            });
+            locations.push({
+                name: "Thorgrund Pass",
+                scale: scale.feature,
+                link: "",
+            });
+
+            populateList();
+        </script>
+    </body>
+</html>
