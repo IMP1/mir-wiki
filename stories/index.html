@@ -17,6 +17,7 @@
                 <ul id="story-list"></ul>
                 <button onclick="sortByName()">Sort Alphabetically</button>
                 <button onclick="sortByDate()">Sort Chronologically</button>
+                <button onclick="sortByLocation()">Sort Geographically</button>
             </article>
         </main>
         <footer>
@@ -48,6 +49,11 @@
 
             function sortByDate() {
                 stories.sort( (a, b) => a.date < b.date ? -1 : 1 )
+                populateList();
+            }
+
+            function sortByLocation() {
+                events.sort( (a, b) => a.location < b.location ? -1 : 1 )
                 populateList();
             }
 
