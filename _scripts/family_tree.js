@@ -11,7 +11,7 @@ function createFamilyTree(me, parents, siblings, children) {
     svg.setAttribute("width", "100%");
 
     let gen1 = document.createElementNS(SVGNS, "g");
-    gen1.setAttributeNS(null, "transform", "translate(10 80)");
+    gen1.setAttributeNS(null, "transform", "translate(0 80)");
 
     parents.forEach(function(person, i) {
         let x = 120 + i * 120;
@@ -30,7 +30,7 @@ function createFamilyTree(me, parents, siblings, children) {
         let line = document.createElementNS(SVGNS, "line");
         line.setAttribute("x1", 150);
         line.setAttribute("y1", 10);
-        line.setAttribute("x2", 290);
+        line.setAttribute("x2", 270);
         line.setAttribute("y2", 10);
         line.setAttribute("style", "stroke:rgb(0,0,0);stroke-width:1");
         gen1.appendChild(line);
