@@ -22,7 +22,8 @@ function createFamilyTree(me, parents, siblings, children) {
         line.setAttribute("x1", x);
         line.setAttribute("y1", y + 20);
         line.setAttribute("x2", x);
-        line.setAttribute("y1", y + 30);
+        line.setAttribute("y2", y + 30);
+        line.setAttribute("style", "stroke:rgb(0,0,0);stroke-width:1");
         gen1.appendChild(line);
     });
     {
@@ -30,7 +31,8 @@ function createFamilyTree(me, parents, siblings, children) {
         line.setAttribute("x1", 120);
         line.setAttribute("y1", 60);
         line.setAttribute("x2", 240);
-        line.setAttribute("y1", 60);
+        line.setAttribute("y2", 60);
+        line.setAttribute("style", "stroke:rgb(0,0,0);stroke-width:1");
         gen1.appendChild(line);
     }
     svg.appendChild(gen1);
