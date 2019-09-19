@@ -1,5 +1,6 @@
+const SVGNS = "http://www.w3.org/2000/svg";
+
 function createFamilyTree(me, parents, siblings, children) {
-    const SVGNS = "http://www.w3.org/2000/svg";
 
     let olderSiblings = [];
     let youngerSiblings = [];
