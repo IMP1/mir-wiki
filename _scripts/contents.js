@@ -14,6 +14,7 @@ function generateArticleContentsList() {
         link.textContent = title
         listItem.appendChild(link);
         contentsList.appendChild(listItem);
+        // TODO: go one (or two?) levels deeper for subsections.
     });
 }
 
