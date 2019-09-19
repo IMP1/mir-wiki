@@ -20,18 +20,18 @@ function createFamilyTree(me, parents, siblings, children) {
 
         let line = document.createElementNS(SVGNS, "line");
         line.setAttribute("x1", x);
-        line.setAttribute("y1", y + 20);
+        line.setAttribute("y1", 0);
         line.setAttribute("x2", x);
-        line.setAttribute("y2", y + 30);
+        line.setAttribute("y2", 10);
         line.setAttribute("style", "stroke:rgb(0,0,0);stroke-width:1");
         gen1.appendChild(line);
     });
     {
         let line = document.createElementNS(SVGNS, "line");
         line.setAttribute("x1", 120);
-        line.setAttribute("y1", 60);
+        line.setAttribute("y1", 10);
         line.setAttribute("x2", 240);
-        line.setAttribute("y2", 60);
+        line.setAttribute("y2", 10);
         line.setAttribute("style", "stroke:rgb(0,0,0);stroke-width:1");
         gen1.appendChild(line);
     }
