@@ -7,10 +7,12 @@ function createFamilyTree(me, parents, siblings, children) {
 
     let svg = document.getElementById("family-tree");
     svg.setAttribute("xmlns", SVGNS);
+    svg.setAttribute("height", "320px");
+    svg.setAttribute("width", "100%");
 
     parents.forEach(function(person, i) {
         let x = 120 + i * 120;
-        let y = 80;
+        let y = 40;
         drawFamilyMember(svg, person, x, y);
             
     });
@@ -38,7 +40,7 @@ function createFamilyTree(me, parents, siblings, children) {
     // TODO: draw line from me to children
     children.forEach(function(person, i) {
         let x = 120 + i * 120;
-        let y = 240;
+        let y = 280;
         drawFamilyMember(svg, person, x, y);
     });
 }
