@@ -10,13 +10,30 @@ function createFamilyTree(me, parents, siblings, children) {
     svg.setAttribute("height", "320px");
     svg.setAttribute("width", "100%");
 
+    let gen1 = document.createElementNS(SVGNS, "g");
+    gen1.setAttributeNS(null, "transform", "translate(0 60)");
+
     parents.forEach(function(person, i) {
         let x = 120 + i * 120;
         let y = 40;
         drawFamilyMember(svg, person, x, y);
-            
+
+        let line = document.createElementNS(SVGNS, "line");
+        line.setAttribute("x1", x);
+        line.setAttribute("y1", y + 20);
+        line.setAttribute("x2", x);
+        line.setAttribute("y1", y + 30);
+        gen1.appendChild(line);
     });
-    // TODO: draw line between parents
+    {
+        let line = document.createElementNS(SVGNS, "line");
+        line.setAttribute("x1", 120);
+        line.setAttribute("y1", 60);
+        line.setAttribute("x2", 240);
+        line.setAttribute("y1", 60);
+        gen1.appendChild(line);
+    }
+    svg.appendChild(gen1);
     // TODO: draw line from parents to siblings
     let meX = 0;
     {
@@ -25,9 +42,8 @@ function createFamilyTree(me, parents, siblings, children) {
             let x = 60 + i * 120;
             let y = 160;
             drawFamilyMember(svg, person, x, y);
-            thisGenerationIndex = i;
+            thisGenerationIndex = i + 1;
         });
-        thisGenerationIndex += 1;
         meX = 60 + thisGenerationIndex * 120;
         drawFamilyMember(svg, me, 60 + thisGenerationIndex * 120, 160);
         thisGenerationIndex += 1;
