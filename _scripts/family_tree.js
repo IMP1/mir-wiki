@@ -1,7 +1,6 @@
 const SVGNS = "http://www.w3.org/2000/svg";
 
 function createFamilyTree(me, parents, siblings, children) {
-
     let olderSiblings = [];
     let youngerSiblings = [];
 
@@ -10,43 +9,18 @@ function createFamilyTree(me, parents, siblings, children) {
     svg.setAttribute("height", "320px");
     svg.setAttribute("width", "100%");
 
-    let generationLinesPrevious = document.createElementNS(SVGNS, "g");
-    generationLinesPrevious.setAttributeNS(null, "transform", "translate(0 80)");
+    let generationLines = document.createElementNS(SVGNS, "g");
+    generationLines.setAttributeNS(null, "transform", "translate(0 80)");
 
     parents.forEach(function(person, i) {
         let x = 120 + i * 120;
         let y = 40;
         drawFamilyMember(svg, person, x, y);
-
-        let line = document.createElementNS(SVGNS, "line");
-        line.setAttribute("x1", x + 30);
-        line.setAttribute("y1", 0);
-        line.setAttribute("x2", x + 30);
-        line.setAttribute("y2", 10);
-        line.setAttribute("style", "stroke:rgb(0,0,0);stroke-width:1");
-        generationLinesPrevious.appendChild(line);
+        addLine(generationLines, x + 30, 0, x + 30, 10);
     });
-    {
-        let line = document.createElementNS(SVGNS, "line");
-        line.setAttribute("x1", 150);
-        line.setAttribute("y1", 10);
-        line.setAttribute("x2", 270);
-        line.setAttribute("y2", 10);
-        line.setAttribute("style", "stroke:rgb(0,0,0);stroke-width:1");
-        generationLinesPrevious.appendChild(line);
-    }
-    {
-        let line = document.createElementNS(SVGNS, "line");
-        line.setAttribute("x1", 210);
-        line.setAttribute("y1", 10);
-        line.setAttribute("x2", 210);
-        line.setAttribute("y2", 20);
-        line.setAttribute("style", "stroke:rgb(0,0,0);stroke-width:1");
-        generationLinesPrevious.appendChild(line);
-    }
-    svg.appendChild(generationLinesPrevious);
-    // TODO: draw line from parents to siblings
-    let meX = 0;
+    addLine(generationLines, 150, 10, 270, 10);
+    addLine(generationLines, 210, 10, 210, 20);
+    addLine(generationLines, 60, 20, 60 + (siblings.length + 1) * 120, 20);
     {
         let thisGenerationIndex = 0;
         youngerSiblings.forEach(function(person, i) {
@@ -54,22 +28,37 @@ function createFamilyTree(me, parents, siblings, children) {
             let y = 160;
             drawFamilyMember(svg, person, x, y);
             thisGenerationIndex = i + 1;
+            addLine(generationLines, x + 30, 20, x + 30, 30);
         });
-        meX = 60 + thisGenerationIndex * 120;
-        drawFamilyMember(svg, me, 60 + thisGenerationIndex * 120, 160);
+        let meX = 60 + thisGenerationIndex * 120;
+        drawFamilyMember(svg, me, meX, 160);
+        addLine(generationLines, meX + 30, 20, meX + 30, 30);
         thisGenerationIndex += 1;
         olderSiblings.forEach(function(person, i) {
             let x = 60 + (thisGenerationIndex + i) * 120;
             let y = 160;
             drawFamilyMember(svg, person, x, y);
+            addLine(generationLines, x + 30, 20, x + 30, 30);
         });
     }
+    svg.appendChild(generationLines);
     // TODO: draw line from me to children
     children.forEach(function(person, i) {
         let x = 120 + i * 120;
         let y = 280;
         drawFamilyMember(svg, person, x, y);
     });
+}
+
+function addLine(group, x1, y1, x2, y2) {
+    const LINE_STYLE = "stroke:rgb(0,0,0);stroke-width:1";
+    let line = document.createElementNS(SVGNS, "line");
+    line.setAttribute("x1", x1);
+    line.setAttribute("y1", y1);
+    line.setAttribute("x2", x2);
+    line.setAttribute("y2", y2);
+    line.setAttribute("style", LINE_STYLE);
+    group.appendChild(line);
 }
 
 function drawFamilyMember(svg, person, x, y) {
