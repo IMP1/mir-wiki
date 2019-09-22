@@ -20,7 +20,7 @@ function createFamilyTree(me, parents, siblings, children) {
     });
     addLine(generationLines, 150, 10, 270, 10);
     addLine(generationLines, 210, 10, 210, 20);
-    addLine(generationLines, 60, 20, 60 + (siblings.length + 1) * 120, 20);
+    addLine(generationLines, 90, 20, 90 + (siblings.length + 1) * 120, 20);
     {
         let thisGenerationIndex = 0;
         youngerSiblings.forEach(function(person, i) {
