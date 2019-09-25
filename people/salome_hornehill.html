@@ -1,0 +1,98 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <meta charset="utf-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <title>Salome Hornehill | Mir</title>
+        <link rel="stylesheet" href="https://igoradamenko.github.io/awsm.css/css/awsm.css">
+    </head>
+    <body>
+        <header>
+            <h1><a href="/mir-wiki">Mir</a></h1>
+            <span class="tagline">A world of stories</span>
+        </header>
+        <main>
+            <article>
+                <h1>Lady Salome Hornehill</h1>
+                <section>
+                    <h2>Life</h2>
+                    <aside>
+                        <dl>
+                            <dt>Race</dt>
+                            <dd>Elf</dd>
+                            <dt>Sex</dt>
+                            <dd>Female</dd>
+                            <dt>Born</dt>
+                            <dd>???</dd>
+                        </dl>
+                    </aside>
+                    <section>
+                        <h3>Childhood</h3>
+                        <p>
+                            Salome's childhood was incredibly lavish. Her parents assumed they were caring but were by-and-large detached. As she aged, she learnt to understand her place and the feelings people had towards her family and her. Seen as from a pompous and frivolous lot, she tried her best to act grounded and straightforward. She also feels duty-bound to help her people, from her position of power and responsibility. She has always had protection around her, and once found it annoying, but increasingly has grown pragmatic and accepted the company and acknowledged the limited safety. 
+                        </p>
+                    </section>
+                </section>
+                <section>
+                    <h2>Family</h2>
+                    <svg id="family-tree"></svg>
+                </section>
+                <section>
+                    <h2>Name Etymology</h2>
+                    <dl>
+                        <dt>Salome</dt>
+                        <dd>
+                            An elvish word meaning peace. Named as a testement of the end of <a href="/mir-wiki/events/war-for-ridgeback.html">the war for Ridgeback</a>.
+                        </dd>
+                        <dt>Hornehill</dt>
+                        <dd>
+                            A contraction of Hawthorn Hill, where the family originates.
+                        </dd>
+                    </dl>
+                </section>
+            </article>
+        </main>
+        <footer>
+            <h2 id="quick-links">Quick Links</h2>
+            <nav>
+                <ul>
+                    <li>
+                        <a href="/mir-wiki/locations">Locations</a>
+                    </li>
+                    <li>
+                        <a href="/mir-wiki/events">Events</a>
+                    </li>
+                    <li>
+                        <a href="/mir-wiki/categories.html">Mir Index</a>
+                    </li>
+                    <li>
+                        <a href="/mir-wiki/stories">Stories</a>
+                    </li>
+                </ul>
+            </nav>
+        </footer>
+        <script type="text/javascript" src="/mir-wiki/_scripts/contents.js"></script>
+        <script type="text/javascript" src="/mir-wiki/_scripts/family_tree.js"></script>
+        <script type="text/javascript">
+            let parents = [];
+            let siblings = [];
+            let children = [];
+            let me = {
+                name: "Salome Hornehill",
+                birthdate: "",
+                deathdate: null,
+            };
+            parents.push({
+                name: "Jason Hornehill",
+                birthdate: "",
+                deathdate: null,
+            });
+            parents.push({
+                name: "??? Hornehill",
+                birthdate: "",
+                deathdate: null,
+            });
+            createFamilyTree(me, parents, siblings, children);
+        </script>
+    </body>
+</html>
