@@ -3,7 +3,10 @@
 
 article.royal.text {
     font-family: 'Satisfy', cursive;
-    font-size: 0.8rem;
+    font-size: 1rem;
+}
+article.royal.text .subtitle {
+    font-size: 1.4rem;
 }
 
 article.royal.text h1,
@@ -12,13 +15,13 @@ article.royal.text h2, {
 }
 
 article.royal.text h1 {
-    font-size: 1.4rem;
+    font-size: 3rem;
 }
 article.royal.text h2 {
-    font-size: 1.2rem;
+    font-size: 2rem;
 }
 article.royal.text h3 {
-    font-size: 1rem;
+    font-size: 1.4rem;
 }
 
 article.royal.text h1::before,
