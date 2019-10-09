@@ -49,6 +49,14 @@
                 human: 6,
                 orc: 7,
             }
+            let sex = {
+                none: 0,
+                male: 1,
+                female: 2,
+            }
+            let profession = {
+                none: 0,
+            }
             let people = [];
 
             function sortByName() {
@@ -79,36 +87,50 @@
             people.push({
                 name: "Leyla Hornehill",
                 race: race.elf,
+                sex: sex.female,
+                profession: profession.none,
                 link: "",
             });
             people.push({
                 name: "Jason Hornehill",
                 race: race.elf,
+                sex: sex.male,
+                profession: profession.none,
                 link: "/mir-wiki/people/jason_hornehill.html",
             });
             people.push({
                 name: "Salome Hornehill",
                 race: race.elf,
+                sex: sex.female,
+                profession: profession.none,
                 link: "/mir-wiki/people/salome_hornehill.html",
             });
             people.push({
                 name: "Gale Westshore",
                 race: race.halfling,
+                sex: sex.male,
+                profession: profession.none,
                 link: "/mir-wiki/people/gale_westshore.html",
             });
             people.push({
                 name: "Orson Carter",
                 race: race.human,
+                sex: sex.male,
+                profession: profession.none,
                 link: "/mir-wiki/people/orson_carter.html",
             });
             people.push({
                 name: "Rose Seafairer",
                 race: race.human,
+                sex: sex.male,
+                profession: profession.none,
                 link: "/mir-wiki/people/rose_seafairer.html",
             });
             people.push({
                 name: "Bramble Hawk",
                 race: race.orc,
+                sex: sex.female,
+                profession: profession.none,
                 link: "/mir-wiki/people/bramble_hawk.html",
             });
 
