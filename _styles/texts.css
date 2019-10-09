@@ -6,6 +6,7 @@ article.royal.text {
     font-size: 1rem;
 }
 article.royal.text .subtitle {
+    text-align: center;
     font-size: 1.4rem;
 }
 
