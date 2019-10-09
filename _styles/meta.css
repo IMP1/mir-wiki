@@ -16,9 +16,15 @@ aside.details {
     color: #ccc;
 }
 
-a, a:link, a:visited {
+a, a:link, a:visited,
+footer nav a, footer nav a:link, footer nav a:visited {
+    text-decoration: none;
     color: #40a4f1;
+    border-bottom: 1px solid #40a4f1;
 }
-a:hover, a:active {
+a:hover, a:active,
+footer nav a:hover, footer nav a:active {
+    text-decoration: none;
     color: #f00000;
+    border-bottom: 1px solid #f00000;
 }

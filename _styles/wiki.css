@@ -17,8 +17,12 @@ aside.details {
 }
 
 a, a:link, a:visited {
+    text-decoration: none;
     color: #0064c1;
+    border-bottom: 1px solid #0064c1;
 }
 a:hover, a:active {
+    text-decoration: none;
     color: #f00000;
+    border-bottom: 1px solid #f00000;
 }
