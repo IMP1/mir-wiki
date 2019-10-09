@@ -1,7 +1,27 @@
-article.royal.text {
-    
-}
+@import url('https://fonts.googleapis.com/css?family=Tangerine&display=swap');
+@import url('https://fonts.googleapis.com/css?family=Satisfy&display=swap');
 
 article.royal.text {
-    
+    font-family: 'Satisfy', cursive;
+    font-size: 0.8rem;
+}
+
+article.royal.text h1,
+article.royal.text h2, {
+    font-family: 'Tangerine', cursive;
+}
+
+article.royal.text h1 {
+    font-size: 1.4rem;
+}
+article.royal.text h2 {
+    font-size: 1.2rem;
+}
+article.royal.text h3 {
+    font-size: 1rem;
+}
+
+article.royal.text h1::before,
+article.royal.text h1::after {
+    content: '~';
 }
