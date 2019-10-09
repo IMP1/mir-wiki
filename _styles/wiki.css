@@ -3,7 +3,7 @@ html, body {
     padding: 0;
 }
 
-header {
+body > header {
     border-top: 0.5rem solid black;
     margin-top: 3rem;
 }

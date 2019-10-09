@@ -5,7 +5,7 @@ html, body {
     color: #ccc;
 }
 
-header {
+body > header {
     border-top: 0.5rem solid #ccc;
     margin-top: 3rem;
 }
