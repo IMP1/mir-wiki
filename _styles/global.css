@@ -1,0 +1,5 @@
+a[target="_blank"]::after {
+    content: "⍈";
+    font-size: 0.9rem;
+    vertical-align: top;
+}
