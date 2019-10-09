@@ -1,0 +1,13 @@
+html, body {
+    margin: 0;
+    padding: 0;
+}
+
+header {
+    border-top: 0.5rem solid black;
+    margin-top: 3rem;
+}
+
+aside.details {
+    color: black;
+}
