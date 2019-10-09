@@ -14,7 +14,7 @@
         <main>
             <article>
                 <h1>Texts of Mir</h1>
-                <ul id="location-list"></ul>
+                <ul id="text-list"></ul>
                 <button onclick="sortByName()">Sort Alphabetically</button>
                 <button onclick="sortByScale()">Sort By Size</button>
             </article>
@@ -52,7 +52,7 @@
             }
 
             function populateList() {
-                let list = document.getElementById("location-list");
+                let list = document.getElementById("text-list");
                 while (list.lastChild) {
                     list.removeChild(list.lastChild);
                 }
@@ -68,7 +68,6 @@
 
             texts.push({
                 name: "The Royal Survey of Ridgeback",
-                scale: scale.continent,
                 link: "/mir-wiki/locations/royal_survey_of_ridgeback.html",
             });
 
