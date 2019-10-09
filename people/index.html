@@ -1,0 +1,112 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <meta charset="utf-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <title>People | Mir</title>
+        <link rel="stylesheet" href="https://igoradamenko.github.io/awsm.css/css/awsm.css">
+    </head>
+    <body>
+        <header>
+            <h1><a href="/mir-wiki">Mir</a></h1>
+            <span class="tagline">A world of stories</span>
+        </header>
+        <main>
+            <article>
+                <h1>People of Mir</h1>
+                <ul id="person-list"></ul>
+                <button onclick="sortByName()">Sort Alphabetically</button>
+                <button onclick="sortByScale()">Sort By Size</button>
+            </article>
+        </main>
+        <footer>
+            <h2 id="quick-links">Quick Links</h2>
+            <nav>
+                <ul>
+                    <li>
+                        <a href="/mir-wiki/locations">Locations</a>
+                    </li>
+                    <li>
+                        <a href="/mir-wiki/events">Events</a>
+                    </li>
+                    <li>
+                        <a href="/mir-wiki/categories.html">Mir Index</a>
+                    </li>
+                    <li>
+                        <a href="/mir-wiki/stories">Stories</a>
+                    </li>
+                </ul>
+            </nav>
+        </footer>
+        <script type="text/javascript">
+            let race = {
+                dragonborn: 1,
+                dwarf: 2,
+                elf: 3,
+                gnome: 4,
+                halfling: 5,
+                human: 6,
+                orc: 7,
+            }
+            let people = [];
+
+            function sortByName() {
+                people.sort( (a, b) => a.name < b.name ? -1 : 1 )
+                populateList();
+            }
+
+            function sortByRace() {
+                people.sort( (a, b) => a.race < b.race ? -1 : 1 )
+                populateList();
+            }
+
+            function populateList() {
+                let list = document.getElementById("person-list");
+                while (list.lastChild) {
+                    list.removeChild(list.lastChild);
+                }
+                people.forEach(function(loc) {
+                    let item = document.createElement("li");
+                    let link = document.createElement("a");
+                    link.href = loc.link;
+                    link.textContent = loc.name;
+                    item.appendChild(link);
+                    list.appendChild(item);
+                });
+            }
+
+            people.push({
+                name: "Jason Hornehill",
+                race: race.elf,
+                link: "/mir-wiki/people/jason_hornehill.html",
+            });
+            people.push({
+                name: "Salome Hornehill",
+                race: race.elf,
+                link: "/mir-wiki/people/salome_hornehill.html",
+            });
+            people.push({
+                name: "Gale Westshore",
+                race: race.halfling,
+                link: "/mir-wiki/people/gale_westshore.html",
+            });
+            people.push({
+                name: "Orson Carter",
+                race: race.human,
+                link: "/mir-wiki/people/orson_carter.html",
+            });
+            people.push({
+                name: "Rose Seafairer",
+                race: race.human,
+                link: "/mir-wiki/people/rose_seafairer.html",
+            });
+            people.push({
+                name: "Leyla Hornehill",
+                race: race.elf,
+                link: "",
+            });
+
+            populateList();
+        </script>
+    </body>
+</html>
