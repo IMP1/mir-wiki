@@ -1,6 +1,8 @@
 html, body {
     margin: 0;
     padding: 0;
+    background-color: #ccc;
+    color: #444;
 }
 
 body > header {
@@ -9,5 +11,18 @@ body > header {
 }
 
 aside.details {
-    color: black;
+    color: #444;
+}
+
+a:link {
+    color: #0064c1;
+}
+a:hover {
+    color: #f00000;
+}
+a:active {
+    color: #f00000;
+}
+a:visited {
+    color: #0064c1;
 }

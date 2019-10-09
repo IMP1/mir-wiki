@@ -13,3 +13,16 @@ body > header {
 aside.details {
     color: #ccc;
 }
+
+a:link {
+    color: #40a4f1;
+}
+a:hover {
+    color: #f00000;
+}
+a:active {
+    color: #f00000;
+}
+a:visited {
+    color: #40a4f1;
+}
