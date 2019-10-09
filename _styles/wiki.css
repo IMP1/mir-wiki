@@ -16,15 +16,9 @@ aside.details {
     color: #222;
 }
 
-a:link {
+a, a:link, a:visited {
     color: #0064c1;
 }
-a:hover {
+a:hover, a:active {
     color: #f00000;
-}
-a:active {
-    color: #f00000;
-}
-a:visited {
-    color: #0064c1;
 }
