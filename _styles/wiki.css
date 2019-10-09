@@ -1,17 +1,19 @@
+@import url('https://imp1.github.io/mir-wiki/_styles/global.css');
+
 html, body {
     margin: 0;
     padding: 0;
-    background-color: #ccc;
-    color: #444;
+    background-color: #eee;
+    color: #222;
 }
 
 body > header {
-    border-top: 0.5rem solid black;
+    border-top: 0.5rem solid #222;
     margin-top: 3rem;
 }
 
 aside.details {
-    color: #444;
+    color: #222;
 }
 
 a:link {
