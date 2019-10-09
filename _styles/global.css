@@ -1,5 +1,16 @@
+a[target="_blank"] {
+    position: relative;
+}
+
 a[target="_blank"]::after {
-    content: "⍈";
+    content: "⇱";
+    position: absolute;
+    top: -4px;
+       -moz-transform: scale(-1, 1);
+    -webkit-transform: scale(-1, 1);
+         -o-transform: scale(-1, 1);
+        -ms-transform: scale(-1, 1);
+            transform: scale(-1, 1);
     font-size: 0.9rem;
     vertical-align: top;
 }
