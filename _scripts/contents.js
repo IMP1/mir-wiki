@@ -1,3 +1,14 @@
+function generateSectionAnchors() {
+    let article = document.getElementsByTagName("article")[0];
+    article.getElementsByTagName("section").foreach(function(section) {
+        let header = section.getElementsByTagName("h2")[0];
+        let title = header.textContent;
+        let anchor = titleToAnchor(title);
+        header.id = anchor;
+        // TODO: go one (or two?) levels deeper for subsections.
+    });
+}
+
 function generateArticleContentsList() {
     let article = document.getElementsByTagName("article")[0];
     if (!article) { return; }
