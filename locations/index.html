@@ -3,7 +3,10 @@
     <head>
         <meta charset="utf-8">
         <meta name="viewport" content="width=device-width, initial-scale=1.0">
-        <title>Locations | Mir</title>
+        <title>
+            Locations | 
+            Mir
+        </title>
         <link rel="stylesheet" href="https://igoradamenko.github.io/awsm.css/css/awsm.css">
         <link rel="stylesheet" href="/mir-wiki/_styles/wiki.css">
     </head>
@@ -38,144 +41,140 @@
                     </li>
                 </ul>
             </nav>
-        </footer>
-        <script type="text/javascript">
-            let scale = {
-                continent: 1,
-                island_group: 2,
-                island: 3,
-                country: 4,
-                region: 5,
-                city: 6,
-                town: 7,
-                village: 8,
-                settlement: 9,
-                feature: 10,
-            }
-            let locations = [];
-
-            function sortByName() {
-                locations.sort( (a, b) => a.name < b.name ? -1 : 1 )
-                populateList();
-            }
-
-            function sortByScale() {
-                locations.sort( (a, b) => a.scale < b.scale ? -1 : 1 )
-                populateList();
-            }
-
-            function populateList() {
-                let list = document.getElementById("location-list");
-                while (list.lastChild) {
+            <script type="text/javascript">
+                    let scale = {
+                    continent: 1,
+                    island_group: 2,
+                    island: 3,
+                    country: 4,
+                    region: 5,
+                    city: 6,
+                    town: 7,
+                    village: 8,
+                    settlement: 9,
+                    feature: 10,
+                    }
+                    let locations = [];
+                    function sortByName() {
+                    locations.sort( (a, b) => a.name < b.name ? -1 : 1 )
+                    populateList();
+                    }
+                    function sortByScale() {
+                    locations.sort( (a, b) => a.scale < b.scale ? -1 : 1 )
+                    populateList();
+                    }
+                    function populateList() {
+                    let list = document.getElementById("location-list");
+                    while (list.lastChild) {
                     list.removeChild(list.lastChild);
-                }
-                locations.forEach(function(loc) {
+                    }
+                    locations.forEach(function(loc) {
                     let item = document.createElement("li");
                     let link = document.createElement("a");
                     link.href = loc.link;
                     link.textContent = loc.name;
                     item.appendChild(link);
                     list.appendChild(item);
-                });
-            }
-
-            locations.push({
-                name: "Ridgeback",
-                scale: scale.continent,
-                link: "/mir-wiki/locations/ridgeback.html",
-            });
-            locations.push({
-                name: "Wetlands",
-                scale: scale.region,
-                link: "",
-            });
-            locations.push({
-                name: "Frosthelm",
-                scale: scale.region,
-                link: "",
-            });
-            locations.push({
-                name: "Estearth",
-                scale: scale.region,
-                link: "/mir-wiki/locations/estearth.html",
-            });
-            locations.push({
-                name: "Sand Flats",
-                scale: scale.region,
-                link: "/mir-wiki/locations/sand_flats.html",
-            });
-            locations.push({
-                name: "Ashvale (Region)",
-                scale: scale.region,
-                link: "/mir-wiki/locations/ashvale_region.html",
-            });
-            locations.push({
-                name: "Ashvale (City)",
-                scale: scale.city,
-                link: "/mir-wiki/locations/ashvale_city.html",
-            });
-            locations.push({
-                name: "Ashport",
-                scale: scale.town,
-                link: "",
-            });
-            locations.push({
-                name: "Sunshade",
-                scale: scale.town,
-                link: "/mir-wiki/locations/sunshade.html",
-            });
-            locations.push({
-                name: "Coldwood",
-                scale: scale.town,
-                link: "",
-            });
-            locations.push({
-                name: "Proudwatch",
-                scale: scale.town,
-                link: "/mir-wiki/locations/proudwatch.html",
-            });
-            locations.push({
-                name: "Rowton",
-                scale: scale.town,
-                link: "",
-            });
-            locations.push({
-                name: "Shipdel",
-                scale: scale.town,
-                link: "",
-            });
-            locations.push({
-                name: "Berrywood",
-                scale: scale.village,
-                link: "/mir-wiki/locations/berrywood.html",
-            });
-            locations.push({
-                name: "Little Seaton",
-                scale: scale.settlement,
-                link: "",
-            });
-            locations.push({
-                name: "Dawnstar Bay",
-                scale: scale.feature,
-                link: "/mir-wiki/locations/dawnstar_bay.html",
-            });
-            locations.push({
-                name: "Hackle",
-                scale: scale.feature,
-                link: "/mir-wiki/locations/hackle.html",
-            });
-            locations.push({
-                name: "Mourning Forest",
-                scale: scale.feature,
-                link: "",
-            });
-            locations.push({
-                name: "Thorgrund Pass",
-                scale: scale.feature,
-                link: "",
-            });
-
-            populateList();
-        </script>
+                    });
+                    }
+                    locations.push({
+                    name: "Ridgeback",
+                    scale: scale.continent,
+                    link: "/mir-wiki/locations/ridgeback.html",
+                    });
+                    locations.push({
+                    name: "Wetlands",
+                    scale: scale.region,
+                    link: "",
+                    });
+                    locations.push({
+                    name: "Frosthelm",
+                    scale: scale.region,
+                    link: "",
+                    });
+                    locations.push({
+                    name: "Estearth",
+                    scale: scale.region,
+                    link: "/mir-wiki/locations/estearth.html",
+                    });
+                    locations.push({
+                    name: "Sand Flats",
+                    scale: scale.region,
+                    link: "/mir-wiki/locations/sand_flats.html",
+                    });
+                    locations.push({
+                    name: "Ashvale (Region)",
+                    scale: scale.region,
+                    link: "/mir-wiki/locations/ashvale_region.html",
+                    });
+                    locations.push({
+                    name: "Ashvale (City)",
+                    scale: scale.city,
+                    link: "/mir-wiki/locations/ashvale_city.html",
+                    });
+                    locations.push({
+                    name: "Ashport",
+                    scale: scale.town,
+                    link: "",
+                    });
+                    locations.push({
+                    name: "Sunshade",
+                    scale: scale.town,
+                    link: "/mir-wiki/locations/sunshade.html",
+                    });
+                    locations.push({
+                    name: "Coldwood",
+                    scale: scale.town,
+                    link: "",
+                    });
+                    locations.push({
+                    name: "Proudwatch",
+                    scale: scale.town,
+                    link: "/mir-wiki/locations/proudwatch.html",
+                    });
+                    locations.push({
+                    name: "Rowton",
+                    scale: scale.town,
+                    link: "",
+                    });
+                    locations.push({
+                    name: "Shipdel",
+                    scale: scale.town,
+                    link: "",
+                    });
+                    locations.push({
+                    name: "Berrywood",
+                    scale: scale.village,
+                    link: "/mir-wiki/locations/berrywood.html",
+                    });
+                    locations.push({
+                    name: "Little Seaton",
+                    scale: scale.settlement,
+                    link: "",
+                    });
+                    locations.push({
+                    name: "Dawnstar Bay",
+                    scale: scale.feature,
+                    link: "/mir-wiki/locations/dawnstar_bay.html",
+                    });
+                    locations.push({
+                    name: "Hackle",
+                    scale: scale.feature,
+                    link: "/mir-wiki/locations/hackle.html",
+                    });
+                    locations.push({
+                    name: "Mourning Forest",
+                    scale: scale.feature,
+                    link: "",
+                    });
+                    locations.push({
+                    name: "Thorgrund Pass",
+                    scale: scale.feature,
+                    link: "",
+                    });
+                    populateList();
+            </script>
+            <script type="text/javascript" src="/mir-wiki/_scripts/contents.js"></script>
+        </footer>
     </body>
 </html>
