@@ -49,6 +49,9 @@
                     <li>
                         <a href="/mir-wiki/stories">Stories</a>
                     </li>
+                    <li>
+                        <a href="/mir-wiki/contents.html">All pages</a>
+                    </li>
                 <ruby block-end="quick-links-ul">
                 </ul>
             </nav>
