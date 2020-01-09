@@ -3,7 +3,10 @@
     <head>
         <meta charset="utf-8">
         <meta name="viewport" content="width=device-width, initial-scale=1.0">
-        <title>Mythologies | Mir</title>
+        <title>
+            Mythologies | 
+            Mir
+        </title>
         <link rel="stylesheet" href="https://igoradamenko.github.io/awsm.css/css/awsm.css">
         <link rel="stylesheet" href="/mir-wiki/_styles/wiki.css">
     </head>
@@ -15,7 +18,7 @@
         <main>
             <article>
                 <h1>Mythologies</h1>
-                <ul id="legend-list"></ul>
+                <ul id="mythology-list"></ul>
                 <button onclick="sortByName()">Sort Alphabetically</button>
                 <button onclick="sortByDate()">Sort Chronologically</button>
                 <button onclick="sortByLocation()">Sort Geographically</button>
@@ -40,56 +43,49 @@
                     </li>
                 </ul>
             </nav>
-        </footer>
-        <script type="text/javascript">
-            let religions = [];
-
-            function sortByName() {
-                religions.sort( (a, b) => a.name < b.name ? -1 : 1 )
-                populateList();
-            }
-
-            function sortByDate() {
-                religions.sort( (a, b) => a.date < b.date ? -1 : 1 )
-                populateList();
-            }
-
-            function sortByLocation() {
-                religions.sort( (a, b) => a.location < b.location ? -1 : 1 )
-                populateList();
-            }
-
-            function sortByCulture() {
-                religions.sort( (a, b) => a.culture < b.culture ? -1 : 1 )
-                populateList();
-            }
-
-            function populateList() {
-                let list = document.getElementById("event-list");
-                while (list.lastChild) {
+            <script type="text/javascript">
+                    let religions = [];
+                    function sortByName() {
+                    religions.sort( (a, b) => a.name < b.name ? -1 : 1 )
+                    populateList();
+                    }
+                    function sortByDate() {
+                    religions.sort( (a, b) => a.date < b.date ? -1 : 1 )
+                    populateList();
+                    }
+                    function sortByLocation() {
+                    religions.sort( (a, b) => a.location < b.location ? -1 : 1 )
+                    populateList();
+                    }
+                    function sortByCulture() {
+                    religions.sort( (a, b) => a.culture < b.culture ? -1 : 1 )
+                    populateList();
+                    }
+                    function populateList() {
+                    let list = document.getElementById("mythology-list");
+                    while (list.lastChild) {
                     list.removeChild(list.lastChild);
-                }
-                religions.forEach(function(event) {
+                    }
+                    religions.forEach(function(event) {
                     let item = document.createElement("li");
                     let link = document.createElement("a");
                     link.href = event.link;
                     link.textContent = event.name;
                     item.appendChild(link);
                     list.appendChild(item);
-                });
-            }
-
-            religions.push({
-                name: "Clarity",,
-                link: "/mir-wiki/culture/mythologies/clarity.html",
-            });
-            religions.push({
-                name: "The Worshippers of Darkness",,
-                link: "/mir-wiki/culture/mythologies/worshippers_of_darkness.html",
-            });
-
-            populateList();
-        </script>
-        <script type="text/javascript" src="_scripts/contents.js"></script>
+                    });
+                    }
+                    religions.push({
+                    name: "Clarity",,
+                    link: "/mir-wiki/culture/mythologies/clarity.html",
+                    });
+                    religions.push({
+                    name: "The Worshippers of Darkness",,
+                    link: "/mir-wiki/culture/mythologies/worshippers_of_darkness.html",
+                    });
+                    populateList();
+            </script>
+            <script type="text/javascript" src="/mir-wiki/_scripts/contents.js"></script>
+        </footer>
     </body>
 </html>
