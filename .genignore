@@ -1,1 +1,4 @@
-.*_layout\.rml
+*_layout.rml
+story_points.note
+side_quest.note
+todo.note
