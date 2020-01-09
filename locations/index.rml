@@ -122,6 +122,11 @@
             link: "/mir-wiki/locations/ashport.html",
         });
         locations.push({
+            name: "Witmouth",
+            scale: scale.town,
+            link: "/mir-wiki/locations/Witmouth.html",
+        });
+        locations.push({
             name: "Sunshade",
             scale: scale.town,
             link: "/mir-wiki/locations/sunshade.html",
@@ -143,6 +148,11 @@
             name: "Hackle",
             scale: scale.feature,
             link: "/mir-wiki/locations/hackle.html",
+        });
+        locations.push({
+            name: "River With",
+            scale: scale.feature,
+            link: "/mir-wiki/locations/river_with.html",
         });
         locations.push({
             name: "Mourning Forest",
