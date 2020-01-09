@@ -1,0 +1,53 @@
+<ruby include="page_layout.rml">
+<ruby block-begin="title">Stories | <ruby block-super><ruby block-end="title">
+<ruby block-begin="article">
+    <h1>Stories of Mir</h1>
+    <ul id="story-list"></ul>
+    <button onclick="sortByName()">Sort Alphabetically</button>
+    <button onclick="sortByDate()">Sort Chronologically</button>
+    <button onclick="sortByLocation()">Sort Geographically</button>
+<ruby block-end="article">
+<ruby block-begin="scripts">
+    <script type="text/javascript">
+        let stories = [];
+
+        function sortByName() {
+            stories.sort( (a, b) => a.name < b.name ? -1 : 1 )
+            populateList();
+        }
+
+        function sortByDate() {
+            stories.sort( (a, b) => a.date < b.date ? -1 : 1 )
+            populateList();
+        }
+
+        function sortByLocation() {
+            events.sort( (a, b) => a.location < b.location ? -1 : 1 )
+            populateList();
+        }
+
+        function populateList() {
+            let list = document.getElementById("story-list");
+            while (list.lastChild) {
+                list.removeChild(list.lastChild);
+            }
+            stories.forEach(function(loc) {
+                let item = document.createElement("li");
+                let link = document.createElement("a");
+                link.href = loc.link;
+                link.textContent = loc.name;
+                item.appendChild(link);
+                list.appendChild(item);
+            });
+        }
+
+        // stories.push({
+            // name: "",
+            // date: "",
+            // location: "",
+            // link: "",
+        // });
+
+    </script>
+    <script type="text/javascript" src="/mir-wiki/_scripts/contents.js"></script>
+<ruby block-end="scripts">

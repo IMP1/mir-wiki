@@ -1,0 +1,11 @@
+<ruby include="page_layout.rml">
+<ruby block-begin="title">Home Page | <ruby block-super><ruby block-end="title">
+<ruby block-begin="article">
+    <h1>Welcome to Mir</h1>
+    <p>
+        Mir is a fictional world. It was created as an excuse to world-build, and stories emerge from that process. This wiki-based website is a record of details about the world, and stories from the world.
+    </p>
+    <p>
+        See the <a href="#quick-links">Quick Links</a> below to get started, or have a look at <a href="/mir-wiki/map">the world map</a> to dive in!
+    </p>
+<ruby block-end="article">

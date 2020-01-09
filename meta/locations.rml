@@ -1,0 +1,11 @@
+<ruby include="meta_layout.rml">
+<ruby block-begin="title">Locations | <ruby block-super><ruby block-end="title">
+<ruby block-begin="article">
+    <h1>Locations</h1>
+    <section>
+        <h2>Structures</h2>
+        <p>
+            <a href="https://worldbuilding.stackexchange.com/questions/147204/what-city-and-town-structures-are-important-in-a-low-fantasy-medieval-world" target="_blank">This</a> is a great reference for the structures found in differently sized settlements.
+        </p>
+    </section>
+<ruby block-end="article">

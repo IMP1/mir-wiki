@@ -1,0 +1,63 @@
+<ruby include="page_person_layout.rml">
+<ruby block-begin="title">Salome Hornehill | <ruby block-super><ruby block-end="title">
+<ruby block-begin="person-details">
+    <dt>Race</dt>
+    <dd><a href="/mir-wiki/biology/fauna/elves.html">Elf</a></dd>
+    <dt>Sex</dt>
+    <dd>Male</dd>
+    <dt>Born</dt>
+    <dd>???</dd>
+<ruby block-end="person-details">
+<ruby block-begin="article">
+    <h1>Lady Salome Hornehill</h1>
+    <section>
+        <h2>Life</h2>
+        <section>
+            <h3>Childhood</h3>
+            <p>
+                Salome's childhood was incredibly lavish. Her parents assumed they were caring but were by-and-large detached. As she aged, she learnt to understand her place and the feelings people had towards her family and her. Seen as from a pompous and frivolous lot, she tried her best to act grounded and straightforward. She also feels duty-bound to help her people, from her position of power and responsibility. She has always had protection around her, and once found it annoying, but increasingly has grown pragmatic and accepted the company and acknowledged the limited safety. 
+            </p>
+        </section>
+    </section>
+    <section>
+        <h2>Family</h2>
+        <svg id="family-tree"></svg>
+    </section>
+    <section>
+        <h2>Name Etymology</h2>
+        <dl>
+            <dt>Salome</dt>
+            <dd>
+                An elvish word meaning peace. Named as a testement of the end of <a href="/mir-wiki/events/war_for_ridgeback.html">the war for Ridgeback</a>.
+            </dd>
+            <dt>Hornehill</dt>
+            <dd>
+                A contraction of Hawthorn Hill, where the family originates.
+            </dd>
+        </dl>
+    </section>
+<ruby block-end="article">
+<ruby block-begin="scripts">
+    <ruby block-super>
+    <script type="text/javascript">
+        let parents = [];
+        let siblings = [];
+        let children = [];
+        let me = {
+            name: "Salome Hornehill",
+            birthdate: "",
+            deathdate: null,
+        };
+        parents.push({
+            name: "Jason Hornehill",
+            birthdate: "",
+            deathdate: null,
+        });
+        parents.push({
+            name: "??? Hornehill",
+            birthdate: "",
+            deathdate: null,
+        });
+        createFamilyTree(me, parents, siblings, children);
+    </script>
+<ruby block-end="scripts">

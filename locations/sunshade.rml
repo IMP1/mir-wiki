@@ -1,0 +1,12 @@
+<ruby include="page_layout.rml">
+<ruby block-begin="title">Sunshade | <ruby block-super><ruby block-end="title">
+<ruby block-begin="article">
+    <h1>Sunshade</h1>
+    <section>
+        <h2>Overview</h2>
+        <p>
+           Sunshade lies by the foot of the <a href="/mir-wiki/locations/hackle.html">Hackle</a>, 
+           on the Western side, down towards <a href="/mir-wiki/locations/sand_flats.html">The Sand Flats</a>.
+        </p>
+    </section>
+<ruby block-end="article">

@@ -1,0 +1,11 @@
+<ruby include="page_layout.rml">
+<ruby block-begin="title">Cephalopods | <ruby block-super><ruby block-end="title">
+<ruby block-begin="article">
+    <h1>Cephalopods</h1>
+    <section>
+        <h2>Overview</h2>
+        <p>
+            Cephalopods live underwater in small nomadic groups.
+        </p>
+    </section>
+<ruby block-end="article">

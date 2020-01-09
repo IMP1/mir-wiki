@@ -1,0 +1,49 @@
+<ruby include="page_layout.rml">
+<ruby block-begin="title">Fauna | <ruby block-super><ruby block-end="title">
+<ruby block-begin="article">
+    <h1>Fauna of Mir</h1>
+    <section>
+        <h2>Sapient Species</h2>
+        <p>
+            Capable of thought and complex relationships, these animals can communicate both concrete and abstract ideas, and reason about the future and past.
+        </p>
+        <ul>
+            <li>
+                <a href="/mir-wiki/biology/fauna/dragonborn.html">Dragonborn</a>
+            </li>
+            <li>
+                <a href="/mir-wiki/biology/fauna/dwarves.html">Dwarves</a>
+            </li>
+            <li>
+                <a href="/mir-wiki/biology/fauna/elves.html">Elves</a>
+            </li>
+            <li>
+                <a href="/mir-wiki/biology/fauna/humans.html">Humans</a>
+            </li>
+            <li>
+                <a href="/mir-wiki/biology/fauna/cephalopods.html">Cephalopods</a>
+            </li>
+            <li>
+                <a href="/mir-wiki/biology/fauna/ursalba.html">Ursalba</a>
+            </li>
+        </ul>
+    </section>
+    <section>
+        <h2>Non-Sapient Species</h2>
+        <p>
+            Incapable of higher thought, these animals are domesticated, hunted, left alone, or deterred. They make up the bulk of the ecosystem of Mir.
+        </p>
+        <ul>
+
+        </ul>
+    </section>
+    <section>
+        <h2>Semi-Sapient Species</h2>
+        <p>
+            Capable of thought, but still considered uncivilised, these animals are considered dangerous and are often driven away from civilsation.
+        </p>
+        <ul>
+
+        </ul>
+    </section>
+<ruby block-end="article">

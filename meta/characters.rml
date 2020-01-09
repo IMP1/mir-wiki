@@ -1,0 +1,30 @@
+<ruby include="meta_layout.rml">
+<ruby block-begin="title">Characters | <ruby block-super><ruby block-end="title">
+<ruby block-begin="article">
+    <h1>Characters</h1>
+    <section>
+        <h2>Naming</h2>
+        <p>
+            Elvish is esentially Greek.
+            Common is like an Old English.
+            <a href="http://www.localhistories.org/surnames.html" target="_blank">This</a> is a great reference for the origins of English surnames.
+        </p>
+    </section>
+    <section>
+        <h2>Races</h2>
+        <p>
+            <a href="http://gdnd.wikidot.com/race:human" target="_blank">This</a> (for Humans) seems like a good lookup for races/classes/etc.
+        </p>
+    </section>
+    <section>
+        <h2>Stats</h2>
+        <p>
+            <a href="https://www.instructables.com/id/Creating-a-DD-5e-Character-for-Beginners/" target="_blank">This</a> is a great walkthrough for character creation.
+        </p>
+    </section>
+    <section>
+        <h2>Character Ideas</h2>
+        <ul>
+        </ul>
+    </section>
+<ruby block-end="article">

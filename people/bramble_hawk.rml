@@ -1,0 +1,57 @@
+<ruby include="page_person_layout.rml">
+<ruby block-begin="title">Bramble Hawk | <ruby block-super><ruby block-end="title">
+<ruby block-begin="person-details">
+    <dt>Race</dt>
+    <dd><a href="/mir-wiki/biology/fauna/humans.html">Human</a></dd>
+    <dt>Sex</dt>
+    <dd>Female</dd>
+    <dt>Born</dt>
+    <dd>???</dd>
+<ruby block-end="person-details">
+<ruby block-begin="article">
+    <h1>Madam Bramble Hawk</h1>
+    <section>
+        <h2>Life</h2>
+        <section>
+            <h3>Childhood</h3>
+            <p>
+                Bramble was born in <a href="/mir-wiki/locations/sunshade.html">Sunshade</a>, to a single-mother living with her family, living comfortably. Unfortunately, Bramble's mother, <a>---</a> died in childbirth, and so she was left in the care of her maternal uncle.
+                Not knowing what to do, he took Bramble to the chapel of <a href="/mir-wiki/culture/mythologies/clarity.html">Clarity</a>, and left her in their care.
+            </p>
+            <p>
+                
+            </p>
+        </section>
+    </section>
+    <section>
+        <h2>Family</h2>
+        <svg id="family-tree"></svg>
+    </section>
+    <section>
+        <h2>Name Etymology</h2>
+        <dl>
+            <dt>Bramble</dt>
+            <dd>
+                Named after the unrestrainable plant.
+            </dd>
+            <dt>Hawk</dt>
+            <dd>
+                From hawker, meaning one who sold goods at market.
+            </dd>
+        </dl>
+    </section>
+<ruby block-end="article">
+<ruby block-begin="scripts">
+    <ruby block-super>
+    <script type="text/javascript">
+        let parents = [];
+        let siblings = [];
+        let children = [];
+        let me = {
+            name: "Bramble Hawk",
+            birthdate: "",
+            deathdate: null,
+        };
+        createFamilyTree(me, parents, siblings, children);
+    </script>
+<ruby block-end="scripts">

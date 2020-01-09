@@ -1,0 +1,16 @@
+<ruby include="page_layout.rml">
+<ruby block-begin="title">Ashvale (Region) | <ruby block-super><ruby block-end="title">
+<ruby block-begin="article">
+    <h1>Ashvale (Region)</h1>
+    <section>
+        <h2>Overview</h2>
+        <p>
+            A large swathe of land on the eastern side of <a href="/mir-wiki/locations/ridgeback.html">Ridgeback</a>. Home to the capital of the continent.
+        </p>
+    </section>
+<ruby block-end="article">
+<ruby block-begin="clarification">
+    <aside>
+        <p>For Ashvale, the city, see <a href="/mir-wiki/locations/ashvale_city.html">Ashvale (City)</a>.</p>
+    </aside>
+<ruby block-end="clarification">

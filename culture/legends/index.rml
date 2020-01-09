@@ -1,0 +1,61 @@
+<ruby include="page_layout.rml">
+<ruby block-begin="title">Legends &amp; Myths | <ruby block-super><ruby block-end="title">
+<ruby block-begin="article">
+    <h1>Legends &amp; Myths</h1>
+    <ul id="legend-list"></ul>
+    <button onclick="sortByName()">Sort Alphabetically</button>
+    <button onclick="sortByDate()">Sort Chronologically</button>
+    <button onclick="sortByLocation()">Sort Geographically</button>
+    <button onclick="sortByCulture()">Sort Geographically</button>
+<ruby block-end="article">
+<ruby block-begin="scripts">
+    <script type="text/javascript">
+        let legends = [];
+
+        function sortByName() {
+            legends.sort( (a, b) => a.name < b.name ? -1 : 1 )
+            populateList();
+        }
+
+        function sortByDate() {
+            legends.sort( (a, b) => a.date < b.date ? -1 : 1 )
+            populateList();
+        }
+
+        function sortByLocation() {
+            legends.sort( (a, b) => a.location < b.location ? -1 : 1 )
+            populateList();
+        }
+
+        function sortByCulture() {
+            legends.sort( (a, b) => a.culture < b.culture ? -1 : 1 )
+            populateList();
+        }
+
+        function populateList() {
+            let list = document.getElementById("legend-list");
+            while (list.lastChild) {
+                list.removeChild(list.lastChild);
+            }
+            legends.forEach(function(event) {
+                let item = document.createElement("li");
+                let link = document.createElement("a");
+                link.href = event.link;
+                link.textContent = event.name;
+                item.appendChild(link);
+                list.appendChild(item);
+            });
+        }
+
+        legends.push({
+            name: "Whale Song",
+            date: "",
+            location: "Shipwel",
+            culture: "Human",
+            link: "/mir-wiki/culture/myths_and_legends/whale_song.html",
+        });
+
+        populateList();
+    </script>
+    <script type="text/javascript" src="/mir-wiki/_scripts/contents.js"></script>
+<ruby block-end="scripts">

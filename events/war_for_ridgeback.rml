@@ -1,0 +1,11 @@
+<ruby include="page_layout.rml">
+<ruby block-begin="title">The War for Ridgeback | <ruby block-super><ruby block-end="title">
+<ruby block-begin="article">
+    <h1>The War for Ridgeback</h1>
+    <section>
+        <h2>Overview</h2>
+        <p>
+            Growing up, <a href="/mir-wiki/people/jason_hornehill.html">Jason Hornehill</a>, lord to-be of <a href="/mir-wiki/locations/ashvale.html">Ashvale</a> felt disdain towards the other lords of the land. They jostled for power, and were dismissive of <a href="/mir-wiki/people/leyla_hornehill.html">Leyla Hornehill</a>, Jason's mother. The fighting continued until Jason became lord, and he seized upon the opportunity to teach these other lords a lesson.
+        </p>
+    </section>
+<ruby block-end="article">

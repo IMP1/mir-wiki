@@ -1,0 +1,18 @@
+<ruby include="page_layout.rml">
+<ruby block-begin="main">
+    <aside>
+    <ruby block-begin="person-details">
+
+    <ruby block-end="person-details">
+    </aside>
+    <article>
+    <ruby block-begin="article">
+        
+    <ruby block-end="article">
+    </article>
+<ruby block-end="main">
+<ruby block-begin="scripts">
+    <ruby block-super>
+    <script type="text/javascript" src="/mir-wiki/_scripts/contents.js"></script>
+    <script type="text/javascript" src="/mir-wiki/_scripts/family_tree.js"></script>
+<ruby block-end="scripts">

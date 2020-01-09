@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <meta charset="utf-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <title>
+        <ruby block-begin="title">
+            Meta-Mir
+        <ruby block-end="title">
+        </title>
+        <link rel="stylesheet" href="https://igoradamenko.github.io/awsm.css/css/awsm.css">
+        <link rel="stylesheet" href="/mir-wiki/_styles/meta.css">
+    </head>
+    <body>
+        <header>
+        <ruby block-begin="header">
+            <aside>
+                <p><a href="/mir-wiki/">Back to the Mir wiki</a></p>
+            </aside>
+            <h1><a href="/mir-wiki/meta">Meta-Mir</a></h1>
+            <span class="tagline">Creating the world of stories</span>
+        <ruby block-end="header">
+        </header>
+        <main>
+        <ruby block-begin="main">
+            <article>
+            <ruby block-begin="article">
+                
+            <ruby block-end="article">
+            </article>
+        <ruby block-end="main">
+        </main>
+        <footer>
+            <ruby block-begin="footer">
+            <h2 id="quick-links">Quick Links</h2>
+            <nav>
+                <ul>
+                <ruby block-begin="quick-links-ul">
+                    <li>
+                        <a href="/mir-wiki/meta/">Meta Index</a>
+                    </li>
+                <ruby block-end="quick-links-ul">
+                </ul>
+            </nav>
+            <ruby block-end="footer">
+        </footer>
+    </body>
+</html>

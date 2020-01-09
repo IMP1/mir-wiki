@@ -1,0 +1,78 @@
+<ruby include="page_layout.rml">
+<ruby block-begin="title">The Royal Survey of Ridgeback | <ruby block-super><ruby block-end="title">
+<ruby block-begin="styles">
+<ruby block-super>
+<link rel="stylesheet" href="/mir-wiki/_styles/texts.css">
+<ruby block-end="styles">
+<ruby block-begin="article">
+    <h1>The Royal Survey of Ridgeback</h1>
+    <div class="subtitle">Started Early Spring 454 - Compiled Early Winter 461</div>
+    <section>
+        <h2>Chapter 1 : Ashvale</h2>
+    </section>
+    <section>
+        <h2>Chapter 2 : Cities</h2>
+    </section>
+    <section>
+        <h2>Chapter 3 : Inland Towns</h2>
+        <section>
+            <h3>Coldwood & The North-Western Hackle</h3>
+            <p>
+                The northern end of The Hackle can be treacherous underfoot, with snow and ice covering sections of the paths. Caution is advised for the traveller and any accompanying animals at this section. It is recommended to avoid the crest of The Hackle until the Thorgrund Pass, where the ice rarely settles. Should sensible precautions be taken, this journey poses no great threat, but it can be deadly for an unprepared traveller.
+            </p>
+            <p>
+                The first thing one notices on the approach to Coldwood from across The Hackle is the sound: The rhythmic hammering of their smiths. This is heard, or possibly rather felt, before the town comes into view. As one begins to descend, the smell of smoke rises up to meet them. Plumes of charcoal smoke, being taken away on the winds, leave behind the smell of burning.
+            </p>
+            <p>
+                The smell and sounds give a weary traveller the reassuring sense that they have arrived at their destination, however, Coldwood is still a full days walk, as the descent is long and winding, down the side of The Hackle. This path is well worn and easy to traverse, suitable for beasts of burden as well as men. As the ice found along the peak recedes along the descent, so too do the sounds and smells of Coldwood. 
+            </p>
+            <p>
+                At the foot of The Hackle, as the path turns Northwards again, the village of Little Seaton (See Chapter 5) offers respite and simple comforts to a traveller before their last leg to Coldwood.
+            </p>
+            <p>
+                This final stretch of the journey is mostly flat along the bottom of The Hackle. The chill from the whipping winds is absent down here, but as one travels further north, a more profound cold seems to permeate from the upcoming woods. 
+            </p>
+            <p>
+                The plumes of smoke are more pronounced here, lower in the valley. Depending on the direction of the wind the sounds of metal work can be heard for a mile or so on the approach to Coldwood. 
+            </p>
+            <p>
+                Sparse shrubland and rocky grassland expand to the west of the road, interspersed with the trees that thrive in colder regions. The road is well trodden and easy travelling, especially compared to the descent and after a night's rest. The further north one gets, one might notice the tips of trees being blacker, and then the trunks, until the trees are fully blackened with soot and smoke. 
+            </p>
+        </section>
+    </section>
+    <section>
+        <h2>Chapter 4 : Port Towns</h2>
+    </section>
+    <section>
+        <h2>Chapter 5 : Northern West Ridgeback Villages</h2>
+    </section>
+    <section>
+        <h2>Chapter 6 : Northern East Ridgeback Villages</h2>
+    </section>
+    <section>
+        <h2>Chapter 7 : Middling West Ridgeback Villages</h2>
+    </section>
+    <section>
+        <h2>Chapter 8 : Middling East Ridgeback Villages</h2>
+    </section>
+    <section>
+        <h2>Chapter 9 : Southern West Ridgeback Villages</h2>
+    </section>
+    <section>
+        <h2>Chapter 10 : Southern East Ridgeback Villages</h2>
+    </section>
+    <section>
+        <h2>Chapter 11 : The Hackle</h2>
+    </section>
+    <section>
+        <h2>Chapter 12 : Forests</h2>
+    </section>
+    <section>
+        <h2>Chapter 13 : Deserts of Sand and Snow</h2>
+    </section>
+<ruby block-end="article">
+<ruby block-begin="clarification">
+    <aside>
+        <p>For Ashvale, the city, see <a href="/mir-wiki/locations/ashvale_city.html">Ashvale (City)</a>.</p>
+    </aside>
+<ruby block-end="clarification">

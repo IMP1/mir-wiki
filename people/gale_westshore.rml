@@ -1,0 +1,53 @@
+<ruby include="page_person_layout.rml">
+<ruby block-begin="title">Gale Westshore | <ruby block-super><ruby block-end="title">
+<ruby block-begin="person-details">
+    <dt>Race</dt>
+    <dd><a href="/mir-wiki/biology/fauna/humans.html">Human</a></dd>
+    <dt>Sex</dt>
+    <dd>Male</dd>
+    <dt>Born</dt>
+    <dd>???</dd>
+<ruby block-end="person-details">
+<ruby block-begin="article">
+    <h1>Sir Gale Westshore</h1>
+    <section>
+        <h2>Life</h2>
+        <section>
+            <h3>Childhood</h3>
+            <p>
+                The son of a rich family. Gail was raised into a life of ease. A slight lad, his youth was spent training with a bow rather than in armour. He loved to hunt for both the archery challenge and for the satisfaction of observing the world and trailing an animal. He was also aware growing up of the political intrigue his family was embroiled in. Talk at the dinner table was often of serious adult matters spoken about indirectly and so he learnt to understand what people meant even if it might not be what they were saying.
+            </p>
+        </section>
+    </section>
+    <section>
+        <h2>Family</h2>
+        <svg id="family-tree"></svg>
+    </section>
+    <section>
+        <h2>Name Etymology</h2>
+        <dl>
+            <dt>Gale</dt>
+            <dd>
+                Named after the howling storm of the night of his birth.
+            </dd>
+            <dt>Westshore</dt>
+            <dd>
+                The family of westshore originate from a tribe from a mid-western region of Ridgeback.
+            </dd>
+        </dl>
+    </section>
+<ruby block-end="article">
+<ruby block-begin="scripts">
+    <ruby block-super>
+    <script type="text/javascript">
+        let parents = [];
+        let siblings = [];
+        let children = [];
+        let me = {
+            name: "Gale Westshore",
+            birthdate: "",
+            deathdate: null,
+        };
+        createFamilyTree(me, parents, siblings, children);
+    </script>
+<ruby block-end="scripts">

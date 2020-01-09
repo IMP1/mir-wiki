@@ -4,32 +4,39 @@
         <meta charset="utf-8">
         <meta name="viewport" content="width=device-width, initial-scale=1.0">
         <title>
-            Cephalopods | 
+        <ruby block-begin="title">
             Mir
+        <ruby block-end="title">
         </title>
+        <ruby block-begin="styles">
         <link rel="stylesheet" href="https://igoradamenko.github.io/awsm.css/css/awsm.css">
         <link rel="stylesheet" href="/mir-wiki/_styles/wiki.css">
+        <ruby block-end="styles">
     </head>
     <body>
         <header>
+        <ruby block-begin="header">
             <h1><a href="/mir-wiki">Mir</a></h1>
             <span class="tagline">A world of stories</span>
+        <ruby block-end="header">
         </header>
         <main>
+        <ruby block-begin="clarification">
+        <ruby block-end="clarification">
+        <ruby block-begin="main">
             <article>
-                <h1>Cephalopods</h1>
-                <section>
-                    <h2>Overview</h2>
-                    <p>
-                        Cephalopods live underwater in small nomadic groups.
-                    </p>
-                </section>
+            <ruby block-begin="article">
+                
+            <ruby block-end="article">
             </article>
+        <ruby block-end="main">
         </main>
         <footer>
+        <ruby block-begin="footer">
             <h2 id="quick-links">Quick Links</h2>
             <nav>
                 <ul>
+                <ruby block-begin="quick-links-ul">
                     <li>
                         <a href="/mir-wiki/locations">Locations</a>
                     </li>
@@ -42,8 +49,12 @@
                     <li>
                         <a href="/mir-wiki/stories">Stories</a>
                     </li>
+                <ruby block-end="quick-links-ul">
                 </ul>
             </nav>
+        <ruby block-end="footer">
+        <ruby block-begin="scripts">
+        <ruby block-end="scripts">
         </footer>
     </body>
 </html>

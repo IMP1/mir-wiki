@@ -1,0 +1,72 @@
+<ruby include="page_layout.rml">
+<ruby block-begin="title">All Categories | <ruby block-super><ruby block-end="title">
+<ruby block-begin="article">
+    <h1>All Categories in Mir</h1>
+    <section>
+        <h2>Locations</h2>
+        <ul>
+            <li>
+                <a href="/mir-wiki/locations">All Locations</a>
+            </li>
+            <li>
+                <a href="/mir-wiki/locations/ridgeback">Ridgeback Locations</a>
+            </li>
+        </ul>
+    </section>
+    <section>
+        <h2>Maps</h2>
+        <ul>
+            <li>
+                <a href="/mir-wiki/map">World Map</a>
+            </li>
+            <li>
+                <a href="/mir-wiki/map/ridgeback">Ridgeback Map</a>
+            </li>
+        </ul>
+    </section>
+    <section>
+        <h2>Culture</h2>
+        <ul>
+            <li>
+                <a href="/mir-wiki/culture">All Cultures</a>
+            </li>
+            <li>
+                <a href="/mir-wiki/culture/governance">Governances</a>
+            </li>
+            <li>
+                <a href="/mir-wiki/culture/mythologies">Mythologies</a>
+            </li>
+            <li>
+                <a href="/mir-wiki/culture/occupations">Occupations</a>
+            </li>
+            <li>
+                <a href="/mir-wiki/culture/myths_and_legends">Myths &amp; Legends</a>
+            </li>
+            <li>
+                <a href="/mir-wiki/texts">In-World Texts</a>
+            </li>
+        </ul>
+    </section>
+    <section>
+        <h2>History</h2>
+        <ul>
+            <li>
+                <a href="/mir-wiki/events">Events</a>
+            </li>
+            <li>
+                <a href="/mir-wiki/people">Notable People</a>
+            </li>
+        </ul>
+    </section>
+    <section>
+        <h2>Biology</h2>
+        <ul>
+            <li>
+                <a href="/mir-wiki/biology/flora">Flora</a>
+            </li>
+            <li>
+                <a href="/mir-wiki/biology/fauna">Fauna</a>
+            </li>
+        </ul>
+    </section>
+<ruby block-end="article">

@@ -1,0 +1,16 @@
+<ruby include="page_layout.rml">
+<ruby block-begin="title">Ashvale (City) | <ruby block-super><ruby block-end="title">
+<ruby block-begin="article">
+    <h1>Ashvale (City)</h1>
+    <section>
+        <h2>Overview</h2>
+        <p>
+            Now the capital of <a href="/mir-wiki/locations/ridgeback.html">Ridgeback</a>.
+        </p>
+    </section>
+<ruby block-end="article">
+<ruby block-begin="clarification">
+    <aside>
+        <p>For Ashvale, the region, see <a href="/mir-wiki/locations/ashvale_region.html">Ashvale (Region)</a>.</p>
+    </aside>
+<ruby block-end="clarification">
