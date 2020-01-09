@@ -3,7 +3,10 @@
     <head>
         <meta charset="utf-8">
         <meta name="viewport" content="width=device-width, initial-scale=1.0">
-        <title>Stories | Mir</title>
+        <title>
+            Stories | 
+            Mir
+        </title>
         <link rel="stylesheet" href="https://igoradamenko.github.io/awsm.css/css/awsm.css">
         <link rel="stylesheet" href="/mir-wiki/_styles/wiki.css">
     </head>
@@ -39,54 +42,42 @@
                     </li>
                 </ul>
             </nav>
-        </footer>
-        <script type="text/javascript">
-            let stories = [];
-
-            function sortByName() {
-                stories.sort( (a, b) => a.name < b.name ? -1 : 1 )
-                populateList();
-            }
-
-            function sortByDate() {
-                stories.sort( (a, b) => a.date < b.date ? -1 : 1 )
-                populateList();
-            }
-
-            function sortByLocation() {
-                events.sort( (a, b) => a.location < b.location ? -1 : 1 )
-                populateList();
-            }
-
-            function populateList() {
-                let list = document.getElementById("story-list");
-                while (list.lastChild) {
+            <script type="text/javascript">
+                    let stories = [];
+                    function sortByName() {
+                    stories.sort( (a, b) => a.name < b.name ? -1 : 1 )
+                    populateList();
+                    }
+                    function sortByDate() {
+                    stories.sort( (a, b) => a.date < b.date ? -1 : 1 )
+                    populateList();
+                    }
+                    function sortByLocation() {
+                    events.sort( (a, b) => a.location < b.location ? -1 : 1 )
+                    populateList();
+                    }
+                    function populateList() {
+                    let list = document.getElementById("story-list");
+                    while (list.lastChild) {
                     list.removeChild(list.lastChild);
-                }
-                stories.forEach(function(loc) {
+                    }
+                    stories.forEach(function(loc) {
                     let item = document.createElement("li");
                     let link = document.createElement("a");
                     link.href = loc.link;
                     link.textContent = loc.name;
                     item.appendChild(link);
                     list.appendChild(item);
-                });
-            }
-
-            // the dice is right
-            // dice dice baby
-            // dice guys finish last
-            // of dice and men
-            //
-
-            // stories.push({
-                // name: "",
-                // date: "",
-                // location: "",
-                // link: "",
-            // });
-
-            populateList();
-        </script>
+                    });
+                    }
+                    // stories.push({
+                    // name: "",
+                    // date: "",
+                    // location: "",
+                    // link: "",
+                    // });
+            </script>
+            <script type="text/javascript" src="/mir-wiki/_scripts/contents.js"></script>
+        </footer>
     </body>
 </html>
