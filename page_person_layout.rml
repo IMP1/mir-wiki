@@ -1,9 +1,11 @@
 <ruby include="page_layout.rml">
 <ruby block-begin="main">
     <aside>
-    <ruby block-begin="person-details">
+        <dl>
+        <ruby block-begin="person-details">
 
-    <ruby block-end="person-details">
+        <ruby block-end="person-details">
+        </dl>
     </aside>
     <article>
     <ruby block-begin="article">
