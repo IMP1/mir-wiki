@@ -4,6 +4,7 @@
     <h1>Mir World Map</h1>
     <img id="world-image" src="/mir-wiki/_images/map_world.png" alt="Mir World Map" usemap="#world-map">
     <map id="world-map" name="world-map">
-        <area href="/mir-wiki/map/ridgeback" alt="Ridgeback" title="Ridgeback" shape="poly" coords="140,20,170,30,220,30,230,50,230,90,215,100,220,120,210,160,180,160,160,110,140,90,130,70,130,30">
+        <area href="/mir-wiki/map/ridgeback" alt="Ridgeback" title="Ridgeback" shape="poly" 
+              coords="140,20,170,30,220,30,230,50,230,90,215,100,220,120,210,160,180,160,160,110,140,90,130,70,130,30">
     </map>
 <ruby block-end="article">
