@@ -32,8 +32,8 @@
               alt="Roke" title="Roke" shape="poly" 
               coords="">
     </map>
-    <img id="ridgeback-image" src="/mir-wiki/_images/map_ridgeback_locations.png" alt="Ridgeback Map" usemap="#ridgeback-regions">
-    <map id="ridgeback-regions" name="ridgeback-regions">
+    <img id="ridgeback-image" src="/mir-wiki/_images/map_ridgeback_locations.png" alt="Ridgeback Map" usemap="#ridgeback-locations">
+    <map id="ridgeback-locations" name="ridgeback-locations">
         <area href="/mir-wiki/map/ridgeback/estearth/proudwatch.html" 
               alt="Proudwatch" title="Proudwatch" shape="circle" 
               coords="417,184">
