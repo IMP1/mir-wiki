@@ -63,11 +63,21 @@
             scale: scale.region,
             link: "/mir-wiki/locations/hilland.html",
         });
+        locations.push({
+            name: "Roke",
+            scale: scale.region,
+            link: "/mir-wiki/locations/roke.html",
+        });
         // East Ridgeback Regions (North to South)
         locations.push({
             name: "Frosthelm",
             scale: scale.region,
             link: "/mir-wiki/locations/frosthelm.html",
+        });
+        locations.push({
+            name: "Kingsooth",
+            scale: scale.region,
+            link: "/mir-wiki/locations/kingsooth.html",
         });
         locations.push({
             name: "Estearth",
