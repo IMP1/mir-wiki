@@ -122,6 +122,11 @@
             link: "/mir-wiki/locations/proudwatch.html",
         });
         locations.push({
+            name: "Rifford",
+            scale: scale.town,
+            link: "/mir-wiki/locations/rifford.html",
+        });
+        locations.push({
             name: "Ashvale (City)",
             scale: scale.city,
             link: "/mir-wiki/locations/ashvale_city.html",
@@ -163,6 +168,16 @@
             name: "River With",
             scale: scale.feature,
             link: "/mir-wiki/locations/river_with.html",
+        });
+        locations.push({
+            name: "River Braed",
+            scale: scale.feature,
+            link: "/mir-wiki/locations/river_braed.html",
+        });
+        locations.push({
+            name: "Kingsooth River",
+            scale: scale.feature,
+            link: "/mir-wiki/locations/river_kingsooth.html",
         });
         locations.push({
             name: "Mourning Forest",
