@@ -1,0 +1,48 @@
+<ruby include="page_layout.rml">
+<ruby block-begin="title">Hohrintoh | <ruby block-super><ruby block-end="title">
+<ruby block-begin="article">
+    <h1>Hohrintoh</h1>
+    <section>
+        <h2>Origins</h2>
+        <p>
+            Hohrintoh is the language of the Delvers. It has roots deep underground. 
+            Many of its sounds are low and deep.
+        </p>
+    </section>
+    <section>
+        <h2>Grammar</h2>
+        <p>
+            Word order is [Adverb...] Verb, Object[, Object...].
+        </p>
+        <p>
+            There are no Subjects. Verbs (and tasks) are the focus of the Dwarf language. The equivalent of "The lazy foxed jumped." would be something along the lines of "Jumping is what the lazy fox did.", and "He is singing the song". would be something like "Singing is what he is doing to the song."
+        </p>
+        <p>
+            Tenses are past and non-past, and there is a strong theme that tasks undertaken are no different to tasks being performed.
+        </p>
+    </section>
+    <section>
+        <h2>Notes</h2>
+        <p>
+            You can usually noun a verb by prefixing the infinitive with a Deh sound.
+        </p>
+        <p>
+            Temporal words and prepositions and stuff are more akin to adverbs. Prepositions themselves are non-existent, but instead (when not implied by the verb) a non-querying form of the question word is used. For example “I go where the shops”, rather than “I go to the shops”. (Obvs it’s “go(I, shop)”, but you get the message).
+        </p>
+        <p>
+            The tense of a verb is determined by the suffix. The infinitives (which are the present imperfect) are given in the docs.
+        </p>
+        <p>
+            The person and plurality of a verb is determined by the objects of the verbs.
+        </p>
+        <p>
+            Some verbs can have some of their arguments nullified. For instance, to sing need not always take a word specifying what it is the singer is singing. In this case, a word is used to signal that there is no further objects to the verb-phrase.
+        </p>
+        <p>
+            Questions take the form of asking the verb in the inquisitive mood. 
+
+            "who has the axe?" => "having[inquisitive](whom, the axe)"
+            "Where did you get that water?" => "from(get(you, that water), where)"
+        </p>
+    </section>
+<ruby block-end="article">

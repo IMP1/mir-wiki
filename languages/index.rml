@@ -1,0 +1,33 @@
+<ruby include="page_layout.rml">
+<ruby block-begin="title">Languages | <ruby block-super><ruby block-end="title">
+<ruby block-begin="article">
+    <h1>Languages of Mir</h1>
+    <section>
+        <h2>Common</h2>
+        <p></p>
+    </section>
+    <section>
+        <h2><a href="/mir-wiki/language/hohrintoh">Hohrintoh</a></h2>
+        <p>The primary language of Delvers.</p>
+    </section>
+    <section>
+        <h2>Ellinika</h2>
+        <p>The primary language of Midnighters.</p>
+    </section>
+    <section>
+        <h2>???</h2>
+        <p>The primary language of Dragonborn.</p>
+    </section>
+    <section>
+        <h2>???</h2>
+        <p>The primary language of Plainswalkers.</p>
+    </section>
+    <section>
+        <h2>???</h2>
+        <p>The primary language of Cephalopods.</p>
+    </section>
+    <section>
+        <h2>???</h2>
+        <p>The primary language of Panserbjorne.</p>
+    </section>
+<ruby block-end="article">

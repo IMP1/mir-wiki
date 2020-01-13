@@ -1,0 +1,73 @@
+<ruby include="page_layout.rml">
+<ruby block-begin="styles">
+    <ruby block-super>
+    <link rel="stylesheet" href="/mir-wiki/_styles/language.css">
+<ruby block-end="styles">
+<ruby block-begin="title">Vocabulary | <ruby block-super><ruby block-end="title">
+<ruby block-begin="article">
+    <h1>Hohrintoh Vocabulary</h1>
+    <ul class="vocabulary-list"></ul>
+    <button onclick="sortByName()">Sort Alphabetically</button>
+    <button onclick="sortBySyntax()">Sort Syntactically</button>
+<ruby block-end="article">
+<ruby block-begin="scripts">
+    <script type="text/javascript">
+        let parts_of_speech = {
+            Verb: 1,
+            Noun: 2,
+            Adverb: 3,
+            Pronoun: 4,
+            Conjunction: 5,
+        }
+        let words = [];
+
+        function sortByName() {
+            // TODO: Ignore Deh and Hoh prefixes if they exist.
+            words.sort( (a, b) => a.name < b.name ? -1 : 1 )
+            populateList();
+        }
+
+        function sortBySyntax() {
+            words.sort( (a, b) => parts_of_speech[a.part_of_speech] < parts_of_speech[b.part_of_speech] ? -1 : 1 )
+            populateList();
+        }
+
+        function populateList() {
+            let list = document.getElementById("vocabulary-list");
+            while (list.lastChild) {
+                list.removeChild(list.lastChild);
+            }
+            words.forEach(function(word) {
+                let item = document.createElement("li");
+
+                let name = document.createElement("h3");
+                name.textContent = word.name;
+                item.appendChild(name);
+                
+                let pos = document.createElement("span");
+                pos.textContent = word.part_of_speech;
+                item.appendChild(pos);
+
+                let def = document.createElement("p");
+                def.textContent = word.definition;
+                item.appendChild(def);
+
+                list.appendChild(item);
+            });
+        }
+
+        words.push({
+            name: "Alohmbar",
+            part_of_speech: "Verb",
+            definition: "To be warmed.",
+        });
+        words.push({
+            name: "Ararintoh",
+            part_of_speech: "Verb",
+            definition: "To get someone's attention.",
+        });
+
+        populateList();
+    </script>
+    <script type="text/javascript" src="/mir-wiki/_scripts/contents.js"></script>
+<ruby block-end="scripts">

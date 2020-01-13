@@ -1,0 +1,91 @@
+<ruby include="page_layout.rml">
+<ruby block-begin="styles">
+    <ruby block-super>
+    <link rel="stylesheet" href="/mir-wiki/_styles/language.css">
+<ruby block-end="styles">
+<ruby block-begin="title">Derivations | <ruby block-super><ruby block-end="title">
+<ruby block-begin="article">
+    <h1>Hohrintoh Derivations</h1>
+    <section>
+        <h2>Overview</h2>
+        <p>
+            The ideas for the derivations are inspired from <a href="https://conlang.fandom.com/wiki/List_of_derivation_methods" target="_blank">this conlang wiki page</a>.
+        </p>
+        <p>
+            The following examples are in the following format:
+            <dl>
+                <dt>Root</dt>
+                <dt>Basic</dt><dd>(suffix) The verb's action</dd>
+                <dt>Noun</dt><dd>(prefix "Deh") An instance of the action</dd>
+                <dt>Noun</dt><dd>(prefix "Hoh") An instigator of the action</dd>
+                <dt>Place</dt><dd>(circumfix) Where the action might take place</dd>
+                <dt>Complement</dt><dd>(prefix) An action that recieves anything this action gives</dd>
+                <dt>Instigation</dt><dd>(prefix) Another action that would result in this action</dd>
+            </dl>
+        </p>
+    </section>
+    <section>
+        <h2>Verb Derivations</h2>
+        <ul>
+            <li>
+                <h3>To Warm</h3>
+                <p>To provide warmth and light. To provide comfort and safety. To energise.</p>
+                <dl class="derivation">
+                    <dt>Root</dt><dd><span>Ohm</span></dd>
+                    <dt>Basic</dt><dd><span>Ohmbar</span><p>To warm</p></dd>
+                    <dt>Noun</dt><dd><span>Deh-Ohmbar</span><p>A fire</p></dd>
+                    <dt>Noun</dt><dd><span>Hoh-Ohmbar</span><p>A carer; A parent</p></dd>
+                    <dt>Place</dt><dd><span>Rohmanbar</span><p>To bed (down)</p></dd>
+                    <dt>Place</dt><dd><span>Deh-Rohmanbar</span><p>A heart; A bed</p></dd>
+                    <dt>Complement</dt><dd><span>Alohmbar</span><p>To be warmed</p></dd>
+                    <dt>Instigation</dt><dd><span>Arkohmar</span><p>To light a fire; To make somewhere cosy</p></dd>
+                </dl>
+            </li>
+            <li>
+                <h3>To Burn</h3>
+                <p>To destroy and transform. To purify.</p>
+                <dl class="derivation">
+                    <dt>Root</dt><dd><span>Ark</span></dd>
+                    <dt>Basic</dt><dd><span>Arkeroh</span><p>To burn</p></dd>
+                    <dt>Noun</dt><dd><span>Deh-Arkeroh</span><p>A fire</p></dd>
+                    <dt>Noun</dt><dd><span>Hoh-Arkeroh</span><p>Fuel; An impure or unprocessed thing</p></dd>
+                    <dt>Place</dt><dd><span>Larkenoh</span><p>To forge; To create</p></dd>
+                    <dt>Place</dt><dd><span>Deh-Larkenoh</span><p>A forge</p></dd>
+                    <dt>Complement</dt><dd><span>Kirarkoh</span><p>To be burned</p></dd>
+                    <dt>Instigation</dt><dd><span>Arkeroh</span><p>To set something alight</p></dd>
+                </dl>
+            </li>
+            <li>
+                <h3>To Speak</h3>
+                <p>To speak. To share ideas.</p>
+                <dl class="derivation">
+                    <dt>Root</dt><dd><span>Rin</span></dd>
+                    <dt>Basic</dt><dd><span>Rintoh</span><p>To speak</p></dd>
+                    <dt>Noun</dt><dd><span>Deh-Rintoh</span><p>A word; Speech</p></dd>
+                    <dt>Noun</dt><dd><span>Hoh-Rintoh</span><p>A tongue; An inspiration</p></dd>
+                    <dt>Place</dt><dd><span>Arinleroh</span><p>To converse</p></dd>
+                    <dt>Place</dt><dd><span>Deh-Arinleroh</span><p>A conversation</p></dd>
+                    <dt>Complement</dt><dd><span>Rikarindoh</span><p>To listen</p></dd>
+                    <dt>Instigation</dt><dd><span>Ararintoh</span><p>To get someone's attention</p></dd>
+                </dl>
+            </li>
+            <li>
+                <h3>To Live</h3>
+                <p>To live and breathe. To be animate. To effect change upon the world. To be changed by the world.</p>
+                <dl class="derivation">
+                    <dt>Root</dt><dd><span>Suv</span></dd>
+                    <dt>Basic</dt><dd><span>Suvlar</span><p>To live</p></dd>
+                    <dt>Noun</dt><dd><span>Deh-Suvlar</span><p>A living thing</p></dd>
+                    <dt>Noun</dt><dd><span>Deh-Suivolar</span><p>A lifetime</p></dd>
+                    <dt>Noun</dt><dd><span>Hoh-Suvlar</span><p>A mother</p></dd>
+                    <dt>Place</dt><dd><span>Odisuvoloh</span><p>To be fertile</p></dd>
+                    <dt>Place</dt><dd><span>Deh-Odisuvoloh</span><p>A womb</p></dd>
+                    <dt>Place</dt><dd><span>Disuvo</span><p>Fertile (adjective/adverb)</p></dd>
+                    <dt>Instigation</dt><dd><span>Kinsuvolar</span><p>To birth</p></dd>
+                    <dt>Instigation</dt><dd><span>Deh-Kinsuvolar</span><p>A birth</p></dd>
+                    <dt>Instigation</dt><dd><span>Hoh-Kinsuvolar</span><p>A baby</p></dd>
+                </dl>
+            </li>
+        </ul>
+    </section>
+<ruby block-end="article">
