@@ -16,22 +16,7 @@
             religions.sort( (a, b) => a.name < b.name ? -1 : 1 )
             populateList();
         }
-
-        function sortByDate() {
-            religions.sort( (a, b) => a.date < b.date ? -1 : 1 )
-            populateList();
-        }
-
-        function sortByLocation() {
-            religions.sort( (a, b) => a.location < b.location ? -1 : 1 )
-            populateList();
-        }
-
-        function sortByCulture() {
-            religions.sort( (a, b) => a.culture < b.culture ? -1 : 1 )
-            populateList();
-        }
-
+        
         function populateList() {
             let list = document.getElementById("mythology-list");
             while (list.lastChild) {
@@ -47,10 +32,6 @@
             });
         }
 
-        religions.push({
-            name: "Clarity",,
-            link: "/mir-wiki/culture/mythologies/clarity.html",
-        });
         religions.push({
             name: "The Worshippers of Darkness",,
             link: "/mir-wiki/culture/mythologies/worshippers_of_darkness.html",
