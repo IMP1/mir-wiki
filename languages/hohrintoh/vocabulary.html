@@ -1,0 +1,100 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <meta charset="utf-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <title>
+            Vocabulary | 
+            Mir
+        </title>
+        <link rel="stylesheet" href="https://igoradamenko.github.io/awsm.css/css/awsm.css">
+        <link rel="stylesheet" href="/mir-wiki/_styles/wiki.css">
+        <link rel="stylesheet" href="/mir-wiki/_styles/language.css">
+    </head>
+    <body>
+        <header>
+            <h1><a href="/mir-wiki">Mir</a></h1>
+            <span class="tagline">A world of stories</span>
+        </header>
+        <main>
+            <article>
+                <h1>Hohrintoh Vocabulary</h1>
+                <ul class="vocabulary-list"></ul>
+                <button onclick="sortByName()">Sort Alphabetically</button>
+                <button onclick="sortBySyntax()">Sort Syntactically</button>
+            </article>
+        </main>
+        <footer>
+            <h2 id="quick-links">Quick Links</h2>
+            <nav>
+                <ul>
+                    <li>
+                        <a href="/mir-wiki/locations">Locations</a>
+                    </li>
+                    <li>
+                        <a href="/mir-wiki/events">Events</a>
+                    </li>
+                    <li>
+                        <a href="/mir-wiki/categories.html">Mir Index</a>
+                    </li>
+                    <li>
+                        <a href="/mir-wiki/stories">Stories</a>
+                    </li>
+                    <li>
+                        <a href="/mir-wiki/contents.html">All pages</a>
+                    </li>
+                </ul>
+            </nav>
+            <script type="text/javascript">
+                    let parts_of_speech = {
+                    Verb: 1,
+                    Noun: 2,
+                    Adverb: 3,
+                    Pronoun: 4,
+                    Conjunction: 5,
+                    }
+                    let words = [];
+                    function sortByName() {
+                    // TODO: Ignore Deh and Hoh prefixes if they exist.
+                    words.sort( (a, b) => a.name < b.name ? -1 : 1 )
+                    populateList();
+                    }
+                    function sortBySyntax() {
+                    words.sort( (a, b) => parts_of_speech[a.part_of_speech] < parts_of_speech[b.part_of_speech] ? -1 : 1 )
+                    populateList();
+                    }
+                    function populateList() {
+                    let list = document.getElementById("vocabulary-list");
+                    while (list.lastChild) {
+                    list.removeChild(list.lastChild);
+                    }
+                    words.forEach(function(word) {
+                    let item = document.createElement("li");
+                    let name = document.createElement("h3");
+                    name.textContent = word.name;
+                    item.appendChild(name);
+                    let pos = document.createElement("span");
+                    pos.textContent = word.part_of_speech;
+                    item.appendChild(pos);
+                    let def = document.createElement("p");
+                    def.textContent = word.definition;
+                    item.appendChild(def);
+                    list.appendChild(item);
+                    });
+                    }
+                    words.push({
+                    name: "Alohmbar",
+                    part_of_speech: "Verb",
+                    definition: "To be warmed.",
+                    });
+                    words.push({
+                    name: "Ararintoh",
+                    part_of_speech: "Verb",
+                    definition: "To get someone's attention.",
+                    });
+                    populateList();
+            </script>
+            <script type="text/javascript" src="/mir-wiki/_scripts/contents.js"></script>
+        </footer>
+    </body>
+</html>
