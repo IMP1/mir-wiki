@@ -7,12 +7,12 @@
         <area href="/mir-wiki/map/ridgeback/frosthelm" 
               alt="Frosthelm" title="Frosthelm" shape="poly" 
               coords="">
-            <area href="/mir-wiki/map/ridgeback/kingsooth" 
+        <area href="/mir-wiki/map/ridgeback/kingsooth" 
               alt="Kingsooth" title="Kingsooth" shape="poly" 
               coords="">
         <area href="/mir-wiki/map/ridgeback/estearth" 
               alt="Estearth" title="Estearth" shape="poly" 
-              coords="230,70,240,70,240,90,230,90,230,130,210,130,210,150,230,150,220,170,195,185,180,180,168,184,161,176,164,164,156,156,162,140,180,140,190,120,190,115,205,100,205,90,197,80">>
+              coords="230,70,240,70,240,90,230,90,230,130,210,130,210,150,230,150,220,170,195,185,180,180,168,184,161,176,164,164,156,156,162,140,180,140,190,120,190,115,205,100,205,90,197,80">
         <area href="/mir-wiki/map/ridgeback/ashvale" 
               alt="Ashvale" title="Ashvale" shape="poly" 
               coords="195,185,200,216,180,218,157,203,140,203,130,175,105,147,94,127,113,127,145,138,158,143,156,156,164,164,161,176,168,184,180,180">
@@ -36,36 +36,36 @@
     <map id="ridgeback-locations" name="ridgeback-locations">
         <area href="/mir-wiki/map/ridgeback/estearth/proudwatch.html" 
               alt="Proudwatch" title="Proudwatch" shape="circle" 
-              coords="417,184">
+              coords="417,184,8">
         <area href="/mir-wiki/map/ridgeback/ashvale/ashport.html" 
               alt="Ashport" title="Ashport" shape="circle" 
-              coords="389,219">
+              coords="389,219,8">
         <area href="/mir-wiki/map/ridgeback/ashvale/ashvale_city".html 
               alt="Ashvale City" title="Ashvale City" shape="circle" 
-              coords="378,214">
+              coords="378,214,8">
         <area href="/mir-wiki/map/ridgeback/wetlands/witmouth.html" 
               alt="Witmouth" title="Witmouth" shape="circle" 
-              coords="395,241">
+              coords="395,241,8">
         <area href="/mir-wiki/map/ridgeback/estearth/dawnstar_bay.html" 
               alt="Dawnstar Bay" title="Dawnstar Bay" shape="circle" 
-              coords="405,150">
+              coords="405,150,8">
         <area href="/mir-wiki/map/ridgeback/kingsooth/berrywood.html" 
               alt="Berrywood" title="Berrywood" shape="circle" 
-              coords="357,150">
+              coords="357,150,8">
         <area href="/mir-wiki/map/ridgeback/hillands/coldwood.html" 
               alt="Coldwood" title="Coldwood" shape="circle" 
-              coords="274,143">
+              coords="274,143,8">
         <area href="/mir-wiki/map/ridgeback/hackle/thorgrund_pass.html" 
               alt="Thorgrund Pass" title="Thorgrund Pass" shape="circle" 
-              coords="291,156">
+              coords="291,156,8">
         <area href="/mir-wiki/map/ridgeback/hillands/little_seaton.html" 
               alt="Little Seaton" title="Little Seaton" shape="circle"
-              coords="287,172">
+              coords="287,172,8">
         <area href="/mir-wiki/map/ridgeback/hillands/rowton.html" 
               alt="Rowton" title="Rowton" shape="circle"
-              coords="247,192">
+              coords="247,192,8">
         <area href="/mir-wiki/map/ridgeback/roke/shipdel.html" 
               alt="Shipdel" title="Shipdel" shape="circle"
-              coords="289,243">
+              coords="289,243,8">
     </map>
 <ruby block-end="article">
