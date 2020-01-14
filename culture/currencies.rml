@@ -1,0 +1,8 @@
+<ruby include="page_layout.rml">
+<ruby block-begin="title">Currencies | <ruby block-super><ruby block-end="title">
+<ruby block-begin="article">
+    <h1>Currencies</h1>
+    <section>
+        
+    </section>
+<ruby block-end="article">
