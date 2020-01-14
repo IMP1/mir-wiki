@@ -165,19 +165,19 @@
             link: "/mir-wiki/locations/hackle.html",
         });
         locations.push({
-            name: "River With",
+            name: "Kingsooth River",
             scale: scale.feature,
-            link: "/mir-wiki/locations/river_with.html",
+            link: "/mir-wiki/locations/river_kingsooth.html",
+        });
+        locations.push({
+            name: "Thorgrund Pass",
+            scale: scale.feature,
+            link: "/mir-wiki/locations/thorgrund_pass.html",
         });
         locations.push({
             name: "River Braed",
             scale: scale.feature,
             link: "/mir-wiki/locations/river_braed.html",
-        });
-        locations.push({
-            name: "Kingsooth River",
-            scale: scale.feature,
-            link: "/mir-wiki/locations/river_kingsooth.html",
         });
         locations.push({
             name: "Mourning Forest",
@@ -190,9 +190,9 @@
             link: "/mir-wiki/locations/dawnstar_bay.html",
         });
         locations.push({
-            name: "Thorgrund Pass",
+            name: "River With",
             scale: scale.feature,
-            link: "/mir-wiki/locations/thorgrund_pass.html",
+            link: "/mir-wiki/locations/river_with.html",
         });
 
         populateList();
