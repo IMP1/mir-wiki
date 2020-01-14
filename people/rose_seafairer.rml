@@ -45,7 +45,7 @@
         let siblings = [];
         let children = [];
         let me = {
-            name: "Rook",
+            name: "Rose Seafairer",
             birthdate: "",
             deathdate: null,
         };
