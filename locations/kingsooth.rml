@@ -1,0 +1,8 @@
+<ruby include="page_layout.rml">
+<ruby block-begin="title">Kingsooth | <ruby block-super><ruby block-end="title">
+<ruby block-begin="article">
+    <h1>Kingsooth</h1>
+    <section>
+        <h2>Overview</h2>
+    </section>
+<ruby block-end="article">

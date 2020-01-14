@@ -139,7 +139,7 @@
         locations.push({
             name: "Witmouth",
             scale: scale.town,
-            link: "/mir-wiki/locations/Witmouth.html",
+            link: "/mir-wiki/locations/witmouth.html",
         });
         locations.push({
             name: "Sunshade",
@@ -147,16 +147,16 @@
             link: "/mir-wiki/locations/sunshade.html",
         });
         // West Ridgeback Villages & Settlements (North to South)
+        locations.push({
+            name: "Little Seaton",
+            scale: scale.settlement,
+            link: "/mir-wiki/locations/little_seaton.html",
+        });
         // East Ridgeback Villages & Settlements (North to South)
         locations.push({
             name: "Berrywood",
             scale: scale.village,
             link: "/mir-wiki/locations/berrywood.html",
-        });
-        locations.push({
-            name: "Little Seaton",
-            scale: scale.settlement,
-            link: "/mir-wiki/locations/little_seaton.html",
         });
         // Ridgeback Features (North to South)
         locations.push({
