@@ -1,0 +1,13 @@
+<ruby include="page_layout.rml">
+<ruby block-begin="title">The Royal Magician's Guild | <ruby block-super><ruby block-end="title">
+<ruby block-begin="article">
+    <h1>The Royal Magician's Guild</h1>
+    <section>
+        <h2>Overview</h2>
+        <p>
+            This group of magically endowed people serve the crown. 
+            Often they are sent across Ridgeback as they can communicate with each other magically.
+            They serve their towns with healing magic and advise the town's mayor.
+        </p>
+    </section>
+<ruby block-end="article">
