@@ -1,22 +1,21 @@
 <ruby include="page_person_layout.rml">
-<ruby block-begin="title">Yarrow | <ruby block-super><ruby block-end="title">
+<ruby block-begin="title">Lark | <ruby block-super><ruby block-end="title">
 <ruby block-begin="person-details">
     <dt>Race</dt>
-    <dd><a href="/mir-wiki/biology/fauna/plainswalkers.html">Plainswalker</a></dd>
+    <dd><a href="/mir-wiki/biology/fauna/midnighters.html">Midnighter</a></dd>
     <dt>Sex</dt>
-    <dd>Female</dd>
+    <dd>Male</dd>
     <dt>Born</dt>
     <dd>???</dd>
 <ruby block-end="person-details">
 <ruby block-begin="article">
-    <h1>Elder Yarrow</h1>
+    <h1>Lark</h1>
     <section>
         <h2>Life</h2>
         <section>
             <h3>Overview</h3>
             <p>
-                Yarrow lives in <a href="/mir-wiki/locations/berrywood.html">Berrywood</a> and has done since she was born. 
-                She is held in high regard there, and oversees any large decisions made regarding the village.
+                
             </p>
         </section>
     </section>
@@ -27,9 +26,9 @@
     <section>
         <h2>Name Etymology</h2>
         <dl>
-            <dt>Yarrow</dt>
+            <dt>Lark</dt>
             <dd>
-                Named after the flowering plant, which can be found in Berrywood.
+                Named after the bird.
             </dd>
         </dl>
     </section>
@@ -41,7 +40,7 @@
         let siblings = [];
         let children = [];
         let me = {
-            name: "Yarrow",
+            name: "Lark",
             birthdate: "",
             deathdate: null,
         };

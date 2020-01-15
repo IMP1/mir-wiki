@@ -33,9 +33,12 @@
         <p>
             Incapable of higher thought, these animals are domesticated, hunted, left alone, or deterred. They make up the bulk of the ecosystem of Mir.
         </p>
-        <ul>
-
-        </ul>
+        <section>
+            <h3>Birds</h3>
+            <ul>
+                <li>Lark</li>
+            </ul>
+        </section>
     </section>
     <section>
         <h2>Semi-Sapient Species</h2>
