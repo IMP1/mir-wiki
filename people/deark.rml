@@ -1,0 +1,50 @@
+<ruby include="page_person_layout.rml">
+<ruby block-begin="title">Deark | <ruby block-super><ruby block-end="title">
+<ruby block-begin="person-details">
+    <dt>Race</dt>
+    <dd><a href="/mir-wiki/biology/fauna/delvers.html">Delver</a></dd>
+    <dt>Sex</dt>
+    <dd>Male</dd>
+    <dt>Born</dt>
+    <dd>???</dd>
+<ruby block-end="person-details">
+<ruby block-begin="article">
+    <h1>Sailor Deark</h1>
+    <section>
+        <h2>Life</h2>
+        <section>
+            <h3>Overview</h3>
+            <p>
+                Deark was born in Rowton, and left his family to go to sea.
+                He found himself on <a href="/mir-wiki/people/rose_seafairer.html">Captain Rose Seafairer's</a> ship, The Singing Whale, and would sail with him, working hard and gaining his respect.
+            </p>
+        </section>
+    </section>
+    <section>
+        <h2>Family</h2>
+        <svg id="family-tree"></svg>
+    </section>
+    <section>
+        <h2>Name Etymology</h2>
+        <dl>
+            <dt>Deark</dt>
+            <dd>
+                A shortening of Deh-arkohmar, meaning flint.
+            </dd>
+        </dl>
+    </section>
+<ruby block-end="article">
+<ruby block-begin="scripts">
+    <ruby block-super>
+    <script type="text/javascript">
+        let parents = [];
+        let siblings = [];
+        let children = [];
+        let me = {
+            name: "Deark",
+            birthdate: "",
+            deathdate: null,
+        };
+        createFamilyTree(me, parents, siblings, children);
+    </script>
+<ruby block-end="scripts">
