@@ -37,6 +37,16 @@
             <h3>Birds</h3>
             <ul>
                 <li>Lark</li>
+                <li>Owl</li>
+            </ul>
+        </section>
+        <section>
+            <h3>Mammals</h3>
+            <ul>
+                <li>Badger</li>
+                <li>Boar</li>
+                <li>Bear</li>
+                <li>Goats</li>
             </ul>
         </section>
     </section>
