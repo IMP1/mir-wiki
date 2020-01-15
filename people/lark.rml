@@ -1,5 +1,5 @@
 <ruby include="page_person_layout.rml">
-<ruby block-begin="title">Lark | <ruby block-super><ruby block-end="title">
+<ruby block-begin="title">Dallós | <ruby block-super><ruby block-end="title">
 <ruby block-begin="person-details">
     <dt>Race</dt>
     <dd><a href="/mir-wiki/biology/fauna/midnighters.html">Midnighter</a></dd>
@@ -9,13 +9,13 @@
     <dd>???</dd>
 <ruby block-end="person-details">
 <ruby block-begin="article">
-    <h1>Lark</h1>
+    <h1>Dallós</h1>
     <section>
         <h2>Life</h2>
         <section>
             <h3>Overview</h3>
             <p>
-                
+                Dallós lives in <a href="/mir-wiki/locations/berrywood.html">Berrywood</a>.
             </p>
         </section>
     </section>
@@ -26,9 +26,9 @@
     <section>
         <h2>Name Etymology</h2>
         <dl>
-            <dt>Lark</dt>
+            <dt>Dallós</dt>
             <dd>
-                Named after the bird.
+                Named after the Lark bird, but using the Greek name for it, Korydallós.
             </dd>
         </dl>
     </section>
@@ -40,7 +40,7 @@
         let siblings = [];
         let children = [];
         let me = {
-            name: "Lark",
+            name: "Dallós",
             birthdate: "",
             deathdate: null,
         };

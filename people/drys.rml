@@ -1,5 +1,5 @@
 <ruby include="page_person_layout.rml">
-<ruby block-begin="title">Rook | <ruby block-super><ruby block-end="title">
+<ruby block-begin="title">Drys | <ruby block-super><ruby block-end="title">
 <ruby block-begin="person-details">
     <dt>Race</dt>
     <dd><a href="/mir-wiki/biology/fauna/midnighters.html">Midnighter</a></dd>
@@ -9,19 +9,19 @@
     <dd>???</dd>
 <ruby block-end="person-details">
 <ruby block-begin="article">
-    <h1>Sailor Rook</h1>
+    <h1>Sailor Drys</h1>
     <section>
         <h2>Life</h2>
         <section>
             <h3>Overview</h3>
             <p>
-                Rook was born in <a href="">???</a>, a seaside village. Her father was a fisherman, and when he was gone she longed to join him out at sea.
+                Drys was born in <a href="">???</a>, a seaside village. Her father was a fisherman, and when he was gone she longed to join him out at sea.
             </p>
             <p>
-                When Rook's father died, she decided to go to sea and take up his mantle.
+                When Drys's father died, she decided to go to sea and take up his mantle.
             </p>
             <p>
-                Rook found <a href="/mir-wiki/people/rose_seafairer.html">Captain Seafairer</a>'s crew and ship in <a href="/mir-wiki/locations/???.html">???</a> and she joined him, having heard of his reputation as a good captain.
+                Drys found <a href="/mir-wiki/people/rose_seafairer.html">Captain Seafairer</a>'s crew and ship in <a href="/mir-wiki/locations/???.html">???</a> and she joined him, having heard of his reputation as a good captain.
             </p>
         </section>
     </section>
@@ -32,9 +32,9 @@
     <section>
         <h2>Name Etymology</h2>
         <dl>
-            <dt>Rook</dt>
+            <dt>Drys</dt>
             <dd>
-                Named after the bird.
+                Drys is the Midnighter word for the oak tree.
             </dd>
         </dl>
     </section>
@@ -46,7 +46,7 @@
         let siblings = [];
         let children = [];
         let me = {
-            name: "Rook",
+            name: "Drys",
             birthdate: "",
             deathdate: null,
         };
