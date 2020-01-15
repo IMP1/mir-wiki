@@ -1,0 +1,22 @@
+<ruby include="page_layout.rml">
+<ruby block-begin="title">Flora | <ruby block-super><ruby block-end="title">
+<ruby block-begin="article">
+    <h1>Flora of Mir</h1>
+    <section>
+        <h2>Trees</h2>
+        <ul>
+            <li>Ash</li>
+            <li>Oak</li>
+            <li>Rowan</li>
+        </ul>
+    </section>
+    <section>
+        <h2>Flowering Plants</h2>
+        <ul>
+            <li>Yarrow</li>
+            <li>Rose</li>
+            <li>Bramble</li>
+            <li><a href="/mir-wiki/biology/flora/???.html">???</a></li>
+        </ul>
+    </section>
+<ruby block-end="article">
