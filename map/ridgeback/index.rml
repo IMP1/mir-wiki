@@ -1,7 +1,17 @@
 <ruby include="page_layout.rml">
 <ruby block-begin="title">Ridgeback Map | <ruby block-super><ruby block-end="title">
+<ruby block-begin="styles">
+    <style type="text/css">
+        #ridgeback-image {
+            background-image: url(mir-wiki/_images/map_ridgeback_regions.png);
+        }
+    </style>
+<ruby block-end="styles">
 <ruby block-begin="article">
     <h1>Ridgeback Map</h1>
+
+    <img id="ridgeback-image" src="/mir-wiki/_images/map_ridgeback_regions.svg" alt="Ridgeback Map">
+<!-- 
     <img id="ridgeback-image" src="/mir-wiki/_images/map_ridgeback_regions.png" alt="Ridgeback Map" usemap="#ridgeback-regions">
     <map id="ridgeback-regions" name="ridgeback-regions">
         <area href="/mir-wiki/map/ridgeback/frosthelm" 
@@ -67,5 +77,5 @@
         <area href="/mir-wiki/map/ridgeback/roke/shipdel.html" 
               alt="Shipdel" title="Shipdel" shape="circle"
               coords="289,243,8">
-    </map>
+    </map> -->
 <ruby block-end="article">
