@@ -1,8 +1,11 @@
 <ruby include="page_layout.rml">
 <ruby block-begin="title">Ridgeback Map | <ruby block-super><ruby block-end="title">
 <ruby block-begin="styles">
+    <ruby block-super>
     <style type="text/css">
         #ridgeback-image {
+            width: 100%;
+            height: 100%;
             background-image: url(mir-wiki/_images/map_ridgeback_regions.png);
         }
     </style>
