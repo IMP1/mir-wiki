@@ -1,0 +1,67 @@
+<svg xmlns="http://www.w3.org/2000/svg">
+    <defs>
+        <g id="pointer">
+            <rect x="0" y="50" width="50" height="50" />
+            <circle cx="50" cy="50" r="50" />
+        </g>
+    </defs>
+    <g id="location-coldwood">
+        <a href="/mir-wiki/map/coldwood.html">
+            <use xlink:href="#pointer" x="50" y="50" />
+        </a>
+    </g>
+    });
+    <g id="location-rowton">
+        <a href="/mir-wiki/map/rowton.html">
+            <use xlink:href="#pointer" x="50" y="50" />
+        </a>
+    </g>
+    });
+    <g id="location-shipdel">
+        <a href="/mir-wiki/map/shipdel.html">
+            <use xlink:href="#pointer" x="50" y="50" />
+        </a>
+    </g>
+    });
+    <g id="location-proudwatch">
+        <a href="/mir-wiki/map/proudwatch.html">
+            <use xlink:href="#pointer" x="50" y="50" />
+        </a>
+    </g>
+    });
+    <g id="location-rifford">
+        <a href="/mir-wiki/map/rifford.html">
+            <use xlink:href="#pointer" x="50" y="50" />
+        </a>
+    </g>
+    });
+    <g id="location-ashvale-city">
+        <a href="/mir-wiki/map/ashvale_city.html">
+            <use xlink:href="#pointer" x="50" y="50" />
+        </a>
+    </g>
+    });
+    <g id="location-ashport">
+        <a href="/mir-wiki/map/ashport.html">
+            <use xlink:href="#pointer" x="50" y="50" />
+        </a>
+    </g>
+    });
+    <g id="location-witmouth">
+        <a href="/mir-wiki/map/witmouth.html">
+            <use xlink:href="#pointer" x="50" y="50" />
+        </a>
+    </g>
+    });
+    <g id="location-sunshade">
+        <a href="/mir-wiki/map/sunshade.html">
+            <use xlink:href="#pointer" x="50" y="50" />
+        </a>
+    </g>
+    });
+    <g id="location-little-seaton">
+        <a href="/mir-wiki/map/little_seaton.html">
+            <use xlink:href="#pointer" x="50" y="50" />
+        </a>
+    </g>
+</svg>
