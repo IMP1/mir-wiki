@@ -12,19 +12,24 @@
             fill: transparent;
             stroke: black;
         }
-        #ridgeback-image-geography {
+        .image-base {
             z-index: 10;
         }
-        #ridgeback-image-features {
+        .image-features {
             z-index: 20;
+        }
+        svg {
+            display: none;
         }
     </style>
 <ruby block-end="styles">
 <ruby block-begin="article">
     <h1>Ridgeback Map</h1>
     <div class="layered-images">
-        <img id="ridgeback-image-geography" src="/mir-wiki/_images/map_ridgeback.png" alt="Ridgeback Map">
-        <img id="ridgeback-image-features" src="/mir-wiki/_images/map_ridgeback_regions.svg">
+        <img class="image-base" src="/mir-wiki/_images/map_ridgeback.png" alt="Map of Ridgeback">
+        <ruby include="/mir-wiki/_images/map_ridgeback_regions.svg">
+        <ruby include="/mir-wiki/_images/map_ridgeback_locations.svg">
+        <ruby include="/mir-wiki/_images/map_ridgeback_features.svg">
     </div>
     <div id="select-map-feature" class="button-toggle-group">
         <button id="button-show-regions" class="active" onclick="showRegions()">Regions</button>
@@ -40,20 +45,27 @@
                 buttons[i].classList.remove("active");
             }
         }
-        function showRegions() {
+        function hideAllLayers() {
+            let layers = document.getElementById("layered-images").getElementsByTagName("svg");
+            for (let i = 0; i < layers.length; i ++) {
+                layers[i].style.display = "none";
+            }
+        }
+        function showLayer(layer_name) {
             unselectAllButtons();
-            document.getElementById("ridgeback-image-features").src = "/mir-wiki/_images/map_ridgeback_regions.svg";
-            document.getElementById("button-show-regions").classList.add("active");
+            document.getElementById("button-show-" + layer_name).classList.add("active");
+            hideAllLayers();
+            document.getElementById("layer-" + layer_name).style.display = "block";
+        }
+        function showRegions() {
+            showLayer("regions");
         }
         function showLocations() {
-            unselectAllButtons();
-            document.getElementById("ridgeback-image-features").src = "/mir-wiki/_images/map_ridgeback_locations.svg";
-            document.getElementById("button-show-locations").classList.add("active");
+            showLayer("locations");
         }
         function showFeatures() {
-            unselectAllButtons();
-            document.getElementById("ridgeback-image-features").src = "/mir-wiki/_images/map_ridgeback_features.svg";
-            document.getElementById("button-show-features").classList.add("active");
+            showLayer("features");
         }
+        showRegions();
     </script>
 <ruby block-end="scripts">
