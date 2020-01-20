@@ -1,0 +1,55 @@
+<ruby include="page_person_layout.rml">
+<ruby block-begin="title">Lowen Redwing | <ruby block-super><ruby block-end="title">
+<ruby block-begin="person-details">
+    <dt>Race</dt>
+    <dd><a href="/mir-wiki/biology/fauna/plainswalkers.html">Plainswalker</a></dd>
+    <dt>Sex</dt>
+    <dd>Male</dd>
+    <dt>Born</dt>
+    <dd>Palan Age / 27th Year / Feallan / 34th Day</dd>
+    <dt>Died</dt>
+    <dd>Palan Age / 91st Year / Wentruth / 26th Day</dd>
+<ruby block-end="person-details">
+<ruby block-begin="article">
+    <h1>Lowen Redwing</h1>
+    <section>
+        <h2>Life</h2>
+        <section>
+            <h3>Overview</h3>
+            <p>
+                Lowen Redwing was raised in <a href="/mir-wiki/locations/???.html">???</a>, the capital of <a href="/mir-wiki/locations/roke.html">Roke</a>, to a life of relative luxury. He was a slight child and, as he grew up, he grew to love scholarly activities, and spend less time on physical training, with which his father, <a href="/mir-wiki/people/pala_???.html">Pala ???</a> was a little dissapointed. Nevertheless, he became a wise ruler, knowing when to listen to advice, and when to be decisive. He struggled to be seen as strong, but had good diplomatic relations with the other regions of <a href="/mir-wiki/locations/ridgeback.html">Ridgeback</a>, and so it mattered little.
+            </p>
+        </section>
+    </section>
+    <section>
+        <h2>Family</h2>
+        <svg id="family-tree"></svg>
+    </section>
+    <section>
+        <h2>Name Etymology</h2>
+        <dl>
+            <dt>Lowen</dt>
+            <dd>
+                Lowen is derived from rowan, the name of the tree.
+            </dd>
+            <dt>Redwing</dt>
+            <dd>
+                A redwing is a bird that nests in rowan trees.
+            </dd>
+        </dl>
+    </section>
+<ruby block-end="article">
+<ruby block-begin="scripts">
+    <ruby block-super>
+    <script type="text/javascript">
+        let parents = [];
+        let siblings = [];
+        let children = [];
+        let me = {
+            name: "Lowen Redwing",
+            birthdate: "",
+            deathdate: null,
+        };
+        createFamilyTree(me, parents, siblings, children);
+    </script>
+<ruby block-end="scripts">
