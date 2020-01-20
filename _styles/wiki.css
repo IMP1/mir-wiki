@@ -26,3 +26,24 @@ a:hover, a:active {
     color: #f00000;
     border-bottom: 1px solid #f00000;
 }
+
+div.layered-images {
+    position: relative;
+}
+div.layered-images img {
+    position:absolute;
+    top: 0px;
+    left: 0px;
+}
+
+.button-toggle-group {
+    display: inline-block;
+}
+
+.button-toggle-group > button {
+
+}
+
+.button-toggle-group > button.active {
+
+}
