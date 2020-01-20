@@ -1,4 +1,4 @@
 .genlast
 *_layout.rml
 *.note
-generate.sh
+*.sh
