@@ -27,9 +27,9 @@
     <h1>Ridgeback Map</h1>
     <div class="layered-images">
         <img class="image-base" src="/mir-wiki/_images/map_ridgeback.png" alt="Map of Ridgeback">
-        <ruby include="/mir-wiki/_images/map_ridgeback_regions.svg">
-        <ruby include="/mir-wiki/_images/map_ridgeback_locations.svg">
-        <ruby include="/mir-wiki/_images/map_ridgeback_features.svg">
+        <ruby include="_images/map_ridgeback_regions.svg">
+        <ruby include="_images/map_ridgeback_locations.svg">
+        <ruby include="_images/map_ridgeback_features.svg">
     </div>
     <div id="select-map-feature" class="button-toggle-group">
         <button id="button-show-regions" class="active" onclick="showRegions()">Regions</button>
