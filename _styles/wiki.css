@@ -30,7 +30,8 @@ a:hover, a:active {
 div.layered-images {
     position: relative;
 }
-div.layered-images img {
+div.layered-images img,
+div.layered-images svg {
     position:absolute;
     top: 0px;
     left: 0px;
