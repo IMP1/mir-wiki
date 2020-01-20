@@ -26,3 +26,15 @@ a:hover, a:active {
     color: #f00000;
     border-bottom: 1px solid #f00000;
 }
+
+.button-toggle-group {
+    display: inline-block;
+}
+
+.button-toggle-group > button {
+
+}
+
+.button-toggle-group > button.active {
+
+}

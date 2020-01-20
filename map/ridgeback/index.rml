@@ -6,79 +6,48 @@
         #ridgeback-image {
             width: 100%;
             height: 100%;
-            background-image: url(mir-wiki/_images/map_ridgeback_regions.png);
+            background-image: url("mir-wiki/_images/map_ridgeback.png");
+        }
+        polygon {
+            fill: transparent;
+            stroke: black;
         }
     </style>
 <ruby block-end="styles">
 <ruby block-begin="article">
     <h1>Ridgeback Map</h1>
-
     <img id="ridgeback-image" src="/mir-wiki/_images/map_ridgeback_regions.svg" alt="Ridgeback Map">
-<!-- 
-    <img id="ridgeback-image" src="/mir-wiki/_images/map_ridgeback_regions.png" alt="Ridgeback Map" usemap="#ridgeback-regions">
-    <map id="ridgeback-regions" name="ridgeback-regions">
-        <area href="/mir-wiki/map/ridgeback/frosthelm" 
-              alt="Frosthelm" title="Frosthelm" shape="poly" 
-              coords="">
-        <area href="/mir-wiki/map/ridgeback/kingsooth" 
-              alt="Kingsooth" title="Kingsooth" shape="poly" 
-              coords="">
-        <area href="/mir-wiki/map/ridgeback/estearth" 
-              alt="Estearth" title="Estearth" shape="poly" 
-              coords="230,70,240,70,240,90,230,90,230,130,210,130,210,150,230,150,220,170,195,185,180,180,168,184,161,176,164,164,156,156,162,140,180,140,190,120,190,115,205,100,205,90,197,80">
-        <area href="/mir-wiki/map/ridgeback/ashvale" 
-              alt="Ashvale" title="Ashvale" shape="poly" 
-              coords="195,185,200,216,180,218,157,203,140,203,130,175,105,147,94,127,113,127,145,138,158,143,156,156,164,164,161,176,168,184,180,180">
-        <area href="/mir-wiki/map/ridgeback/wetlands" 
-              alt="Wetlands" title="Wetlands" shape="poly" 
-              coords="">
-        <area href="/mir-wiki/map/ridgeback/sand_flats" 
-              alt="Sand Flats" title="Sand Flats" shape="poly" 
-              coords="">
-        <area href="/mir-wiki/map/ridgeback/snow_plains" 
-              alt="Snow Plains" title="Snow Plains" shape="poly" 
-              coords="">
-        <area href="/mir-wiki/map/ridgeback/hillands" 
-              alt="Hillands" title="Hillands" shape="poly" 
-              coords="">
-        <area href="/mir-wiki/map/ridgeback/roke" 
-              alt="Roke" title="Roke" shape="poly" 
-              coords="">
-    </map>
-    <img id="ridgeback-image" src="/mir-wiki/_images/map_ridgeback_locations.png" alt="Ridgeback Map" usemap="#ridgeback-locations">
-    <map id="ridgeback-locations" name="ridgeback-locations">
-        <area href="/mir-wiki/map/ridgeback/estearth/proudwatch.html" 
-              alt="Proudwatch" title="Proudwatch" shape="circle" 
-              coords="417,184,8">
-        <area href="/mir-wiki/map/ridgeback/ashvale/ashport.html" 
-              alt="Ashport" title="Ashport" shape="circle" 
-              coords="389,219,8">
-        <area href="/mir-wiki/map/ridgeback/ashvale/ashvale_city".html 
-              alt="Ashvale City" title="Ashvale City" shape="circle" 
-              coords="378,214,8">
-        <area href="/mir-wiki/map/ridgeback/wetlands/witmouth.html" 
-              alt="Witmouth" title="Witmouth" shape="circle" 
-              coords="395,241,8">
-        <area href="/mir-wiki/map/ridgeback/estearth/dawnstar_bay.html" 
-              alt="Dawnstar Bay" title="Dawnstar Bay" shape="circle" 
-              coords="405,150,8">
-        <area href="/mir-wiki/map/ridgeback/kingsooth/berrywood.html" 
-              alt="Berrywood" title="Berrywood" shape="circle" 
-              coords="357,150,8">
-        <area href="/mir-wiki/map/ridgeback/hillands/coldwood.html" 
-              alt="Coldwood" title="Coldwood" shape="circle" 
-              coords="274,143,8">
-        <area href="/mir-wiki/map/ridgeback/hackle/thorgrund_pass.html" 
-              alt="Thorgrund Pass" title="Thorgrund Pass" shape="circle" 
-              coords="291,156,8">
-        <area href="/mir-wiki/map/ridgeback/hillands/little_seaton.html" 
-              alt="Little Seaton" title="Little Seaton" shape="circle"
-              coords="287,172,8">
-        <area href="/mir-wiki/map/ridgeback/hillands/rowton.html" 
-              alt="Rowton" title="Rowton" shape="circle"
-              coords="247,192,8">
-        <area href="/mir-wiki/map/ridgeback/roke/shipdel.html" 
-              alt="Shipdel" title="Shipdel" shape="circle"
-              coords="289,243,8">
-    </map> -->
+    <div id="select-map-feature" class="button-toggle-group">
+        <button id="button-show-regions" class="active" onclick="showRegions()">Regions</button>
+        <button id="button-show-locations" onclick="showLocations()">Locations</button>
+        <button id="button-show-features" onclick="showFeatures()">Features</button>
+    </div>
 <ruby block-end="article">
+<ruby block-begin="scripts">
+    <script type="text/javascript">
+        function unselectAllButtons() {
+            let buttons = document.getElementById("select-map-feature").getElementsByTagName("button");
+            for (let i = 0; i < buttons.length; i ++) {
+                buttons[i].classList.remove("active");
+            }
+            // document.getElementById("button-show-regions").classList.remove("active");
+            // document.getElementById("button-show-locations").classList.remove("active");
+            // document.getElementById("button-show-features").classList.remove("active");
+        }
+        function showRegions() {
+            unselectAllButtons();
+            document.getElementById("ridgeback-image").src = "/mir-wiki/_images/map_ridgeback_regions.svg";
+            document.getElementById("button-show-regions").classList.add("active");
+        }
+        function showLocations() {
+            unselectAllButtons();
+            document.getElementById("ridgeback-image").src = "/mir-wiki/_images/map_ridgeback_locations.svg";
+            document.getElementById("button-show-locations").classList.add("active");
+        }
+        function showFeatures() {
+            unselectAllButtons();
+            document.getElementById("ridgeback-image").src = "/mir-wiki/_images/map_ridgeback_features.svg";
+            document.getElementById("button-show-features").classList.add("active");
+        }
+    </script>
+<ruby block-end="scripts">
