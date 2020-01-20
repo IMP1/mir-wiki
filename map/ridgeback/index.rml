@@ -12,11 +12,20 @@
             fill: transparent;
             stroke: black;
         }
+        #ridgeback-image-geography {
+            z-index: 10;
+        }
+        #ridgeback-image-features {
+            z-index: 20;
+        }
     </style>
 <ruby block-end="styles">
 <ruby block-begin="article">
     <h1>Ridgeback Map</h1>
-    <img id="ridgeback-image" src="/mir-wiki/_images/map_ridgeback_regions.svg" alt="Ridgeback Map">
+    <div class="layered-images">
+        <img id="ridgeback-image-geography" src="/mir-wiki/_images/map_ridgeback.png" alt="Ridgeback Map">
+        <img id="ridgeback-image-features" src="/mir-wiki/_images/map_ridgeback_regions.svg">
+    </div>
     <div id="select-map-feature" class="button-toggle-group">
         <button id="button-show-regions" class="active" onclick="showRegions()">Regions</button>
         <button id="button-show-locations" onclick="showLocations()">Locations</button>
@@ -30,23 +39,20 @@
             for (let i = 0; i < buttons.length; i ++) {
                 buttons[i].classList.remove("active");
             }
-            // document.getElementById("button-show-regions").classList.remove("active");
-            // document.getElementById("button-show-locations").classList.remove("active");
-            // document.getElementById("button-show-features").classList.remove("active");
         }
         function showRegions() {
             unselectAllButtons();
-            document.getElementById("ridgeback-image").src = "/mir-wiki/_images/map_ridgeback_regions.svg";
+            document.getElementById("ridgeback-image-features").src = "/mir-wiki/_images/map_ridgeback_regions.svg";
             document.getElementById("button-show-regions").classList.add("active");
         }
         function showLocations() {
             unselectAllButtons();
-            document.getElementById("ridgeback-image").src = "/mir-wiki/_images/map_ridgeback_locations.svg";
+            document.getElementById("ridgeback-image-features").src = "/mir-wiki/_images/map_ridgeback_locations.svg";
             document.getElementById("button-show-locations").classList.add("active");
         }
         function showFeatures() {
             unselectAllButtons();
-            document.getElementById("ridgeback-image").src = "/mir-wiki/_images/map_ridgeback_features.svg";
+            document.getElementById("ridgeback-image-features").src = "/mir-wiki/_images/map_ridgeback_features.svg";
             document.getElementById("button-show-features").classList.add("active");
         }
     </script>
