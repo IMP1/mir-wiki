@@ -1,0 +1,45 @@
+<svg xmlns="http://www.w3.org/2000/svg">
+    <defs>
+        <g id="pointer">
+            <rect x="0" y="50" width="50" height="50" />
+            <circle cx="50" cy="50" r="50" />
+        </g>
+    </defs>
+    <g id="feature-hackle">
+        <a href="/mir-wiki/locations/hackle.html">
+            <polygon points="" />
+        </a>
+    </g>
+    <g id="feature-kingsooth-river">
+        <a href="/mir-wiki/locations/river_kingsooth.html">
+            <polygon points="" />
+        </a>
+    </g>
+    <g id="feature-thorgrund-pass">
+        <a href="/mir-wiki/locations/thorgrund_pass.html">
+            <use xlink:href="#pointer" x="" y="" />
+        </a>
+    </g>
+    <g id="feature-river-braed">
+        <a href="/mir-wiki/locations/river_braed.html">
+            <polygon points="" />
+        </a>
+    </g>
+    <g id="feature-mourning-forest">
+        <a href="/mir-wiki/locations/mourning_forest.html">
+            <polygon points="" />
+        </a>
+    </g>
+    <g id="feature-dawnstar-bay">
+        <a href="/mir-wiki/locations/dawnstar_bay.html">
+            <polygon points="" />
+        </a>
+    </g>
+    <g id="feature-river-with">
+        <a href="/mir-wiki/locations/river_with.html">
+            <polygon points="" />
+        </a>
+    </g>
+</svg>
+
+    
