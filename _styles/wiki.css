@@ -48,3 +48,27 @@ div.layered-images svg {
 .button-toggle-group > button.active {
 
 }
+
+.date {
+
+}
+
+.date > span::before {
+    content: '/'
+}
+.date > span:first-child::before {
+    content: none;
+}
+
+.date .age {
+
+}
+.date .year {
+
+}
+.date .month {
+
+}
+.date .day {
+
+}
