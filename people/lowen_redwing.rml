@@ -6,9 +6,19 @@
     <dt>Sex</dt>
     <dd>Male</dd>
     <dt>Born</dt>
-    <dd>Palan Age / 27th Year / Feallan / 34th Day</dd>
+    <dd class="date">
+        <span class="age">Palan Age</span>
+        <span class="year">27th Year</span>
+        <span class="month">Feallan</span>
+        <span class="day">34th Day</span>
+    </dd>
     <dt>Died</dt>
-    <dd>Palan Age / 91st Year / Wentruth / 26th Day</dd>
+    <dd class="date">
+        <span class="age">Palan Age</span>
+        <span class="year">91st Year</span>
+        <span class="month">Wentruth</span>
+        <span class="day">26th Day</span>
+    </dd>
 <ruby block-end="person-details">
 <ruby block-begin="article">
     <h1>Lowen Redwing</h1>
@@ -17,7 +27,7 @@
         <section>
             <h3>Overview</h3>
             <p>
-                Lowen Redwing was raised in <a href="/mir-wiki/locations/???.html">???</a>, the capital of <a href="/mir-wiki/locations/roke.html">Roke</a>, to a life of relative luxury. He was a slight child and, as he grew up, he grew to love scholarly activities, and spend less time on physical training, with which his father, <a href="/mir-wiki/people/pala_???.html">Pala ???</a> was a little dissapointed. Nevertheless, he became a wise ruler, knowing when to listen to advice, and when to be decisive. He struggled to be seen as strong, but had good diplomatic relations with the other regions of <a href="/mir-wiki/locations/ridgeback.html">Ridgeback</a>, and so it mattered little.
+                Lowen Redwing was raised in <a href="/mir-wiki/locations/???.html">???</a>, the capital of <a href="/mir-wiki/locations/roke.html">Roke</a>, to a life of relative luxury. He was a slight child and, as he grew up, he grew to love scholarly activities, and spend less time on physical training, with which his father, <a href="/mir-wiki/people/pala_redwing.html">Pala Redwing</a> was a little dissapointed. Nevertheless, he became a wise ruler, knowing when to listen to advice, and when to be decisive. He struggled to be seen as strong, but had good diplomatic relations with the other regions of <a href="/mir-wiki/locations/ridgeback.html">Ridgeback</a>, and so it mattered little.
             </p>
         </section>
     </section>
@@ -47,9 +57,14 @@
         let children = [];
         let me = {
             name: "Lowen Redwing",
-            birthdate: "",
-            deathdate: null,
+            birthdate: "P/ 27/2/34",
+            deathdate: "P/ 91/0/26",
         };
+        parents.push({
+            name: "Pala Redwing",
+            birthdate: "P/ 0/1/31",
+            deathdate: "P/ 48/1/7",
+        });
         createFamilyTree(me, parents, siblings, children);
     </script>
 <ruby block-end="scripts">
