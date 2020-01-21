@@ -3,19 +3,55 @@ class PalanDate
     DAYS_PER_LUNAR_MONTH = 28/3r
     DAYS_PER_SOLAR_YEAR  = 1073/8r
     DAYS_PER_SEASON      = 44
+    DAYS_PER_WEEK        = 4
+
+    YEARS_PER_LEAP_YEAR  = 8
+    SEASONS_PER_YEAR     = 4
+    MIDSUMMER_SEASON     = 1
 
     LUNAR_PHASE_AT_ORIGIN = 1/3r
     SOLAR_PHASE_AT_ORIGIN = 0.5
+    WEEKDAY_AT_ORIGIN     = 0
 
-    YEARS_PER_LEAP_YEAR = 8
+    WEEKDAY_NAMES = [
+        "??? 1", 
+        "??? 2", 
+        "??? 3", 
+        "??? 4", 
+        "Midsummer 1", 
+        "Midsummer 2", 
+        "Midsummer Leap"
+    ]
 
-    SEASONS_PER_YEAR = 4
+    WEEKDAY_NAMES_ABBR = [
+        "1", 
+        "2", 
+        "3", 
+        "4", 
+        "Mid 1", 
+        "Mid 2", 
+        "Mid 3"
+    ]
 
     SEASON_NAMES = [
         "Lenen",
         "Midsummer",
         "Feallan",
         "Wentruth"
+    ]
+
+    SEASON_NAMES_ABBR = [
+        "Len",
+        "Mid",
+        "Feal",
+        "Went"
+    ]
+
+    SEASON_SYMBOLS = [
+        "/",
+        "^",
+        "\\",
+        "_",
     ]
 
     attr_reader :year
@@ -27,7 +63,7 @@ class PalanDate
     end
 
     def self.days_per_season(season, year)
-        if season == 1
+        if season == MIDSUMMER_SEASON
             return leap_year?(year) ? 3 : 2
         else
             return DAYS_PER_SEASON
@@ -39,6 +75,13 @@ class PalanDate
     end
 
     def initialize(year, season, day)
+        if season < 0 or season >= SEASONS_PER_YEAR
+            raise "Invalid season #{season}"
+        end
+        if day < 0 or day >= PalanDate.days_per_season(season, year)
+            raise "Invalid day #{day}"
+        end
+
         @year = year
         @season = season
         @day = day
@@ -59,14 +102,37 @@ class PalanDate
         return moon_phase
     end
 
+    def season_name
+        return SEASON_NAMES[@season]
+    end
+
+    def weekday
+        if @season == MIDSUMMER_SEASON
+            return (@day + WEEKDAY_AT_ORIGIN) + 4
+        else
+            return (@day + WEEKDAY_AT_ORIGIN) % DAYS_PER_WEEK
+        end
+    end
+
+    def weekday_name
+        return WEEKDAY_NAMES[self.weekday]
+    end
+
+    def year_day
+        days = 0
+        days += [*0...@season].sum { |season| PalanDate.days_per_season(season, @year) }
+        days += self.day
+        return days
+    end
+
     def leap_year?
         return PalanDate.leap_year?(self.year)
     end
 
     def period_from(date)
         days = 0
-        days += [*date.year...self.year].sum { |year| PalanDate.days_per_year(year) }
-        days += [*date.season...self.season].sum { |season| PalanDate.days_per_season(season, year) }
+        days += [*date.year...@year].sum { |year| PalanDate.days_per_year(@year) }
+        days += [*date.season...@season].sum { |season| PalanDate.days_per_season(season, @year) }
         days += self.day - date.day
         return PalanPeriod.new(days)
     end
@@ -131,6 +197,30 @@ class PalanDate
         end
     end
 
+    def to_s(format_string="%Y %h %d")
+        string = format_string.dup
+        string.gsub!("\%Y") { @year.to_s.rjust(4, "0") }
+        string.gsub!("\%y") { @year }
+        string.gsub!("\%m") { @season }
+        string.gsub!("\%B") { self.season_name }
+        string.gsub!("\%b") { SEASON_NAMES_ABBR[@season] }
+        string.gsub!("\%h") { SEASON_SYMBOLS[@season] }
+        string.gsub!("\%d") { @day + 1 }
+        string.gsub!("\%j") { self.year_day }
+        string.gsub!("\%A") { self.weekday_name }
+        string.gsub!("\%a") { WEEKDAY_NAMES_ABBR[self.weekday] }
+        string.gsub!("\%w") { self.weekday }
+        return string
+    end
+
+    def self.parse(string)
+        year, season, day = string.scan(/(\d+)\s*(#{SEASON_SYMBOLS.map{|i|"\\" + i}.join("|")})\s*(\d+)/)[0]
+        year = year.to_i
+        season = SEASON_SYMBOLS.index(season)
+        day = day.to_i - 1
+        return PalanDate.new(year, season, day)
+    end
+
 end
 
 class PalanPeriod
@@ -168,25 +258,19 @@ class PalanPeriod
 end
 
 
-a = PalanDate.new(10, 2, 20)
-b = PalanDate.new(1, 2, 20)
-
-period = a - b
-
-p b
-p period
-p a
-p b + period
-p a.lunar_phase
+a = PalanDate.new(1, 0, 39)
 
 non_leap_year = PalanPeriod.new(PalanDate::DAYS_PER_SOLAR_YEAR.floor)
-p b + non_leap_year * 1
-p b + non_leap_year * 2
-p b + non_leap_year * 3
-p b + non_leap_year * 4
-p b + non_leap_year * 5
-p b + non_leap_year * 6
-p b + non_leap_year * 7
-p b + non_leap_year * 8
-p b + non_leap_year * 9
+10.times do |i|
+    d = a + non_leap_year * i
+    p d
+    puts d
+    puts d.weekday_name
+end
 
+b = a.tomorrow.tomorrow.tomorrow.tomorrow.tomorrow
+puts b
+p b.weekday_name
+
+c = PalanDate.parse(b.to_s)
+puts c
