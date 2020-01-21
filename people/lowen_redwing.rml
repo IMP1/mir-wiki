@@ -7,17 +7,11 @@
     <dd>Male</dd>
     <dt>Born</dt>
     <dd class="date">
-        <span class="age">Palan Age</span>
-        <span class="year">27th Year</span>
-        <span class="month">Feallan</span>
-        <span class="day">34th Day</span>
+        <a href="/mir-wiki/culture/calendars.html" title="Palan Age" class="age">P/</a> <span>27th Year</span><span class="feallan">Feallan</span><span>34th Day</span>
     </dd>
     <dt>Died</dt>
     <dd class="date">
-        <span class="age">Palan Age</span>
-        <span class="year">91st Year</span>
-        <span class="month">Wentruth</span>
-        <span class="day">26th Day</span>
+        <a href="/mir-wiki/culture/calendars.html" title="Palan Age" class="age">P/</a> <span>91st Year</span><span class="wentruth">Wentruth</span><span>26th Day</span>
     </dd>
 <ruby block-end="person-details">
 <ruby block-begin="article">

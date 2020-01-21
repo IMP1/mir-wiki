@@ -49,8 +49,8 @@ div.layered-images svg {
 
 }
 
-.date {
-
+.date > .age {
+    font-weight: bold;
 }
 
 .date > span::before {
@@ -60,15 +60,15 @@ div.layered-images svg {
     content: none;
 }
 
-.date .age {
-
+.date .feallan {
+    font-weight: bold;
+    color: #801000;
 }
-.date .year {
-
+.date .wentruth {
+    font-weight: bold;
+    color: #001080;
 }
-.date .month {
-
-}
-.date .day {
-
+.date .lenen {
+    font-weight: bold;
+    color: #108000;
 }
