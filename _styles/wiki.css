@@ -48,3 +48,27 @@ div.layered-images svg {
 .button-toggle-group > button.active {
 
 }
+
+.date > .age {
+    font-weight: bold;
+}
+
+.date > span::before {
+    content: '/'
+}
+.date > span:first-child::before {
+    content: none;
+}
+
+.date .feallan {
+    font-weight: bold;
+    color: #801000;
+}
+.date .wentruth {
+    font-weight: bold;
+    color: #001080;
+}
+.date .lenen {
+    font-weight: bold;
+    color: #108000;
+}
