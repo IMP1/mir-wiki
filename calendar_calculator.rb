@@ -214,11 +214,22 @@ class PalanDate
     end
 
     def self.parse(string)
-        year, season, day = string.scan(/(\d+)\s*(#{SEASON_SYMBOLS.map{|i|"\\" + i}.join("|")})\s*(\d+)/)[0]
-        year = year.to_i
-        season = SEASON_SYMBOLS.index(season)
-        day = day.to_i - 1
-        return PalanDate.new(year, season, day)
+        date_match = string.scan(/(\d+)\s*(#{SEASON_SYMBOLS.map{|i|"\\" + i}.join("|")})\s*(\d+)/)
+        if date_match
+            year, season, day = date_match[0]
+            year = year.to_i
+            season = SEASON_SYMBOLS.index(season)
+            day = day.to_i - 1
+            return PalanDate.new(year, season, day)
+        end
+        date_match = string.scan(/(\d+)\s*(#{SEASON_NAMES.join("|")})\s*(\d+)/)
+        if date_match
+            year, season, day = date_match[0]
+            year = year.to_i
+            season = SEASON_NAMES.index(season)
+            day = day.to_i - 1
+            return PalanDate.new(year, season, day)
+        end
     end
 
 end
