@@ -1,7 +1,8 @@
 class PalanDate
+    include Comparable
     
-    DAYS_PER_LUNAR_MONTH = 28/3r
-    DAYS_PER_SOLAR_YEAR  = 1073/8r
+    DAYS_PER_LUNAR_MONTH = 28/3r   # 9.33...
+    DAYS_PER_SOLAR_YEAR  = 1073/8r # 134.125
     DAYS_PER_SEASON      = 44
     DAYS_PER_WEEK        = 4
 
@@ -131,16 +132,23 @@ class PalanDate
 
     def period_from(date)
         days = 0
-        days += [*date.year...@year].sum { |year| PalanDate.days_per_year(@year) }
-        days += [*date.season...@season].sum { |season| PalanDate.days_per_season(season, @year) }
-        days += self.day - date.day
+        if date > self
+            while date != self
+                date = date.yesterday
+                days -= 1
+            end
+        else
+            while date != self
+                date = date.tomorrow
+                days += 1
+            end
+        end
         return PalanPeriod.new(days)
     end
 
     def tomorrow
-        day = @day + 1
-        season = @season
-        year = @year
+        day, season, year = @day, @season, @year
+        day += 1
         if day >= PalanDate.days_per_season(@season, @year)
             day -= PalanDate.days_per_season(@season, @year)
             season += 1
@@ -153,9 +161,8 @@ class PalanDate
     end
 
     def yesterday
-        day = @day - 1
-        season = @season
-        year = @year
+        day, season, year = @day, @season, @year
+        day -= 1
         if day < 0
             season -= 1
             day += PalanDate.days_per_season(season, @year)
@@ -184,7 +191,11 @@ class PalanDate
 
     def -(date)
         if date.is_a?(PalanDate)
-            return period_from(date)
+            if date < self
+                return period_from(date)
+            else 
+                return -date.period_from(self)
+            end
         end
         if date.is_a?(PalanPeriod)
             return offset(-date)
@@ -197,7 +208,20 @@ class PalanDate
         end
     end
 
-    def to_s(format_string="%Y %h %d")
+    def <=>(date)
+        if self.year != date.year
+            return self.year <=> date.year
+        end
+        if self.season != date.season
+            return self.season <=> date.season
+        end
+        if self.day != date.day
+            return self.day <=> date.day
+        end
+        return 0
+    end
+
+    def to_s(format_string="<Date: %y, %m, %d>")
         string = format_string.dup
         string.gsub!("\%Y") { @year.to_s.rjust(4, "0") }
         string.gsub!("\%y") { @year }
@@ -211,6 +235,10 @@ class PalanDate
         string.gsub!("\%a") { WEEKDAY_NAMES_ABBR[self.weekday] }
         string.gsub!("\%w") { self.weekday }
         return string
+    end
+
+    def format(format_string)
+        return to_s(format_string)
     end
 
     def self.parse(string)
@@ -235,53 +263,106 @@ class PalanDate
 end
 
 class PalanPeriod
+    include Comparable
 
     attr_reader :days
 
     def initialize(days)
-        @days = days
+        @days = days.to_i
     end
 
     def +(period)
-        if period.is_a?(PalanPeriod)
-            return PalanPeriod.new(@days + period.days)
-        end
+        return PalanPeriod.new(@days + period.days)
     end
 
     def -(period)
-        if period.is_a?(PalanPeriod)
-            return PalanPeriod.new(@days - period.days)
-        end
+        return PalanPeriod.new(@days - period.days)
+    end
+
+    def -@
+        return PalanPeriod.new(-@days)
     end
 
     def /(period)
-        if period.is_a?(PalanPeriod)
-            return @days / period.days
-        end
+        return @days / period.days
     end
 
     def *(factor)
-        if factor.is_a?(Numeric)
-            return PalanPeriod.new(@days * factor)
+        return PalanPeriod.new(@days * factor)
+    end
+
+    def <=>(period)
+        return @days <=> period.days
+    end
+
+    def to_s
+        years = @days / PalanDate::DAYS_PER_SOLAR_YEAR
+
+        if years.abs > 1
+            remainder_days = @days % PalanDate::DAYS_PER_SOLAR_YEAR
+            return "<Period: #{years.floor} years, #{remainder_days.round} days>"
+        else 
+            return "<Period: #{@days} days>"
         end
+        return string
     end
 
 end
 
-
-a = PalanDate.new(1, 0, 39)
-
-non_leap_year = PalanPeriod.new(PalanDate::DAYS_PER_SOLAR_YEAR.floor)
-10.times do |i|
-    d = a + non_leap_year * i
-    p d
-    puts d
-    puts d.weekday_name
+def tests(n=10)
+    success = true
+    n.times do
+        year = 100 + rand(30)
+        season = rand(4)
+        day = rand(PalanDate.days_per_season(season, year))
+        origin = PalanDate.new(year, season, day)
+        offset = PalanPeriod.new(rand(1000))
+        past = origin - offset
+        if past + offset != origin 
+            puts "#{origin} - #{offset} + #{offset} != #{origin}"
+            success = false
+        end
+        offset = PalanPeriod.new(rand(1000))
+        future = origin + offset
+        if future - offset != origin 
+            puts "#{origin} + #{offset} - #{offset} != #{origin}"
+            success = false
+        end
+    end
+    return success
 end
 
-b = a.tomorrow.tomorrow.tomorrow.tomorrow.tomorrow
-puts b
-p b.weekday_name
+def print_date(date, prefix)
+    print prefix.ljust(12) + " : "
+    print date
+    puts  date.format(" %Y %h (%B) %d")
+end
 
-c = PalanDate.parse(b.to_s)
-puts c
+def print_period(period, prefix)
+    print prefix.ljust(12) + " : "
+    puts period
+end
+
+def main
+    today = PalanDate.parse("543 / 8")
+    print_date(today, "Today's Date")
+
+    yarrow_birth = PalanDate.parse("478 \\ 12")
+    yarrow_age = today - yarrow_birth
+    print_date(yarrow_birth, "Yarrow Birth")
+    print_period(yarrow_age, "Yarrow Age")
+    if yarrow_birth + yarrow_age != today
+        puts "Yarrow birth + age is not right!"
+    end
+
+    salome_birth = PalanDate.parse("529 \\ 3")
+    salome_age = today - salome_birth
+    print_date(salome_birth, "Salome Birth")
+    print_period(salome_age, "Salome Age")
+    if salome_birth + salome_age != today
+        puts "Salome birth + age is not right!"
+    end
+
+end
+
+main
