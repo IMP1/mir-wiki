@@ -1,6 +1,7 @@
 # ToDo
 
   - [ ] Add more details to map
+  - [ ] Listen to some first episodes of DnD podcasts, listening to DM, for inspiration regarding detail and techniquek,
   - [X] Swap map/area out for svg? Allows for custom map pin, and area borders (without GIMP), and area highlighting
         Also allows for switching out maps (by setting visibilty of a group based off a toggle switch)
   - [ ] Write Act 3
