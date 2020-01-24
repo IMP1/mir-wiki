@@ -11,20 +11,12 @@
     </section>
     <section>
         <h2>Roles</h2>
+        <p>
+            These are the more common roles that members of a ship's crew would take on. Often some of these would be combined and would be carried out by a singular crew member.
+        </p>
         <!-- 
             from http://www.thepirateking.com/historical/ship_roles.htm
 
-Ship's Captain
-    A common misconception about life on a Pirate ship surrounds the role and authority of the Captain. 
-    Unlike the Captain's who were appointed by their respective governments and who's authority was supreme at all times, 
-    most pirate captain's were democratically elected by the ships crew and could be replaced at any time by a majority vote of the crewmen. 
-    Some captains were voted out and removed for not being aggressive enough for their crews, 
-    while others were abandoned by their crews for being too bloodthirsty and brutal.
-    Pirate Captain's were expected to be bold and decisive in battle as well as skilled in navigation and seamanship. 
-    Above all they had to have the force of personality necessary to hold together such an unruly bunch of seamen.
-    There are surprisingly few detailed descriptions of what the pirate captains looked like, and those we do have are rarely flattering. 
-    Most seem to have adopted the clothes of naval officers or extravagantly dressed merchant sea captains, 
-    which in this period followed the style of prosperous English gentlemen.
 
 Quarter Master
     Most British and Anglo-American pirates delegated unusual amounts of authority to an individual called the Quartermaster, 
@@ -39,28 +31,6 @@ Quarter Master
     If the pirates were successful, he decided what plunder to take from a prize. 
     If the pirates decided to keep a captured ship, the Quartermaster often took over as the Captain of that ship until they disposed of it.
 
-Sailing Master
-    This officer was in charge of navigation and the sailing of the ship. 
-    He directed the course and looked after the maps and instruments necessary for navigation. 
-    Since the charts of the era were often inaccurate (or nonexistent) his job was a difficult one. 
-    Many Sailing Masters were forced into pirate service from captured vessels.
-
-Boatswain
-    The Boatswain supervised the maintenance of the vessel and its supply stores. 
-    He was responsible for inspecting the ship and it's sails and rigging each morning, and reporting their state to the captain. 
-    The Boatswain was also in charge of all deck activities, including weighing and dropping anchor, and the handling of the sails.
-
-Carpenter & Surgeon
-    The Carpenter was responsible for the maintenance and repair of the wooden hull, masts and yards. 
-    He worked under the direction of the ship's Master and Boatswain. The Carpenter's duties were to check the hull regularly, 
-    placing oakum between the seems of the planks and wooden plugs on leaks to keep the vessel tight.
-    More often than not, the Carpenter would also serve as the Ship's Surgeon and perform operations and amputations with the same wood working tools (with no anesthetic!).
-
-Master Gunner
-    The Master Gunner was responsible for the ship's guns and ammunition. This included sifting the powder to keep it dry, 
-    prevent it from separating, insuring the cannons and ordnance were kept free of rust, and that all weapons were kept in good repair. 
-    A knowledgeable Gunner was essential to the crew's safety and effective use of their weapons.
-
 Mate
     On a large ship there was usually more than one Mate aboard (hence the title 'First Mate'). 
     Mates served as apprentice to the Ship's Master, Boatswain, Carpenter & Gunner and took care of the fitting out of the vessel, 
@@ -69,44 +39,58 @@ Mate
     If he observed anything amiss, he would report it to the ship's Master. Arriving at a port, 
     the mate caused the cables and anchors to be repaired, and took care of the management of the sails, yards and mooring of the ship.
 
-Able Bodied Sailor
-    The common sailor, which was the backbone of the ship, needed to know the rigging and the sails. 
-    As well as how to steer the ship and applying it to the purposes of navigation. 
-    He needed to know how to read the skies, weather, winds and most importantly the moods of his commanders.
-
-Rigger
-    The sailors assigned aloft to work the running rigging and to furl/release the sails were referred to as Riggers.
-    Although there were not any truly 'safe' jobs, due to the constant risk of falling from a slippery spar high above a rolling deck this was certainly one of the most dangerous.
-
-Cabin Boy
-    A young boy who worked aboard pirate ships as a servant. Many cabin boys made their way aboard ship by being kidnapped by pirates or were runaways  looking for a means of escape.
-
-Powder Monkey
-    A role filled by young boys on ship in which they run gunpowder from below decks (such as the orlop) to the cannon crews during battle.
-
-Swab or Swabbie
-    Although not technically a rank, a person who mopped the decks using the swab was called a swabbie.
-    It has also become a slang phrase to describe someone informally whom you do not hold in any high regard
-
         -->
         <dl>
             <dt>Captain</dt>
-            <dd></dd>
+            <dd>
+                The captain is in charge of the ship, and has ultimate authority over all decisions made on the ship.
+            </dd>
 
             <dt>Navigator</dt>
-            <dd></dd>
+            <dd>
+                The navigator is in charge of plotting the ship's course, and looking after the the maps and instruments.
+                Since the maps were often innacurate, this job was difficult, and the more ambitious navigators would attempt to update their maps.
+            </dd>
 
-            <dt>Mate</dt>
-            <dd></dd>
+            <dt>Carpenter</dt>
+            <dd>
+                Responsible for maintaining and inspecting masts and decks and yards. Also in charge of plugging/repairing leaks.
+            </dd>
 
-            <dt>Quartermaster</dt>
-            <dd></dd>
+            <dt>Doctor</dt>
+            <dd>
+                
+            </dd>
+            
+            <dt>Cook</dt>
+            <dd>
+                Responsible for maintaining and inspecting all food and drink. Also responsible for making sure the meals are prepared, often by rotating groups of sailors.
+            </dd>
 
-            <dt>Boatswain</dt>
-            <dd></dd>
+            <dt>Mate / ???</dt>
+            <dd>
+                
+            </dd>
 
-            <dt>Quartermaster</dt>
-            <dd></dd>
+            <dt>Quartermaster / ???</dt>
+            <dd>
+                
+            </dd>
+
+            <dt>Boatswain / ???</dt>
+            <dd>
+                Responsible for maintaining and inspecting rigging and sails. Also in charge of the use of the sails, and other on-deck activities, including dropping and raising the anchor.
+            </dd>
+
+            <dt>Rigger</dt>
+            <dd>
+                sailors assisnged to working at height, running the rigging and (un)furling the sails.
+            </dd>
+
+            <dt>Sailor</dt>
+            <dd>
+                All other crew members are considered on the same level, and often rotate their responsibilities, and so need to have a variety of skills. Sailors must be able to read the skies and weather, and steer the ship, and work the rigging and sails. Sailors also are expected to cook, and clean, and help out the more specialised crew with their tasks.
+            </dd>
         </dl>
     </section>
 <ruby block-end="article">
