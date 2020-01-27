@@ -46,7 +46,7 @@
                 list.appendChild(item);
             });
         }
-
+        // Ridgeback locations
         locations.push({
             name: "Ridgeback",
             scale: scale.continent,
@@ -195,6 +195,12 @@
             link: "/mir-wiki/locations/river_with.html",
         });
 
+        // 
+        locations.push({
+            name: "The Sisters",
+            scale: scale.island_group,
+            link: "/mir-wiki/locations/the_sisters_islands.html",
+        });
         populateList();
     </script>
     <script type="text/javascript" src="/mir-wiki/_scripts/contents.js"></script>
