@@ -1,6 +1,9 @@
 # ToDo
 
   - [ ] Add more details to map
+  - [ ] Make a generator in the case of players asking about people with no backstory
+      - [ ] Simple name generator
+      - [ ] Backstory? Pick a place on a map (with parameters: river/sea/mountain; region; island)
   - [ ] Add dates to births and deaths and other events
   - [ ] Add some little details of the world
     - [ ] Games people play
