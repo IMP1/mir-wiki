@@ -16,29 +16,6 @@
         </p>
         <!-- 
             from http://www.thepirateking.com/historical/ship_roles.htm
-
-
-Quarter Master
-    Most British and Anglo-American pirates delegated unusual amounts of authority to an individual called the Quartermaster, 
-    who became almost the Captain's equal. 
-    The general rule was that during times of battle the Captain retained unlimited authority, 
-    but at all other times he and the rest of the crew were subject to the command of the Quartermaster. 
-    The Quartermaster was usually elected by the crew immediately after choosing a Captain, 
-    and it was his duty to represent their interests. For this he received an extra share of the booty when it was divided. 
-    Above all, he protected the Seaman against each other by maintaining order, settling quarrels, and distributing food and other essentials.
-    Serious crimes were tried by a jury of the crew, but the Quartermaster had the authority to punish minor offenses, 
-    and kept the records and account books for the ship. 
-    If the pirates were successful, he decided what plunder to take from a prize. 
-    If the pirates decided to keep a captured ship, the Quartermaster often took over as the Captain of that ship until they disposed of it.
-
-Mate
-    On a large ship there was usually more than one Mate aboard (hence the title 'First Mate'). 
-    Mates served as apprentice to the Ship's Master, Boatswain, Carpenter & Gunner and took care of the fitting out of the vessel, 
-    and examined whether it was sufficiently provided with ropes, pulleys, sails, and all the other rigging that was necessary for the voyage. 
-    The Mate also took care of hoisting the anchor, and during a voyage he checked the tackle once a day. 
-    If he observed anything amiss, he would report it to the ship's Master. Arriving at a port, 
-    the mate caused the cables and anchors to be repaired, and took care of the management of the sails, yards and mooring of the ship.
-
         -->
         <dl>
             <dt>Captain</dt>
@@ -88,6 +65,7 @@ Mate
             <dt>Quartermaster</dt>
             <dd>
                 Pirate ships often have an elected representative to handle sharing of the loot who is second in authority only to the captain.
+                They would settle minor disputes, distribute food, and keep records and accounts of the ship.
             </dd>
 
             <dt>Boatswain</dt>
