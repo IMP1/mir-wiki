@@ -30,24 +30,133 @@
                 The ship is currently returning from a journey from Ashport to The Sisters, taking an explorer to hunt across The Sisters for an object of power. It then travelled around ??? and ???, and then went to pick up the explorer, and his prize, for the return journey. On its way back, it also picked up passengers at Rowton; the <a href="/mir-wiki/people/salome_hornehill.html">Princess Salome Hornehill</a> of Ashvale and her entourage.
             </p>
             <section>
-                <h4>Current Crew</h4>
-                <ul>
-                    <li>
-                        <a href="/mir-wiki/people/drys.html">Drys</a> (Rigger)
-                    </li>
-                    <li>
-                        <a href="/mir-wiki/people/deark.html">Deark</a> (Boatswain, )
-                    </li>
-                    <li>
-                        <a href="/mir-wiki/people/???.html">???</a> (Carpenter)
-                    </li>
-                    <li>
-                        <a href="/mir-wiki/people/???.html">???</a> (Cook)
-                    </li>
-                    <li>
-                        <a href="/mir-wiki/people/???.html">???</a> (Navigator, Doctor)
-                    </li>
-                </ul>
+                <details>
+                    <summary><h4>Current Crew</h4></summary>
+                    <dl>
+                        <dt>Officers</dt>
+                        <dd>
+                            <ul>
+                                <li>
+                                    Ship's Master: <a href="/mir-wiki/people/???.html">???</a>
+                                </li>
+                                <li>
+                                    Deckson: <a href="/mir-wiki/people/deark.html">Deark</a>
+                                </li>
+                                <li>
+                                    Navigator &amp; Doctor: <a href="/mir-wiki/people/???.html">???</a>
+                                </li>
+                                <li>
+                                    Carpenter: <a href="/mir-wiki/people/???.html">???</a>
+                                </li>
+                                <li>
+                                    Cook: <a href="/mir-wiki/people/???.html">???</a>
+                                </li>
+                            </ul>
+                        </dd>
+
+                        <dt>Prentices</dt>
+                        <dd>
+                            <ul>
+                                <li>
+                                    Master's Prentice: <a href="/mir-wiki/people/???.html">???</a> (also a sailor)
+                                </li>
+                                <li>
+                                    Deckson's Prentice: <a href="/mir-wiki/people/drys.html">Drys</a> (also a rigger)
+                                </li>
+                                <li>
+                                    Navigator's Prentice: <a href="/mir-wiki/people/???.html">???</a> (also a sailor)
+                                </li>
+                                <li>
+                                    Carpenter's Prentice: <a href="/mir-wiki/people/???.html">???</a> (also a rigger)
+                                </li>
+                            </ul>
+                        </dd>
+                        
+                        <dt>Riggers</dt>
+                        <dd>
+                            <ul>
+                                <li>
+                                    <a href="/mir-wiki/people/drys.html">Drys</a> (also the deckson's prentice)
+                                </li>
+                                <li>
+                                    <a href="/mir-wiki/people/???.html">???</a> (also the carpenter's prentice)
+                                </li>
+                                <li>
+                                    <a href="/mir-wiki/people/???.html">???</a>
+                                </li>
+                                <li>
+                                    <a href="/mir-wiki/people/???.html">???</a>
+                                </li>
+                                <li>
+                                    <a href="/mir-wiki/people/???.html">???</a>
+                                </li>
+                                <li>
+                                    <a href="/mir-wiki/people/???.html">???</a>
+                                </li>
+                                <li>
+                                    <a href="/mir-wiki/people/???.html">???</a>
+                                </li>
+                                <li>
+                                    <a href="/mir-wiki/people/???.html">???</a>
+                                </li>
+                                <li>
+                                    <a href="/mir-wiki/people/???.html">???</a>
+                                </li>
+                                <li>
+                                    <a href="/mir-wiki/people/???.html">???</a>
+                                </li>
+                            </ul>
+                        </dd>
+
+                        <dt>Sailors</dt>
+                        <dd>
+                            <ul>
+                                <li>
+                                    <a href="/mir-wiki/people/???.html">???</a> (also the master's prentice)
+                                </li>
+                                <li>
+                                    <a href="/mir-wiki/people/???.html">???</a> (also the navigator's prentice)
+                                </li>
+                                <li>
+                                    <a href="/mir-wiki/people/???.html">???</a>
+                                </li>
+                                <li>
+                                    <a href="/mir-wiki/people/???.html">???</a>
+                                </li>
+                                <li>
+                                    <a href="/mir-wiki/people/???.html">???</a>
+                                </li>
+                                <li>
+                                    <a href="/mir-wiki/people/???.html">???</a>
+                                </li>
+                                <li>
+                                    <a href="/mir-wiki/people/???.html">???</a>
+                                </li>
+                                <li>
+                                    <a href="/mir-wiki/people/???.html">???</a>
+                                </li>
+                                <li>
+                                    <a href="/mir-wiki/people/???.html">???</a>
+                                </li>
+                                <li>
+                                    <a href="/mir-wiki/people/???.html">???</a>
+                                </li>
+                                <li>
+                                    <a href="/mir-wiki/people/???.html">???</a>
+                                </li>
+                                <li>
+                                    <a href="/mir-wiki/people/???.html">???</a>
+                                </li>
+                                <li>
+                                    <a href="/mir-wiki/people/???.html">???</a>
+                                </li>
+                                <li>
+                                    <a href="/mir-wiki/people/???.html">???</a>
+                                </li>
+                            </ul>
+                        </dd>
+                    </dl>
+                </details>
             </section>
         </section>
     </section>
