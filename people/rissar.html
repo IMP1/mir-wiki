@@ -1,0 +1,95 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <meta charset="utf-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <title>
+            Rissar | 
+            Mir
+        </title>
+        <link rel="stylesheet" href="https://igoradamenko.github.io/awsm.css/css/awsm.css">
+        <link rel="stylesheet" href="/mir-wiki/_styles/wiki.css">
+    </head>
+    <body>
+        <header>
+            <h1><a href="/mir-wiki">Mir</a></h1>
+            <span class="tagline">A world of stories</span>
+        </header>
+        <main>
+            <aside>
+                <dl>
+                    <dt>Race</dt>
+                    <dd><a href="/mir-wiki/biology/fauna/midnighters.html">Midnighter</a></dd>
+                    <dt>Sex</dt>
+                    <dd>Male</dd>
+                    <dt>Born</dt>
+                    <dd>???</dd>
+                </dl>
+            </aside>
+            <article>
+                <h1>Explorer Rissar</h1>
+                <section>
+                    <h2>Life</h2>
+                    <section>
+                        <h3>Overview</h3>
+                        <p>
+                        </p>
+                </section>
+                </section>
+                <section>
+                    <h2>Family</h2>
+                    <svg id="family-tree"></svg>
+                </section>
+                <section>
+                    <h2>Name Etymology</h2>
+                    <aside class="out_of_world">
+                        <p>
+                            Midnighter is essentially Greek.
+                        </p>
+                    </aside>
+                    <dl>
+                        <dt>Rissar</dt>
+                        <dd>
+                            For the midnighter word for root (riza).
+                        </dd>
+                    </dl>
+                </section>
+            </article>
+        </main>
+        <footer>
+            <h2 id="quick-links">Quick Links</h2>
+            <nav>
+                <ul>
+                    <li>
+                        <a href="/mir-wiki/locations">Locations</a>
+                    </li>
+                    <li>
+                        <a href="/mir-wiki/events">Events</a>
+                    </li>
+                    <li>
+                        <a href="/mir-wiki/categories.html">Mir Index</a>
+                    </li>
+                    <li>
+                        <a href="/mir-wiki/stories">Stories</a>
+                    </li>
+                    <li>
+                        <a href="/mir-wiki/contents.html">All pages</a>
+                    </li>
+                </ul>
+            </nav>
+            <script type="text/javascript" src="/mir-wiki/_scripts/contents.js"></script>
+            <script type="text/javascript" src="/mir-wiki/_scripts/family_tree.js"></script>
+            <script type="text/javascript">
+            let parents = [];
+            let siblings = [];
+            let children = [];
+            let me = {
+            name: "Rissar",
+            birthdate: "",
+            deathdate: null,
+            };
+            createFamilyTree(me, parents, siblings, children);
+            </script>
+        </footer>
+    </body>
+</html>
