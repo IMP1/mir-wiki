@@ -4,7 +4,7 @@ Filters:
 
 Race: 
     p = plainswalker
-    m = moonlighter
+    m = midnighter
     d = delver
     g = dragonborn
     c = cephalopods
