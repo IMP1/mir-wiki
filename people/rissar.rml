@@ -1,0 +1,53 @@
+<ruby include="page_person_layout.rml">
+<ruby block-begin="title">Rissar | <ruby block-super><ruby block-end="title">
+<ruby block-begin="person-details">
+    <dt>Race</dt>
+    <dd><a href="/mir-wiki/biology/fauna/midnighters.html">Midnighter</a></dd>
+    <dt>Sex</dt>
+    <dd>Male</dd>
+    <dt>Born</dt>
+    <dd>???</dd>
+<ruby block-end="person-details">
+<ruby block-begin="article">
+    <h1>Explorer Rissar</h1>
+    <section>
+        <h2>Life</h2>
+        <section>
+            <h3>Overview</h3>
+            <p>
+            </p>
+        </section>
+    </section>
+    <section>
+        <h2>Family</h2>
+        <svg id="family-tree"></svg>
+    </section>
+    <section>
+        <h2>Name Etymology</h2>
+        <aside class="out_of_world">
+            <p>
+                Midnighter is essentially Greek.
+            </p>
+        </aside>
+        <dl>
+            <dt>Rissar</dt>
+            <dd>
+                For the midnighter word for root (riza).
+            </dd>
+        </dl>
+    </section>
+<ruby block-end="article">
+<ruby block-begin="scripts">
+    <ruby block-super>
+    <script type="text/javascript">
+        let parents = [];
+        let siblings = [];
+        let children = [];
+        let me = {
+            name: "Rissar",
+            birthdate: "",
+            deathdate: null,
+        };
+        createFamilyTree(me, parents, siblings, children);
+    </script>
+<ruby block-end="scripts">
