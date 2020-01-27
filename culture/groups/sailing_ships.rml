@@ -6,7 +6,7 @@
     <section>
         <h2>Overview</h2>
         <p>
-            This isn't formally a group, but there are common roles on all ships, commercial, naval, and illicit.
+            This isn't formally a group, but there are common roles across most seafaring ships, either commercial, naval, or more unofficial.
         </p>
     </section>
     <section>
@@ -31,9 +31,12 @@
 
             <dt>Ship's Master</dt>
             <dd>
-                The master is in charge of all equipment (ropes, pulleys, sails, rigging, anchor) and all supplies (food and drink). 
+                The master is in charge of all equipment (ropes, pulleys, sails, rigging, anchor) and all supplies (food and drink).
                 They will make sure the ship is fully stocked before it sets sail.
                 They also handle the funding and organising of any voyages. Often the ship's master will be the owner of the vessel.
+                They are not necessarily able sailors, and so will spend most of their time not helping towards the functioning of the ship.
+                So they keep themselves busy being as useful as they can as without them there would be no ship nor any journeys.
+                Pirate ships, however, seldom ever have a ship's master.
             </dd>
 
             <dt>Carpenter</dt>
