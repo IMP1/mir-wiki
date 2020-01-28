@@ -1,10 +1,26 @@
 <ruby include="page_layout.rml">
 <ruby block-begin="title">World Map | <ruby block-super><ruby block-end="title">
+<ruby block-begin="styles">
+    <ruby block-super>
+    <link rel="stylesheet" type="text/css" href="/mir-wiki/_styles/maps.css">
+<ruby block-end="styles">
 <ruby block-begin="article">
     <h1>Mir World Map</h1>
-    <img id="world-image" src="/mir-wiki/_images/map_world.png" alt="Mir World Map" usemap="#world-map">
+    <div class="layered-images">
+        <img class="image-base" src="/mir-wiki/_images/map_world.png" alt="Mir World Map" height="340px">
+        <ruby include="_images/map_world_continents.svg">
+    </div>
+    <!-- <img id="world-image" src="/mir-wiki/_images/map_world.png" alt="Mir World Map" usemap="#world-map">
     <map id="world-map" name="world-map">
         <area href="/mir-wiki/map/ridgeback" alt="Ridgeback" title="Ridgeback" shape="poly" 
               coords="140,20,170,30,220,30,230,50,230,90,215,100,220,120,210,160,180,160,160,110,140,90,130,70,130,30">
-    </map>
+    </map> -->
 <ruby block-end="article">
+<ruby block-begin="scripts">
+    <ruby block-super>
+    <script type="text/javascript">
+        console.log(document.getElementById("layer-continents"));
+        document.getElementById("layer-continents").style.display = "block";
+    </script>
+<ruby block-end="scripts">
+

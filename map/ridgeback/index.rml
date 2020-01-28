@@ -19,6 +19,7 @@
     </div>
 <ruby block-end="article">
 <ruby block-begin="scripts">
+    <ruby block-super>
     <script type="text/javascript">
         function unselectAllButtons() {
             let buttons = document.getElementById("select-map-feature").getElementsByTagName("button");
