@@ -26,7 +26,7 @@
 <ruby block-begin="article">
     <h1>Ridgeback Map</h1>
     <div class="layered-images">
-        <img class="image-base" src="/mir-wiki/_images/map_ridgeback.png" alt="Map of Ridgeback">
+        <img class="image-base" src="/mir-wiki/_images/map_ridgeback.png" alt="Map of Ridgeback" height="340px">
         <ruby include="_images/map_ridgeback_regions.svg">
         <ruby include="_images/map_ridgeback_locations.svg">
         <ruby include="_images/map_ridgeback_features.svg">
