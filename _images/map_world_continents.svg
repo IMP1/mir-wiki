@@ -1,0 +1,11 @@
+<svg id="layer-continents" class="image-features" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 247 333">
+    <g id="continent-ridgeback">
+        <a href="/mir-wiki/map/ridgeback">
+            <polygon points="140,20 170,30 220,30 230,50 230,90 215,100 220,120 210,160 180,160 160,110 140,90 130,70 130,30" />
+        </a>
+    </g>
+    <g id="continent-the-sisters">
+    </g>
+    <g id="continent-elosammos">
+    </g>
+</svg>
