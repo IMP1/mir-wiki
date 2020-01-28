@@ -39,7 +39,7 @@
             <article>
                 <h1>Ridgeback Map</h1>
                 <div class="layered-images">
-                    <img class="image-base" src="/mir-wiki/_images/map_ridgeback.png" alt="Map of Ridgeback">
+                    <img class="image-base" src="/mir-wiki/_images/map_ridgeback.png" alt="Map of Ridgeback" height="340px">
                     <svg id="layer-regions" class="image-features" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 247 333">
                         <g id="region-snow-plains">
                             <a href="/mir-wiki/map/snow_plains">
@@ -254,6 +254,9 @@
                         function showFeatures() {
                         showLayer("features");
                         }
+                        console.log(document.getElementById("layer-regions"));
+                        console.log(document.getElementById("layer-locations"));
+                        console.log(document.getElementById("layer-features"));
                         showRegions();
                     </script>
         </footer>
