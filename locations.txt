@@ -1,0 +1,11 @@
+Coldwood | = | Hilland | Ridgeback | 
+Rowton | = | Hilland | Ridgeback | )
+Little Seaton | . | Sand Flats | Ridgeback | 
+Shipdel | = | Roke | Ridgeback | )
+Proudwatch | = | Estearth | Ridgeback | *
+Berrywood | _ | Estearth | Ridgeback | #~
+Rifford | = | Ashvale | Ridgeback | 
+Ashvale | = | Ashvale | Ridgeback | 
+Ashport | = | Ashvale | Ridgeback | )
+Witmouth | = | Wetlands | Ridgeback | ~)
+Sunshade |  | Sand Flats | Ridgeback | 

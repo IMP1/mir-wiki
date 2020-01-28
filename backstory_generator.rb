@@ -1,102 +1,145 @@
-=begin
+require 'ostruct'
 
-Filters:
+module Filter
 
-Race: 
-    p = plainswalker
-    m = midnighter
-    d = delver
-    g = dragonborn
-    c = cephalopods
-    u = ursalba
+    # Races
+    PLAINSWALKER = "p"
+    MIDNIGHTER   = "m"
+    DELVER       = "d"
+    DRAGONBORN   = "g"
+    CEPHALOPODS  = "c"
+    URSALBA      = "u"
 
-Geographical Features:
-    ~ = River
-    ) = Sea
-    ^ = Mountain
-    _ = Plains
-    # = Forest
-    @ = Island
+    # Geographical Features
+    RIVER    = "~"
+    COAST    = ")"
+    MOUNTAIN = "^"
+    PLAINS   = "_"
+    FOREST   = "#"
+    GRASSES  = ";"
+    ISLAND   = "@"
+    ISOLATED = "%"
 
-Scale:
-    = = town
-    - = village
-    . = settlement
+    # Regions
+    RIDGEBACK   = "B"
+    SNOW_PLAINS = "S"
+    HILLANDS    = "H"
+    ROKE        = "R"
+    FROSTHELM   = "F"
+    KINGSOOTH   = "K"
+    ESTEARTH    = "E"
+    ASHVALE     = "A"
+    WETLANDS    = "W"
+    SAND_FLATS  = "N"
 
-Regions:
-    B = ridgeback
-    S = snow plains
-    H = hillands
-    R = roke
-    F = frosthelm
-    K = kingsooth
-    E = estearth
-    A = ashvale
-    W = wetlands
-    N = sand flats
+    # Geographical Scale
+    TOWN       = "="
+    VILLAGE    = "-"
+    SETTLEMENT = "."
 
-=end
+    # Other Features
+    RUIN = "*"
 
-module Generator
+end
 
-    NAMES_FILENAME = "names.txt"
-    SEPARATOR = "|"
+class Name
 
-    def self.name(parameters=nil)
-        file_lines = File.readlines(NAMES_FILENAME)
-        all_names = file_lines.map do |line| 
-            name, filter, etymology = *line.split(SEPARATOR, 3)
-            {name: name.capitalize, filter: filter.strip.split(//), etymology: etymology.strip}
-        end
-        filtered_names = all_names.select do |word|
-            if parameters.nil? || parameters.empty? || word[:filter].include?("*")
-                true
-            elsif !(word[:filter] - parameters).empty?
-                false
-            else
-                true
-            end
-        end
-        p filtered_names
-        random_name = filtered_names.sample
-        return random_name
+    def initialize(name, etymology, races)
+        @name = name
+        @etymology = etymology
+        @races = races
     end
 
-    def self.origin(parameters=nil)
-        file_lines = File.readlines("locations/index.rml")
-        all_locations = file_lines.map.with_index { |line, i| [line, i] }.select { |line, i| line.include?("locations.push") }.map { |line, i| i }
-        all_locations.map! do |line_index|
-            # name: "Ridgeback",
-            name = file_lines[line_index + 1][/name: "(.+)",/, 1]
-            filter = []
-            # scale: scale.continent,
-            scale_text = file_lines[line_index + 2][/scale: scale\.(.+),/, 1]
-            scale = case scale_text
-            when "town"
-                "="
-            when "village"
-                "-"
-            when "settlement"
-                "."
-            when "island"
-                "@"
-            end
-            # TODO: add whether a place is on a river, or on the sea, (etc.) somehow
-            filter.push(scale)
-            {name: name, filter: filter.compact}
-        end
-        filtered_locations = all_locations.select do |place|
-            if parameters.nil? || parameters.empty
-                true
-            elsif !(place[:filter] - parameters).empty?
-                false
-            else
-                true
-            end
-        end
+    def race?(race)
+        @races.include?(race)
+    end
+
+    def to_s
+        @name
     end
 
 end
 
-# puts Generator.name(["p"])
-puts Generator.origin()
+class Location
+
+    attr_reader :name
+    attr_reader :scale
+    attr_reader :region
+    attr_reader :continent
+    attr_reader :features
+
+    def initialize(name, scale, region, continent, features)
+        @name = name
+        @scale = scale
+        @region = region
+        @continent = continent
+        @features = features
+    end
+
+    def town?
+        return @scale == Filter::TOWN
+    end
+
+    def village?
+        return @scale == Filter::VILLAGE
+    end
+
+    def settlement?
+        return @scale == Filter::SETTLEMENT
+    end
+
+    def region?(region)
+        return @region == region
+    end
+
+    def continent?(continent)
+        return @continent == continent
+    end
+
+    def populated?
+        return !@features.include?(Filter::RUIN)
+    end
+
+    def has?(feature)
+        return @features.include?(feature)
+    end
+
+    def to_s
+        @name
+    end
+
+end
+
+module Generator
+
+    NAMES_FILENAME = "names.txt"
+    LOCATIONS_FILENAME = "locations.txt"
+    SEPARATOR = "|"
+
+    def self.name(&filter)
+        file_lines = File.readlines(NAMES_FILENAME)
+        all_names = file_lines.map do |line| 
+            name, races, etymology = *line.split(SEPARATOR, 3)
+            Name.new(name.strip.capitalize, etymology.strip, races.strip.split(//))
+        end
+        filtered_names = all_names.select(&filter)
+        random_name = filtered_names.sample
+        return random_name
+    end
+
+    def self.location(&filter)
+        file_lines = File.readlines(LOCATIONS_FILENAME)
+        all_locations = file_lines.map do |line|
+            name, scale, region, continent, features = *line.split(SEPARATOR, 5)
+            Location.new(name.strip.capitalize, scale.strip, region.strip, continent.strip, features.strip.split(//))
+        end
+        filtered_locations = all_locations.select(&filter)
+        puts filtered_locations
+        random_location = filtered_locations.sample
+        return random_location
+    end
+
+end
+
+p Generator.name { |name| name.race?(Filter::PLAINSWALKER) }
+p Generator.location { |location| location.town? && location.populated? && location.has?(Filter::RIVER) }
