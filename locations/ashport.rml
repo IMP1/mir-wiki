@@ -1,0 +1,12 @@
+<ruby include="page_layout.rml">
+<ruby block-begin="title">Ashport | <ruby block-super><ruby block-end="title">
+<ruby block-begin="article">
+    <h1>Ashport</h1>
+    <section>
+        <h2>Overview</h2>
+        <p>
+            Ashport is a costal town in the region of <a href="/mir-wiki/locations/ashvale_region.html">Ashvale</a>. 
+            It is connected by road to the capital of the region, also called <a href="/mir-wiki/locations/ashvale_city.html">Ashvale</a>.
+        </p>
+    </section>
+<ruby block-end="article">

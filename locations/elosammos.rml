@@ -1,0 +1,11 @@
+<ruby include="page_layout.rml">
+<ruby block-begin="title">Elosammos | <ruby block-super><ruby block-end="title">
+<ruby block-begin="article">
+    <h1>Elosammos</h1>
+    <section>
+        <h2>Overview</h2>
+        <p>
+            Elosammos is a large tropical continent.
+        </p>
+    </section>
+<ruby block-end="article">

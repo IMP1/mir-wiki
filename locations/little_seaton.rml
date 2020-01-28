@@ -1,0 +1,12 @@
+<ruby include="page_layout.rml">
+<ruby block-begin="title">Little Seaton | <ruby block-super><ruby block-end="title">
+<ruby block-begin="article">
+    <h1>Little Seaton</h1>
+    <section>
+        <h2>Overview</h2>
+        <p>
+           Little Seaton is a small settlement at the foot of <a href="/mir-wiki/locations/hackle.html">the Hackle</a>, 
+           on the western side, in the region of <a href="/mir-wiki/locations/hilland.html">Hilland</a>.
+        </p>
+    </section>
+<ruby block-end="article">
