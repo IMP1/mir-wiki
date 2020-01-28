@@ -122,7 +122,7 @@ module Generator
             name, races, etymology = *line.split(SEPARATOR, 3)
             Name.new(name.strip.capitalize, etymology.strip, races.strip.split(//))
         end
-        filtered_names = all_names.select(&filter)
+        filtered_names = filter.nil? ? all_names : all_names.select(&filter)
         random_name = filtered_names.sample
         return random_name
     end
@@ -133,13 +133,12 @@ module Generator
             name, scale, region, continent, features = *line.split(SEPARATOR, 5)
             Location.new(name.strip.capitalize, scale.strip, region.strip, continent.strip, features.strip.split(//))
         end
-        filtered_locations = all_locations.select(&filter)
-        puts filtered_locations
+        filtered_locations = filter.nil? ? all_locations : all_locations.select(&filter)
         random_location = filtered_locations.sample
         return random_location
     end
 
 end
 
-p Generator.name { |name| name.race?(Filter::PLAINSWALKER) }
-p Generator.location { |location| location.town? && location.populated? && location.has?(Filter::RIVER) }
+p Generator.name
+p Generator.location { |location| location.has?(Filter::RIVER) }
