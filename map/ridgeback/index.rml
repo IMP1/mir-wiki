@@ -66,6 +66,9 @@
         function showFeatures() {
             showLayer("features");
         }
+        console.log(document.getElementById("layer-regions"));
+        console.log(document.getElementById("layer-locations"));
+        console.log(document.getElementById("layer-features"));
         showRegions();
     </script>
 <ruby block-end="scripts">
