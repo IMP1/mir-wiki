@@ -1,0 +1,13 @@
+polygon {
+    fill: transparent;
+    stroke: black;
+}
+.image-base {
+    z-index: 10;
+}
+.image-features {
+    z-index: 20;
+}
+svg {
+    display: none;
+}
