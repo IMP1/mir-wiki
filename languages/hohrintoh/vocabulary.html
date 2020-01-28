@@ -47,20 +47,44 @@
             </nav>
             <script type="text/javascript">
                     let parts_of_speech = {
-                    Verb: 1,
-                    Noun: 2,
-                    Adverb: 3,
-                    Pronoun: 4,
-                    Conjunction: 5,
+                    verb: "verb",
+                    noun: "noun",
+                    adverb: "adverb",
+                    adjective: "adjective",
+                    pronoun: "pronoun",
+                    conjunction: "conjunction",
+                    }
+                    let parts_of_speech_name = {
+                    verb: "Verb",
+                    noun: "Noun",
+                    adverb: "Adverb",
+                    adjective: "Adjective",
+                    pronoun: "Pronoun",
+                    conjunction: "Conjunction",
+                    }
+                    let parts_of_speech_order = {
+                    verb: 1,
+                    noun: 2,
+                    adverb: 3,
+                    adjective: 4,
+                    pronoun: 5,
+                    conjunction: 6,
                     }
                     let words = [];
                     function sortByName() {
-                    // TODO: Ignore Deh and Hoh prefixes if they exist.
-                    words.sort( (a, b) => a.name < b.name ? -1 : 1 )
-                    populateList();
-                    }
-                    function sortBySyntax() {
-                    words.sort( (a, b) => parts_of_speech[a.part_of_speech] < parts_of_speech[b.part_of_speech] ? -1 : 1 )
+                    words.sort(function(a, b) {
+                    a_word = a.name;
+                    b_word = b.name;
+                    if (a_word.startsWith("Deh-")) { a_word = a_word.slice(0, 4); }
+                    if (a_word.startsWith("Hoh-")) { a_word = a_word.slice(0, 4); }
+                    if (b_word.startsWith("Deh-")) { b_word = b_word.slice(0, 4); }
+                    if (b_word.startsWith("Hoh-")) { b_word = b_word.slice(0, 4); }
+                    return a_word < b_word ? -1 : 1;
+                        });
+                        populateList();
+                        }
+                        function sortBySyntax() {
+                        words.sort( (a, b) => parts_of_speech_order[a.part_of_speech] < parts_of_speech_order[b.part_of_speech] ? -1 : 1 )
                     populateList();
                     }
                     function populateList() {
@@ -74,7 +98,7 @@
                     name.textContent = word.name;
                     item.appendChild(name);
                     let pos = document.createElement("span");
-                    pos.textContent = word.part_of_speech;
+                    pos.textContent = parts_of_speech_name[word.part_of_speech];
                     item.appendChild(pos);
                     let def = document.createElement("p");
                     def.textContent = word.definition;
@@ -83,15 +107,220 @@
                     });
                     }
                     words.push({
+                    name: "Ohmbar",
+                    part_of_speech: part_of_speech.verb,
+                    definition: "To warm.",
+                    });
+                    words.push({
+                    name: "Deh-Ohmbar",
+                    part_of_speech: part_of_speech.noun,
+                    definition: "A fire.",
+                    });
+                    words.push({
+                    name: "Hoh-Ohmbar",
+                    part_of_speech: part_of_speech.noun,
+                    definition: "A parent or carer.",
+                    });
+                    words.push({
+                    name: "Rohmanbar",
+                    part_of_speech: part_of_speech.verb,
+                    definition: "To bed (down).",
+                    });
+                    words.push({
+                    name: "Deh-Rohmanbar",
+                    part_of_speech: part_of_speech.noun,
+                    definition: "A bed; A hearth.",
+                    });
+                    words.push({
                     name: "Alohmbar",
-                    part_of_speech: "Verb",
+                    part_of_speech: part_of_speech.verb,
                     definition: "To be warmed.",
                     });
                     words.push({
+                    name: "Arkohmar",
+                    part_of_speech: part_of_speech.verb,
+                    definition: "To light a fire; to make somewhere cosy.",
+                    });
+                    words.push({
+                    name: "Deh-Arkohmar",
+                    part_of_speech: part_of_speech.noun,
+                    definition: "Flint.",
+                    });
+                    words.push({
+                    name: "Arkeroh",
+                    part_of_speech: part_of_speech.verb,
+                    definition: "To burn (wild).",
+                    });
+                    words.push({
+                    name: "Deh-Arkeroh",
+                    part_of_speech: part_of_speech.noun,
+                    definition: "A fire.",
+                    });
+                    words.push({
+                    name: "Hoh-Arkeroh",
+                    part_of_speech: part_of_speech.noun,
+                    definition: "Fuel; An impure or unprocessed thing.",
+                    });
+                    words.push({
+                    name: "Larkenoh",
+                    part_of_speech: part_of_speech.verb,
+                    definition: "To forge; To create.",
+                    });
+                    words.push({
+                    name: "Deh-Larkenoh",
+                    part_of_speech: part_of_speech.noun,
+                    definition: "A forge.",
+                    });
+                    words.push({
+                    name: "Kirarkoh",
+                    part_of_speech: part_of_speech.verb,
+                    definition: "To be burned.",
+                    });
+                    words.push({
+                    name: "Deh-Kirarkoh",
+                    part_of_speech: part_of_speech.noun,
+                    definition: "A burn (injury).",
+                    });
+                    words.push({
+                    name: "Arkeroh",
+                    part_of_speech: part_of_speech.verb,
+                    definition: "To set something alight.",
+                    });
+                    words.push({
+                    name: "Rintoh",
+                    part_of_speech: part_of_speech.verb,
+                    definition: "To speak.",
+                    });
+                    words.push({
+                    name: "Deh-Rintoh",
+                    part_of_speech: part_of_speech.noun,
+                    definition: "A word; Speech.",
+                    });
+                    words.push({
+                    name: "Hoh-Rintoh",
+                    part_of_speech: part_of_speech.noun,
+                    definition: "A tongue; An inspiration.",
+                    });
+                    words.push({
+                    name: "Arinleroh",
+                    part_of_speech: part_of_speech.verb,
+                    definition: "A conversation.",
+                    });
+                    words.push({
+                    name: "Rikarindoh",
+                    part_of_speech: part_of_speech.verb,
+                    definition: "To listen.",
+                    });
+                    words.push({
                     name: "Ararintoh",
-                    part_of_speech: "Verb",
+                    part_of_speech: part_of_speech.verb,
                     definition: "To get someone's attention.",
                     });
+                    words.push({
+                    name: "Suvlar",
+                    part_of_speech: part_of_speech.verb,
+                    definition: "Living",
+                    });
+                    words.push({
+                    name: "Deh-Suvlar",
+                    part_of_speech: part_of_speech.noun,
+                    definition: "A living thing.",
+                    });
+                    words.push({
+                    name: "Deh-Suivolar",
+                    part_of_speech: part_of_speech.noun,
+                    definition: "A lifetime.",
+                    });
+                    words.push({
+                    name: "Hoh-Suvlar",
+                    part_of_speech: part_of_speech.noun,
+                    definition: "A mother.",
+                    });
+                    words.push({
+                    name: "Odisuvoloh",
+                    part_of_speech: part_of_speech.verb,
+                    definition: "To be fertile.",
+                    });
+                    words.push({
+                    name: "Deh-Odisuvoloh",
+                    part_of_speech: part_of_speech.noun,
+                    definition: "A womb.",
+                    });
+                    words.push({
+                    name: "Disuvo",
+                    part_of_speech: part_of_speech.adjective,
+                    definition: "Fertile.",
+                    });
+                    words.push({
+                    name: "Kinsuvolar",
+                    part_of_speech: part_of_speech.verb,
+                    definition: "To birth.",
+                    });
+                    words.push({
+                    name: "Deh-Kinsuvolar",
+                    part_of_speech: part_of_speech.noun,
+                    definition: "A birth.",
+                    });
+                    words.push({
+                    name: "Hoh-Kinsuvolar",
+                    part_of_speech: part_of_speech.noun,
+                    definition: "A baby.",
+                    });
+                    words.push({
+                    name: "Halaroh",
+                    part_of_speech: part_of_speech.verb,
+                    definition: "To go.",
+                    });
+                    words.push({
+                    name: "Deh-Halaroh",
+                    part_of_speech: part_of_speech.noun,
+                    definition: "A journey; Movement.",
+                    });
+                    words.push({
+                    name: "Anhalaroh",
+                    part_of_speech: part_of_speech.verb,
+                    definition: "To get ready.",
+                    });
+                    words.push({
+                    name: "Kalar",
+                    part_of_speech: part_of_speech.verb,
+                    definition: "Loving",
+                    });
+                    words.push({
+                    name: "Rovelar",
+                    part_of_speech: part_of_speech.verb,
+                    definition: "Honouring (living up to) ",
+                    });
+                    words.push({
+                    name: "Dok",
+                    part_of_speech: part_of_speech.noun,
+                    definition: "Stone",
+                    });
+                    words.push({
+                    name: "Krome",
+                    part_of_speech: part_of_speech.noun,
+                    definition: "Coal",
+                    });
+                    // words.push({
+                    //     name: "Or",
+                    //     part_of_speech: part_of_speech.noun,
+                    //     definition: "I/Me",
+                    // });
+                    // words.push({
+                    //     name: "Too",
+                    //     part_of_speech: part_of_speech.pronoun,
+                    //     definition: "You",
+                    // });
+                    // words.push({
+                    //     name: "Dayv",
+                    //     part_of_speech: part_of_speech.pronoun,
+                    //     definition: "He/she/it",
+                    // });
+                    // words.push({
+                    //     name: "Vu",
+                    //     part_of_speech: part_of_speech.conjunction,
+                    //     definition: "If",
+                    // });
                     populateList();
             </script>
             <script type="text/javascript" src="/mir-wiki/_scripts/contents.js"></script>
