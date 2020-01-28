@@ -9,8 +9,8 @@
         <ruby block-end="title">
         </title>
         <ruby block-begin="styles">
-        <link rel="stylesheet" href="https://igoradamenko.github.io/awsm.css/css/awsm.css">
-        <link rel="stylesheet" href="/mir-wiki/_styles/wiki.css">
+        <link rel="stylesheet" type="text/css" href="https://igoradamenko.github.io/awsm.css/css/awsm.css">
+        <link rel="stylesheet" type="text/css" href="/mir-wiki/_styles/wiki.css">
         <ruby block-end="styles">
     </head>
     <body>

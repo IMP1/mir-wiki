@@ -2,7 +2,7 @@
 <ruby block-begin="title">The Royal Survey of Ridgeback | <ruby block-super><ruby block-end="title">
 <ruby block-begin="styles">
 <ruby block-super>
-<link rel="stylesheet" href="/mir-wiki/_styles/texts.css">
+<link rel="stylesheet" type="text/css" href="/mir-wiki/_styles/texts.css">
 <ruby block-end="styles">
 <ruby block-begin="article">
     <h1>The Royal Survey of Ridgeback</h1>

@@ -1,7 +1,7 @@
 <ruby include="page_layout.rml">
 <ruby block-begin="styles">
     <ruby block-super>
-    <link rel="stylesheet" href="/mir-wiki/_styles/language.css">
+    <link rel="stylesheet" type="text/css" href="/mir-wiki/_styles/language.css">
 <ruby block-end="styles">
 <ruby block-begin="title">Derivations | <ruby block-super><ruby block-end="title">
 <ruby block-begin="article">

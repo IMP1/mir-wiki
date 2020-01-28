@@ -8,8 +8,8 @@
             Meta-Mir
         <ruby block-end="title">
         </title>
-        <link rel="stylesheet" href="https://igoradamenko.github.io/awsm.css/css/awsm.css">
-        <link rel="stylesheet" href="/mir-wiki/_styles/meta.css">
+        <link rel="stylesheet" type="text/css" href="https://igoradamenko.github.io/awsm.css/css/awsm.css">
+        <link rel="stylesheet" type="text/css" href="/mir-wiki/_styles/meta.css">
     </head>
     <body>
         <header>
