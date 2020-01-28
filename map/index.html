@@ -7,8 +7,9 @@
             World Map | 
             Mir
         </title>
-        <link rel="stylesheet" href="https://igoradamenko.github.io/awsm.css/css/awsm.css">
-        <link rel="stylesheet" href="/mir-wiki/_styles/wiki.css">
+        <link rel="stylesheet" type="text/css" href="https://igoradamenko.github.io/awsm.css/css/awsm.css">
+        <link rel="stylesheet" type="text/css" href="/mir-wiki/_styles/wiki.css">
+        <link rel="stylesheet" type="text/css" href="/mir-wiki/_styles/maps.css">
     </head>
     <body>
         <header>
@@ -18,11 +19,25 @@
         <main>
             <article>
                 <h1>Mir World Map</h1>
-                <img id="world-image" src="/mir-wiki/_images/map_world.png" alt="Mir World Map" usemap="#world-map">
-                <map id="world-map" name="world-map">
+                <div class="layered-images">
+                    <img class="image-base" src="/mir-wiki/_images/map_world.png" alt="Mir World Map" height="340px">
+                    <svg id="layer-continents" class="image-features" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 247 333">
+                        <g id="continent-ridgeback">
+                            <a href="/mir-wiki/map/ridgeback">
+                                <polygon points="140,20 170,30 220,30 230,50 230,90 215,100 220,120 210,160 180,160 160,110 140,90 130,70 130,30" />
+                            </a>
+                        </g>
+                        <g id="continent-the-sisters">
+                        </g>
+                        <g id="continent-elosammos">
+                        </g>
+                    </svg>
+                </div>
+                <!-- <img id="world-image" src="/mir-wiki/_images/map_world.png" alt="Mir World Map" usemap="#world-map">
+               <map id="world-map" name="world-map">
                     <area href="/mir-wiki/map/ridgeback" alt="Ridgeback" title="Ridgeback" shape="poly" 
                      coords="140,20,170,30,220,30,230,50,230,90,215,100,220,120,210,160,180,160,160,110,140,90,130,70,130,30">
-                </map>
+                </map> -->
             </article>
         </main>
         <footer>
@@ -46,6 +61,10 @@
                     </li>
                 </ul>
             </nav>
+            <script type="text/javascript">
+                console.log(document.getElementById("layer-continents"));
+                document.getElementById("layer-continents").style.display = "block";
+            </script>
         </footer>
     </body>
 </html>
