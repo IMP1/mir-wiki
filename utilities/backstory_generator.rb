@@ -11,14 +11,25 @@ module Filter
     URSALBA      = "u"
 
     # Geographical Features
-    RIVER    = "~"
-    COAST    = ")"
-    MOUNTAIN = "^"
-    PLAINS   = "_"
-    FOREST   = "#"
-    GRASSES  = ";"
-    ISLAND   = "@"
-    ISOLATED = "%"
+    RIVER       = "~"
+    COAST       = ")"
+    MOUNTAIN    = "^"
+    UNDERGROUND = "]"
+    PLAINS      = "_"
+    FOREST      = "#"
+    GRASSES     = ";"
+    ISLAND      = "@"
+    ISOLATED    = "%"
+    SNOW        = "*"
+    OCEAN       = "}"
+
+    # Race Features
+    CARNIVORE = "1"
+    HERBIVORE = "2"
+    SENTIENT  = "3"
+    SAPIENT   = "4"
+    VERBAL    = "5"
+    BIPEDAL   = "6"
 
     # Regions
     RIDGEBACK   = "B"
@@ -38,7 +49,7 @@ module Filter
     SETTLEMENT = "."
 
     # Other Features
-    RUIN = "*"
+    RUIN = "¬"
 
 end
 
@@ -57,6 +68,36 @@ class Name
     def to_s
         @name
     end
+
+end
+
+class Race
+
+    attr_reader :code
+
+    def initialize(name, constant, filter)
+        @name = name
+        @code = constant
+        @filter = filter
+    end
+
+    def marine?
+        return has_feature?(Filter::WATER)
+    end
+
+    def sapient?
+        return has_feature?(Filter::SAPIENT)
+    end
+
+    def human?
+        return has_feature?(Filter::BIPEDAL) && sapient?
+    end
+
+    def has_feature?(location)
+        return @filter.include?(location)
+    end
+
+    alias :found_in? :has_feature?
 
 end
 
@@ -114,7 +155,20 @@ module Generator
 
     NAMES_FILENAME = "names.txt"
     LOCATIONS_FILENAME = "locations.txt"
+    RACES_FILENAME = "races.txt"
     SEPARATOR = "|"
+
+    def self.race(&filter)
+        file_lines = File.readlines(File.join(__dir__, RACES_FILENAME))
+        all_races = file_lines.map do |line| 
+            name, features = *line.split(SEPARATOR, 3).map { |item| item.strip }
+            code = Filter.const_get(name.to_sym)
+            Race.new(name.capitalize, code, features.split(//))
+        end
+        filtered_races = filter.nil? ? all_races : all_races.select(&filter)
+        random_race = filtered_races.sample
+        return random_race
+    end
 
     def self.name(&filter)
         file_lines = File.readlines(File.join(__dir__, NAMES_FILENAME))
@@ -140,5 +194,6 @@ module Generator
 
 end
 
-p Generator.name
+p Generator.name { |name| name.race?(Filter::PLAINSWALKER) }
 p Generator.location { |location| location.has?(Filter::RIVER) }
+p Generator.race { |race| race.human? && race.found_in?(Filter::MOUNTAIN) }
