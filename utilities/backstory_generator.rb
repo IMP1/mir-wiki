@@ -117,10 +117,10 @@ module Generator
     SEPARATOR = "|"
 
     def self.name(&filter)
-        file_lines = File.readlines(NAMES_FILENAME)
+        file_lines = File.readlines(File.join(__dir__, NAMES_FILENAME))
         all_names = file_lines.map do |line| 
-            name, races, etymology = *line.split(SEPARATOR, 3)
-            Name.new(name.strip.capitalize, etymology.strip, races.strip.split(//))
+            name, races, etymology = *line.split(SEPARATOR, 3).map { |item| item.strip }
+            Name.new(name.capitalize, etymology, races.split(//))
         end
         filtered_names = filter.nil? ? all_names : all_names.select(&filter)
         random_name = filtered_names.sample
@@ -128,10 +128,10 @@ module Generator
     end
 
     def self.location(&filter)
-        file_lines = File.readlines(LOCATIONS_FILENAME)
+        file_lines = File.readlines(File.join(__dir__, LOCATIONS_FILENAME))
         all_locations = file_lines.map do |line|
-            name, scale, region, continent, features = *line.split(SEPARATOR, 5)
-            Location.new(name.strip.capitalize, scale.strip, region.strip, continent.strip, features.strip.split(//))
+            name, scale, region, continent, features = *line.split(SEPARATOR, 5).map { |item| item.strip }
+            Location.new(name.capitalize, scale, region, continent, features.split(//))
         end
         filtered_locations = filter.nil? ? all_locations : all_locations.select(&filter)
         random_location = filtered_locations.sample
