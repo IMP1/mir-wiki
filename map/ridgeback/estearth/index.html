@@ -7,8 +7,9 @@
             Estearth Map | 
             Mir
         </title>
-        <link rel="stylesheet" href="https://igoradamenko.github.io/awsm.css/css/awsm.css">
-        <link rel="stylesheet" href="/mir-wiki/_styles/wiki.css">
+        <link rel="stylesheet" type="text/css" href="https://igoradamenko.github.io/awsm.css/css/awsm.css">
+        <link rel="stylesheet" type="text/css" href="/mir-wiki/_styles/wiki.css">
+        <link rel="stylesheet" type="text/css" href="/mir-wiki/_styles/maps.css">
     </head>
     <body>
         <header>
@@ -18,12 +19,19 @@
         <main>
             <article>
                 <h1>Estearth Map</h1>
-                <img id="estearth-image" src="/mir-wiki/_images/map_estearth.png" alt="Estearth Map" usemap="#estearth-locations">
-                <map id="estearth-locations" name="estearth-locations">
-                    <area href="/mir-wiki/map/ridgeback/estearth/proudwatch.html" 
-                     alt="Proudwatch" title="Proudwatch" shape="circle" 
-                     coords="0,0,8">
-                </map>
+                <div class="layered-images">
+                    <img class="image-base" src="/mir-wiki/_images/map_estearth.png" alt="Map of Estearth" height="340px">
+                    <svg id="layer-locations" class="image-features" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 247 333">
+                        <g id="location-proudwatch">
+                        </g>
+                    </svg>
+                </div>
+                <!-- <img id="estearth-image" src="/mir-wiki/_images/map_estearth.png" alt="Estearth Map" usemap="#estearth-locations"> -->
+                <!-- <map id="estearth-locations" name="estearth-locations">
+                     <area href="/mir-wiki/map/ridgeback/estearth/proudwatch.html" 
+                      alt="Proudwatch" title="Proudwatch" shape="circle" 
+                      coords="0,0,8">
+                </map> -->
             </article>
         </main>
         <footer>
@@ -47,6 +55,10 @@
                     </li>
                 </ul>
             </nav>
+            <script type="text/javascript">
+                console.log(document.getElementById("layer-locations"));
+                document.getElementById("layer-locations").style.display = "block";
+            </script>
         </footer>
     </body>
 </html>
