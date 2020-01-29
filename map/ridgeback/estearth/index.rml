@@ -1,11 +1,26 @@
 <ruby include="page_layout.rml">
 <ruby block-begin="title">Estearth Map | <ruby block-super><ruby block-end="title">
+<ruby block-begin="styles">
+    <ruby block-super>
+    <link rel="stylesheet" type="text/css" href="/mir-wiki/_styles/maps.css">
+<ruby block-end="styles">
 <ruby block-begin="article">
     <h1>Estearth Map</h1>
-    <img id="estearth-image" src="/mir-wiki/_images/map_estearth.png" alt="Estearth Map" usemap="#estearth-locations">
-    <map id="estearth-locations" name="estearth-locations">
+    <div class="layered-images">
+        <img class="image-base" src="/mir-wiki/_images/map_estearth.png" alt="Map of Estearth" height="340px">
+        <ruby include="_images/map_estearth_locations.svg">
+    </div>
+    <!-- <img id="estearth-image" src="/mir-wiki/_images/map_estearth.png" alt="Estearth Map" usemap="#estearth-locations"> -->
+    <!-- <map id="estearth-locations" name="estearth-locations">
         <area href="/mir-wiki/map/ridgeback/estearth/proudwatch.html" 
               alt="Proudwatch" title="Proudwatch" shape="circle" 
               coords="0,0,8">
-    </map>
+    </map> -->
 <ruby block-end="article">
+<ruby block-begin="scripts">
+    <ruby block-super>
+    <script type="text/javascript">
+        console.log(document.getElementById("layer-locations"));
+        document.getElementById("layer-locations").style.display = "block";
+    </script>
+<ruby block-end="scripts">
