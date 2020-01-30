@@ -6,7 +6,9 @@
     <dt>Sex</dt>
     <dd>Male</dd>
     <dt>Born</dt>
-    <dd>???</dd>
+    <dd>
+        <a href="/mir-wiki/culture/calendars.html" title="Palan Age" class="age">P/</a> <span>489th Year</span><span class="lenen">Lenen</span><span>19th Day</span>
+    </dd>
 <ruby block-end="person-details">
 <ruby block-begin="article">
     <h1>Lord Jason Hornehill</h1>
@@ -57,7 +59,7 @@
         let children = [];
         let me = {
             name: "Jason Hornehill",
-            birthdate: "",
+            birthdate: "489 / 19",
             deathdate: null,
         };
         parents.push({
@@ -87,7 +89,7 @@
         });
         children.push({
             name: "Salome Hornehill",
-            birthdate: "",
+            birthdate: "535 \\ 3",
             deathdate: null,
         });
         createFamilyTree(me, parents, siblings, children);

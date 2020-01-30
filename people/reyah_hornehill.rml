@@ -1,0 +1,60 @@
+<ruby include="page_person_layout.rml">
+<ruby block-begin="title">Reyah Hornehill | <ruby block-super><ruby block-end="title">
+<ruby block-begin="person-details">
+    <dt>Race</dt>
+    <dd><a href="/mir-wiki/biology/fauna/midnighters.html">Midnighter</a></dd>
+    <dt>Sex</dt>
+    <dd>Female</dd>
+    <dt>Born</dt>
+    <dd>
+        <a href="/mir-wiki/culture/calendars.html" title="Palan Age" class="age">P/</a> <span>506th Year</span><span class="wentruth">Wentruth</span><span>36th Day</span>
+    </dd>
+<ruby block-end="person-details">
+<ruby block-begin="article">
+    <h1>Lady Reyah Hornehill</h1>
+    <section>
+        <h2>Life</h2>
+        <section>
+            <h3>Overview</h3>
+            <p>
+                Reyah Met <a href="/mir-wiki/people/jason_hornehill.html">Jason Hornehill</a> after he returned from the <a href="/mir-wiki/events/war_for_ridgeback.html">War for Ridgeback</a>.
+            </p>
+        </section>
+    </section>
+    <section>
+        <h2>Family</h2>
+        <svg id="family-tree"></svg>
+    </section>
+    <section>
+        <h2>Name Etymology</h2>
+        <dl>
+            <dt>Reyah</dt>
+            <dd>
+                Derived from <a href="https://www.behindthename.com/name/rhea" target="_blank">Rhea</a>, the midnighter word for flowing, or grounded.
+            </dd>
+            <dt>Hornehill</dt>
+            <dd>
+                A contraction of Hawthorn Hill, where the family originates. She took this name when marrying Jason Hornehill.
+            </dd>
+        </dl>
+    </section>
+<ruby block-end="article">
+<ruby block-begin="scripts">
+    <ruby block-super>
+    <script type="text/javascript">
+        let parents = [];
+        let siblings = [];
+        let children = [];
+        let me = {
+            name: "Reyah Hornehill",
+            birthdate: "506 _ 36",
+            deathdate: null,
+        };
+        children.push({
+            name: "Salome Hornehill",
+            birthdate: "535 \\ 3",
+            deathdate: null,
+        });
+        createFamilyTree(me, parents, siblings, children);
+    </script>
+<ruby block-end="scripts">
