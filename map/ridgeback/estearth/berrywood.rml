@@ -1,0 +1,20 @@
+<ruby include="page_layout.rml">
+<ruby block-begin="title">Berrywood Map | <ruby block-super><ruby block-end="title">
+<ruby block-begin="styles">
+    <ruby block-super>
+    <link rel="stylesheet" type="text/css" href="/mir-wiki/_styles/maps.css">
+<ruby block-end="styles">
+<ruby block-begin="article">
+    <h1>Berrywood Map</h1>
+    <div class="layered-images">
+        <img class="image-base" src="/mir-wiki/_images/map_berrwood.png" alt="Map of Berrywood" height="340px">
+        <ruby include="_images/map_berrwood_locations.svg">
+    </div>
+<ruby block-end="article">
+<ruby block-begin="scripts">
+    <ruby block-super>
+    <script type="text/javascript">
+        console.log(document.getElementById("layer-locations"));
+        document.getElementById("layer-locations").style.display = "block";
+    </script>
+<ruby block-end="scripts">
