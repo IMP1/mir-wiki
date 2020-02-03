@@ -52,7 +52,14 @@
             date: "",
             location: "Shipwel",
             culture: "Plainswalker",
-            link: "/mir-wiki/culture/myths_and_legends/whale_song.html",
+            link: "/mir-wiki/culture/legends/whale_song.html",
+        });
+        legends.push({
+            name: "The Truth Stone",
+            date: "",
+            location: "",
+            culture: "",
+            link: "/mir-wiki/culture/legends/truth_stone.html",
         });
 
         populateList();

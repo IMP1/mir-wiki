@@ -1,0 +1,24 @@
+<ruby include="page_layout.rml">
+<ruby block-begin="title">The Truth Stone | <ruby block-super><ruby block-end="title">
+<ruby block-begin="article">
+    <h1>The Truth Stone</h1>
+    <section>
+        <h2>Overview</h2>
+        <p>
+            The truth stone is said to present the answer to any question.
+            It is also said to have a price: truth for truth.
+        </p>
+    </section>
+    <section>
+        <h2>Known Sightings</h2>
+        <p>
+            The most recent sighting was by <a href="/mir-wiki/people/rissar.html">Rissar</a>, who found it in <a href="/mir-wiki/locations/???.html">???</a>, on the ???th day of Wentruth, 548.
+            Rissar was sent on behalf of <a href="/mir-wiki/people/jason_hornehill.html">Jason Hornehill</a>, 
+            the lord of <a href="/mir-wiki/locations/ashvale_region.html">Ashvale</a>, who wanted it to help solidify his family's position of power.
+            Rissar found it and was bringing it back on <a href="/mir-wiki/people/rose_seafairer.html">Captain Rose Seafairer's</a> ship, the Singing Whale.
+        </p>
+        <p>
+            One of the first sightings was 
+        </p>
+    </section>
+<ruby block-end="article">
