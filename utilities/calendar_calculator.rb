@@ -344,7 +344,7 @@ def print_period(period, prefix)
 end
 
 def main
-    today = PalanDate.parse("543 / 8")
+    today = PalanDate.parse("549 / 8")
     print_date(today, "Today's Date")
 
     yarrow_birth = PalanDate.parse("478 \\ 12")
@@ -355,7 +355,7 @@ def main
         puts "Yarrow birth + age is not right!"
     end
 
-    salome_birth = PalanDate.parse("529 \\ 3")
+    salome_birth = PalanDate.parse("535 \\ 3")
     salome_age = today - salome_birth
     print_date(salome_birth, "Salome Birth")
     print_period(salome_age, "Salome Age")
