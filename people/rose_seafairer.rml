@@ -27,7 +27,7 @@
                 The ship is used to carry passengers, cargo, and messages. Usually a combination of all of these.
             </p>
             <p>
-                The ship is currently returning from a journey from Ashport to The Sisters, taking an explorer to hunt across The Sisters for an object of power. 
+                The ship is currently returning from a journey from Ashport to The Sisters, taking <a href="/mir-wiki/people/rissar.html">Rissar</a>, an explorer, to hunt across The Sisters for an object of power. 
                 It then travelled around ??? and ???, and then went to pick up the explorer, and his prize, for the return journey. 
                 On its way back, it also picked up passengers at Rowton, 
                 including <a href="/mir-wiki/people/salome_hornehill.html">Princess Salome Hornehill</a> of Ashvale and her entourage.
@@ -97,6 +97,26 @@
                             11 unnamed crewmembers
                         </dd>
                     </dl>
+                </details>
+                <details>
+                    <summary><h4>Current Passengers</h4></summary>
+                    <ul>
+                        <li>
+                            <a href="/mir-wiki/people/rissar.html">Rissar</a>, an explorer travelling from <a href=""></a> to <a href="">Ashport</a>.
+                        </li>
+                        <li>
+                            <a href="/mir-wiki/people/salome_hornehill.html">Salome Hornehill</a>, princess of Ashvale, travelling from <a href=""></a> to <a href="">Ashport</a>.
+                        </li>
+                        <li>
+                            <a href="/mir-wiki/people/gale_westshore.html">Gale Westshore</a>, accompanying Salome.
+                        </li>
+                        <li>
+                            <a href="/mir-wiki/people/bramble_hawk.html">Bramble Hawk</a>, accompanying Salome.
+                        </li>
+                        <li>
+                            <a href="/mir-wiki/people/orson_carter.html">Orson Carter</a>, accompanying Salome.
+                        </li>
+                    </ul>
                 </details>
             </section>
         </section>
