@@ -4,11 +4,12 @@
         <meta charset="utf-8">
         <meta name="viewport" content="width=device-width, initial-scale=1.0">
         <title>
-            Cephalopods | 
+            Berrywood Map | 
             Mir
         </title>
         <link rel="stylesheet" type="text/css" href="https://igoradamenko.github.io/awsm.css/css/awsm.css">
         <link rel="stylesheet" type="text/css" href="/mir-wiki/_styles/wiki.css">
+        <link rel="stylesheet" type="text/css" href="/mir-wiki/_styles/maps.css">
     </head>
     <body>
         <header>
@@ -17,24 +18,18 @@
         </header>
         <main>
             <article>
-                <h1>Cephalopods</h1>
-                <section>
-                    <h2>Overview</h2>
-                    <p>
-                        Cephalopods live underwater in small nomadic groups. They communicate using bioluminescense.
-                    </p>
-                </section>
-                <section>
-                    <h2>Ship Attacks</h2>
-                    <p>
-                        Cephalopods have learnt the mating habits of <a href="/mir-wiki/biology/fauna/scuttlers.html">scuttlers</a>, and will sometimes trigger their reproduction process.
-                        They sometimes use this process to distract prey or predators, 
-                        but have also used a scuttler's explosion in combination with shells or rocks to damage the hull of ships.
-                        Land-dwellers have never attributed these acts to cephalopods, either due to not surviving, or the cephalopods being out of sight, 
-                        under the water, during their "attack".
-                        Few land-dwellers have even been able to attribute the damage to scuttlers, but they are aware of areas that they consider dangerous.
-                    </p>
-                </section>
+                <h1>Berrywood Map</h1>
+                <div class="layered-images">
+                    <img class="image-base" src="/mir-wiki/_images/map_berrywood.png" alt="Map of Berrywood" height="340px">
+                    <svg id="layer-features" class="image-features" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 247 333">
+                        <defs>
+                            <g id="pointer">
+                                <rect x="0" y="50" width="50" height="50" />
+                                <circle cx="50" cy="50" r="50" />
+                            </g>
+                        </defs>
+                    </svg>
+                </div>
             </article>
         </main>
         <footer>
@@ -58,6 +53,10 @@
                     </li>
                 </ul>
             </nav>
+            <script type="text/javascript">
+                console.log(document.getElementById("layer-locations"));
+                document.getElementById("layer-locations").style.display = "block";
+            </script>
         </footer>
     </body>
 </html>
