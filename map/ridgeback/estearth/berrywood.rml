@@ -7,8 +7,8 @@
 <ruby block-begin="article">
     <h1>Berrywood Map</h1>
     <div class="layered-images">
-        <img class="image-base" src="/mir-wiki/_images/map_berrwood.png" alt="Map of Berrywood" height="340px">
-        <ruby include="_images/map_berrwood_locations.svg">
+        <img class="image-base" src="/mir-wiki/_images/map_berrywood.png" alt="Map of Berrywood" height="340px">
+        <ruby include="_images/map_berrywood_locations.svg">
     </div>
 <ruby block-end="article">
 <ruby block-begin="scripts">
