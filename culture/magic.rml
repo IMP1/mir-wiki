@@ -1,0 +1,45 @@
+<ruby include="page_layout.rml">
+<ruby block-begin="title">Magic | <ruby block-super><ruby block-end="title">
+<ruby block-begin="article">
+    <h1>Magic</h1>
+    <section>
+        <h2>Overview</h2>
+        <p>
+            Some objects are imbued with magical properties or powers.
+            This is uncommon and is usually a result of a tear between the Material and the Abyss.
+            Sometimes these tears occur randomly and "naturally", and sometimes they are created by beings from either plane.
+        </p>
+        <p>
+            Magical energies can create phonomena that would seem otherwise physically impossible.
+            Energies and matter moving across the planes appears to be created, 
+            destroyed or moved instantaneously.
+        </p>
+    </section>
+    <section>
+        <h2>Magic Users</h2>
+        <p>
+            Some people can use magic to affect the world. 
+            These people are very few and far between, and they are feared by almost everyone else.
+        </p>
+        <p>
+            They are, however, very powerful. Which people see as useful. In <a href="/mir-wiki/locations/ridgeback.html">Ridgeback</a>, there is a <a href="/mir-wiki/culture/groups/royal_magician_guild.html">Guild of Magicians</a> who are approved by the King, and who perform royal duties.
+        </p>
+        <p>
+            Some races are more highly tuned to the magical energies, but all are potential hosts. <a href="/mir-wiki/biology/fauna/midnighters.html">Midnighters</a> are the most highly tuned of the sapient animals of Mir, but some more wild animals have more affinity to the Abyss.
+        </p>
+    </section>
+    <section>
+        <h2>Examples of Magically-Imbued Animals</h2>
+        <ul>
+            <li>
+                <a href="/mir-wiki/biology/fauna/darkflies.html">Darkflies</a> spread darkness and dull the senses of creatures around them.
+            </li>
+        </ul>
+    </section>
+    <section>
+        <h2>Examples of Magically-Imbued Plants</h2>
+        <ul>
+            
+        </ul>
+    </section>
+<ruby block-end="article">
