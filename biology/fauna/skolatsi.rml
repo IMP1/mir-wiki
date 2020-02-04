@@ -1,0 +1,11 @@
+<ruby include="page_layout.rml">
+<ruby block-begin="title">Skolatsi | <ruby block-super><ruby block-end="title">
+<ruby block-begin="article">
+    <h1>Skolatsi</h1>
+    <section>
+        <h2>Overview</h2>
+        <p>
+            Skolatsi live underground. They produce a static electrical charge that they use to paralyse their prey.
+        </p>
+    </section>
+<ruby block-end="article">
