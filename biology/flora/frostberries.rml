@@ -1,0 +1,14 @@
+<ruby include="page_layout.rml">
+<ruby block-begin="title">Frostberry | <ruby block-super><ruby block-end="title">
+<ruby block-begin="article">
+    <h1>Frostberry</h1>
+    <section>
+        <h2>Overview</h2>
+        <p>
+            The frostberry plant grows year-round in temperate regions. It produces bright blue berries throughout the winter, which gives the plant its name.
+        </p>
+        <p>
+            
+        </p>
+    </section>
+<ruby block-end="article">
