@@ -1,0 +1,13 @@
+<ruby include="page_layout.rml">
+<ruby block-begin="title">Royal Ridgeback Survey | <ruby block-super><ruby block-end="title">
+<ruby block-begin="article">
+    <h1>Royal Ridgeback Survey</h1>
+    <div class="subtitle">Started 254th Year, Lenen - Compiled 261st Year, Wentruth</div>
+    <section>
+        <h2>Overview</h2>
+        <p>
+            <a href="">???</a> ordered a survey of the entire land of <a href="/mir-wiki/locations/ridgeback.html">Ridgeback</a>.
+        </p>
+        <p><a href="/mir-wiki/texts/royal_survey_of_ridgeback.html">Ridgeback Survey</a></p>
+    </section>
+<ruby block-end="article">

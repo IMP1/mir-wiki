@@ -51,7 +51,7 @@
             name: "Ridgeback Survey",
             date: "",
             location: "Ridgeback",
-            link: "/mir-wiki/events/ridgeback-survey.html",
+            link: "/mir-wiki/events/ridgeback_survey.html",
         });
 
         populateList();
