@@ -1,0 +1,12 @@
+<ruby include="page_layout.rml">
+<ruby block-begin="title">Culwick | <ruby block-super><ruby block-end="title">
+<ruby block-begin="article">
+    <h1>Culwick</h1>
+    <section>
+        <h2>Overview</h2>
+        <p>
+            Culwick is the main port town of <a href="/mir-wiki/locations/the_sisters_islands.html">The Sisters</a>, 
+            and the nearest port town to <a href="/mir-wiki/locations/ridgeback.html">Ridgeback</a>.
+        </p>
+    </section>
+<ruby block-end="article">
