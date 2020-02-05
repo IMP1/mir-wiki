@@ -1,0 +1,31 @@
+<ruby include="page_layout.rml">
+<ruby block-begin="title">Clarity | <ruby block-super><ruby block-end="title">
+<ruby block-begin="article">
+    <h1>Clarity</h1>
+    <section>
+        <h2>Overview</h2>
+        <p>
+            Clarity is a religion found mostly in southern <a href="/mir-wiki/locations/ridgeback.html">Ridgeback</a>, particularly <a href="/mir-wiki/locations/sand_flats.html">the Sand Flats</a>.
+        </p>
+        <p>
+            Clarity's goal is to find the truth offered by the 
+        </p>
+    </section>
+    <section>
+        <h2>Tenets and Beliefs</h2>
+        <ul>
+            <li>
+                We all are shadows of the old unnamed gods.
+            </li>
+            <li>
+                Only in shadow can there be light.
+            </li>
+            <li>
+                Only through ignorance can we ever learn.
+            </li>
+            <li>
+                Knowledge comes from the old unnamed gods.
+            </li>
+        </ul>
+    </section>
+<ruby block-end="article">
