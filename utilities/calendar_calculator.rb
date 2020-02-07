@@ -55,6 +55,17 @@ class PalanDate
         "_",
     ]
 
+    LUNAR_GRAPHICS = [
+        "🌑",
+        "🌒",
+        "🌓",
+        "🌔",
+        "🌕",
+        "🌖",
+        "🌗",
+        "🌘",
+    ]
+
     attr_reader :year
     attr_reader :season
     attr_reader :day
@@ -73,6 +84,12 @@ class PalanDate
 
     def self.days_per_year(year)
         return leap_year?(year) ? DAYS_PER_SOLAR_YEAR.ceil : DAYS_PER_SOLAR_YEAR.floor
+    end
+
+    def self.lunar_graphic(phase)
+        division = LUNAR_GRAPHICS.size
+        i = (phase * division).to_i
+        return LUNAR_GRAPHICS[i]
     end
 
     def initialize(year, season, day)
@@ -361,6 +378,11 @@ def main
     print_period(salome_age, "Salome Age")
     if salome_birth + salome_age != today
         puts "Salome birth + age is not right!"
+    end
+
+    (PalanDate::DAYS_PER_LUNAR_MONTH + 6).to_i.times do |i|
+        date = salome_birth + PalanPeriod.new(i)
+        puts PalanDate.lunar_graphic(date.lunar_phase)
     end
 
 end
