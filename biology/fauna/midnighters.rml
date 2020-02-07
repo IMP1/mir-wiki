@@ -1,18 +1,53 @@
 <ruby include="page_layout.rml">
 <ruby block-begin="title">Midnighters | <ruby block-super><ruby block-end="title">
 <ruby block-begin="article">
+    <aside class="out_of_world">
+        <p>
+            Midnighters are heavily based off traditional fantasy Elves.
+        </p>
+    </aside>
     <h1>Midnighters</h1>
     <section>
         <h2>Overview</h2>
         <p>
-            Midnighters have spread themselves across Mir, but collect in areas where they can find the energies they need to recharge. Midnighters do this through connections to certain elements, instead of sleep. Some elves live in forests, needing connection to the energy of the trees. Some elves prefer the energy of certain metals and live in cities and are drawn to finery. 
-            Midnighters can see ultraviolet light, through their cones, and as such have a higher band of visible colours than other species. They also can see decently in low light, but only in greyscale, not seeing colours (including UV).
+            Midnighters have spread themselves across Mir, but collect in areas where they can find the energies they need to recharge. 
+            Midnighters do this through connections to certain elements, instead of sleep.
+            Midnighters can see ultraviolet light, through their cones, and as such have a higher band of visible colours than other species. 
+            They also can see decently in low light, but only in greyscale, not seeing colours (including UV).
         </p>
         <p>
             Culturally, they struggle to see creatures in terms of species, and instead simply see vibrance of life, or varying levels of intelligence.
         </p>
         <p>
-            Midnighteres are heavily based off Elves.
+            Because of their need to be around sources of magical energy, many midnighters struggle to travel around. 
+            However those that have more common sources, or those who have found a portable source, can travel.
+        </p>
+    </section>
+    <section>
+        <h2>Energies and Recharging</h2>
+        <p>
+            Midnighters do not need sleep. This miraculous feat is only possibly because of their naturaly affinity for magical energies. It is these energies that sustain midnighters.
+            This does mean, however, that they need to keep their magical energies up. 
+            If a midnighter is low on magical energy, their ability to channel magic is reduced to almost nothing. They also feel sluggish and slow to respond.
+            A midnighter can "recharge" their magical energies by being in close proximity to a source of magical energies.
+        </p>
+        <p>
+            Different midnighters will react to different magical sources. The sources midnighters gain energy from are very specific to individuals. 
+            For example, one midnighter might recieve a strong magical energy from a specific type of tree, whereas another might not recieve any, and a third might recieve a small amount.
+            Midnighters will usually settle in locations with proximity to a variety of magical sources, such as a forest with multiple types of trees.
+        </p>
+        <p>
+            A midnighter will also passively expend their magical energy. Over time, even performing no magic, a midnighter will eventually find themselves needing to recharge.
+        </p>
+        <p>
+            As well as different types of trees, some midnighters may find energy sources in certain metal ores (and possibly also the processed metal), or other minerals, such as salt or sand.
+            Non-living sources of energy are less convenient, as their energy may also run out eventually, whereas living sources (where they do not expend their magic) seem to generate their own.
+            Others may even find a particular animal to be a source of magical energy. Usually when this happens, the midnighter will try to befriend and tame the animal, to keep it with them.
+        </p>
+        <p>
+            Very occasionally a midnighter will find themselves to be a source of magical energy. 
+            In these cases, the midnighter will never run out, as the energies from <a href="/mir-wiki/culture/magic.html#The-Abyss">the Abyss</a> are being channelled into them directly.
+            This can result in distress and insanity in all but the most powerful midnighters.
         </p>
     </section>
     <section>
