@@ -1,0 +1,17 @@
+<ruby include="page_layout.rml">
+<ruby block-begin="title">Winwick | <ruby block-super><ruby block-end="title">
+<ruby block-begin="article">
+    <h1>Winwick</h1>
+    <section>
+        <h2>Overview</h2>
+        <p>
+            
+        </p>
+    </section>
+    <section>
+        <h2>Name Origin</h2>
+        <p>
+            Coming from <em>Win</em> (White) and <em>Wick</em> (bay).
+        </p>
+    </section>
+<ruby block-end="article">

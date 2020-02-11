@@ -1,0 +1,15 @@
+<ruby include="page_layout.rml">
+<ruby block-begin="title">Sand Flats | <ruby block-super><ruby block-end="title">
+<ruby block-begin="article">
+    <h1>Sand Flats</h1>
+    <section>
+        <h2>Overview</h2>
+        <p>
+            Sand Flats is the southern-most region of <a href="/mir-wiki/locations/ridgeback.html">Ridgeback</a>.
+            Its capital is <a href="/mir-wiki/locations/winwick.html">Winwich</a>.
+        </p>
+        <p>
+            Due to its barren landscape, there isn't much life, and so settlements tend to spring up around sources of water.
+        </p>
+    </section>
+<ruby block-end="article">

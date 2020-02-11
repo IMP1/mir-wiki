@@ -1,0 +1,17 @@
+<ruby include="page_layout.rml">
+<ruby block-begin="title">Bradcombe | <ruby block-super><ruby block-end="title">
+<ruby block-begin="article">
+    <h1>Bradcombe</h1>
+    <section>
+        <h2>Overview</h2>
+        <p>
+            
+        </p>
+    </section>
+    <section>
+        <h2>Name Origin</h2>
+        <p>
+            Coming from <em>Brad</em> (broad) and <em>Combe</em> (valley).
+        </p>
+    </section>
+<ruby block-end="article">

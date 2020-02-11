@@ -1,0 +1,17 @@
+<ruby include="page_layout.rml">
+<ruby block-begin="title">Standon | <ruby block-super><ruby block-end="title">
+<ruby block-begin="article">
+    <h1>Standon</h1>
+    <section>
+        <h2>Overview</h2>
+        <p>
+            
+        </p>
+    </section>
+    <section>
+        <h2>Name Origin</h2>
+        <p>
+            Coming from <em>Stan</em> (stony) and <em>Don</em> (hill / down).
+        </p>
+    </section>
+<ruby block-end="article">
