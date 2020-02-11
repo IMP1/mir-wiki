@@ -1,0 +1,22 @@
+<ruby include="page_layout.rml">
+<ruby block-begin="title">Kingsooth (Region) | <ruby block-super><ruby block-end="title">
+<ruby block-begin="article">
+    <h1>Kingsooth (Region)</h1>
+    <section>
+        <h2>Overview</h2>
+        <p>
+            Kingsooth is a large region of <a href="/mir-wiki/locations/ridgeback.html">Ridgeback</a>, to the north of the eastern side. 
+        </p>
+    </section>
+    <section>
+        <h2>Name Origin</h2>
+        <p>
+            The region of Kingsooth is named after the river Kingsooth, which is itself named after a <a href="/mir-wiki/languages/hohrintoh">delver</a> word <em>Kinsuvolar</em>, which means <em>to birth</em>.
+        </p>
+    </section>
+<ruby block-end="article">
+<ruby block-begin="clarification">
+    <aside>
+        <p>For Kingsooth, the river, see <a href="/mir-wiki/locations/kingsooth_river.html">Kingsooth (River)</a>.</p>
+    </aside>
+<ruby block-end="clarification">

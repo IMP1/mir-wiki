@@ -77,7 +77,7 @@
         locations.push({
             name: "Kingsooth",
             scale: scale.region,
-            link: "/mir-wiki/locations/kingsooth.html",
+            link: "/mir-wiki/locations/kingsooth_region.html",
         });
         locations.push({
             name: "Estearth",
@@ -167,7 +167,7 @@
         locations.push({
             name: "Kingsooth River",
             scale: scale.feature,
-            link: "/mir-wiki/locations/river_kingsooth.html",
+            link: "/mir-wiki/locations/kingsooth_river.html",
         });
         locations.push({
             name: "Thorgrund Pass",
@@ -177,7 +177,7 @@
         locations.push({ // WHERE IS THE RIVER BRAED?
             name: "River Braed",
             scale: scale.feature,
-            link: "/mir-wiki/locations/river_braed.html",
+            link: "/mir-wiki/locations/braed_river.html",
         });
         locations.push({
             name: "Mourning Forest",
@@ -192,7 +192,7 @@
         locations.push({
             name: "River With",
             scale: scale.feature,
-            link: "/mir-wiki/locations/river_with.html",
+            link: "/mir-wiki/locations/with_river.html",
         });
 
         // The Sisters locations
