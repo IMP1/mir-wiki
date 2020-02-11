@@ -135,6 +135,11 @@
             scale: scale.town,
             link: "/mir-wiki/locations/winwick.html",
         });
+        locations.push({
+            name: "Sunshade",
+            scale: scale.town,
+            link: "/mir-wiki/locations/sunshade.html",
+        });
         // East Ridgeback Cities & Towns (North to South)
         locations.push({
             name: "Proudwatch",
@@ -160,11 +165,6 @@
             name: "Witmouth",
             scale: scale.town,
             link: "/mir-wiki/locations/witmouth.html",
-        });
-        locations.push({
-            name: "Sunshade",
-            scale: scale.town,
-            link: "/mir-wiki/locations/sunshade.html",
         });
         // West Ridgeback Villages & Settlements (North to South)
         locations.push({
