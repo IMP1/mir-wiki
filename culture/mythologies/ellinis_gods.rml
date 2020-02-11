@@ -1,0 +1,22 @@
+<ruby include="page_layout.rml">
+<ruby block-begin="title">Ellinis Gods | <ruby block-super><ruby block-end="title">
+<ruby block-begin="article">
+    <h1>Ellinis Gods</h1>
+    <section>
+        <h2>Overview</h2>
+        <p>
+            The Ellinis Gods are part of an ancient pantheon. Its believers are found <a href="/mir-wiki/biology/fauna/midnighters.html">Midnighters</a>, and specifically Midnighters from <a href="/mir-wiki/locations/ridgeback.html">Ridgeback</a>.
+        </p>
+        <p>
+            There are many gods, found in different aspects of nature.
+        </p>
+    </section>
+    <section>
+        <h2>Tenets and Beliefs</h2>
+        <p>
+            The foundational belief is that all aspects of the world are imbued with energy and thought.
+            There are numerous gods, each representing an aspect of the world.
+        </p>
+    </section>
+<ruby block-end="article">
+
