@@ -1,0 +1,69 @@
+<ruby include="page_person_layout.rml">
+<ruby block-begin="title">Lily Proctor | <ruby block-super><ruby block-end="title">
+<ruby block-begin="person-details">
+    <dt>Race</dt>
+    <dd><a href="/mir-wiki/biology/fauna/midnighters.html">Plainswalker</a></dd>
+    <dt>Sex</dt>
+    <dd>Feale</dd>
+    <dt>Born</dt>
+    <dd>???</dd>
+<ruby block-end="person-details">
+<ruby block-begin="article">
+    <h1>Lady Lily Proctor</h1>
+    <section>
+        <h2>Life</h2>
+        <section>
+            <h3>Overview</h3>
+            <p>
+                Lily Proctor is the Lady of <a href="/mir-wiki/locations/hilland.html">The Hillands</a>, 
+                born to <a href="/mir-wiki/people/???.html"></a> and <a href="/mir-wiki/people/???.html"></a>.
+            </p>
+            <p>
+                Lily was born into a culture that believed that women should not be king. During her childhood, 
+                <a href="/mir-wiki/people/leyla_hornehill.html">Leyla Hornehill</a> was lord of 
+                <a href="/mir-wiki/locations/ashvale_region.html">Ashvale</a>, and Lily's family was adamant that it was a man's job to rule.
+                They sowed seeds of doubt in Leyla Hornehill, and used the widespread uncertainty to claim some lands from 
+                <a href="/mir-wiki/locations/roke.html">Roke</a>, who were allied with Ashvale.
+            </p>
+            <p>
+                Lily internalised a distrust of the Hornehills, but resolved herself to prove her family wrong, 
+                and be a strong and wise leader. During the <a href="/mir-wiki/events/war_for_ridgeback.html">War for Ridgeback</a>,
+                When <a href="/mir-wiki/people/jason_hornehill.html">Jason Hornehill</a> took control of 
+                <a href="/mir-wiki/locations/estearth.html">Estearth</a>, and Roke took back their lands from The Hillands, 
+                and Jason declared himself King, Lily submitted her lands, but vowed revenge. 
+                She saw Ashvale's conquest as injust, and knew that it was her duty to liberate her lands from Ashvale.
+            </p>
+        </section>
+    </section>
+    <section>
+        <h2>Family</h2>
+        <svg id="family-tree"></svg>
+    </section>
+    <section>
+        <h2>Name Etymology</h2>
+        <dl>
+            <dt>Lily</dt>
+            <dd>
+                Named after the flower, <em>Lily of the Valley</em>, because she was so pale when she was born.
+            </dd>
+            <dt>Proctor</dt>
+            <dd>
+                An occupational name for a steward, deriving from the Middle English "prok(e)tour", a contracted form of the Old French "procurateor", from the Latin "procurare", to manage.
+            </dd>
+        </dl>
+    </section>
+<ruby block-end="article">
+<ruby block-begin="scripts">
+    <ruby block-super>
+    <script type="text/javascript">
+        let parents = [];
+        let siblings = [];
+        let children = [];
+        let me = {
+            name: "Lily Proctor",
+            birthdate: "",
+            deathdate: null,
+        };
+        createFamilyTree(me, parents, siblings, children);
+    </script>
+<ruby block-end="scripts">
