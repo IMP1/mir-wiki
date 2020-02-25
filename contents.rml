@@ -2,6 +2,22 @@
 <ruby block-begin="title">All Categories | <ruby block-super><ruby block-end="title">
 <ruby block-begin="article">
     <h1>All Pages in Mir</h1>
+    <ruby>
+        def category(title, children=nil)
+            if children.nil? || children.empty?
+                return A(title)
+            end
+            return LI(
+                DETAILS([
+                    SUMMARY(title), 
+                    UL(children.map { |child, further_children|
+                        category(child, further_children)
+                    })
+                ])
+            )
+        end
+        p UL(category("Biology", ["Fauna", [], "Flora", []]))
+    </ruby>
     <ul>
         <li>
             <details>
