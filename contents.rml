@@ -19,6 +19,7 @@
         p UL([
             category("Biology", ["Fauna", [], "Flora", []]),
             category("Culture", ["Calendars", [], "Mythologies", [], "Myths & Legends", []]),
+            category("Events", []),
         ])
     </ruby>
     <ul>
