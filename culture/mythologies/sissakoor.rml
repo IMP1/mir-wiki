@@ -1,0 +1,30 @@
+<ruby include="page_layout.rml">
+<ruby block-begin="title">Sissakoor  | <ruby block-super><ruby block-end="title">
+<ruby block-begin="article">
+    <h1>Sissakoor </h1>
+    <section>
+        <h2>Overview</h2>
+        <p>
+            Sissakoor is a polytheistic religion. It originates from <a href="/mir-wiki/locations/???.html">??? (continent to west of elosammos and south of the sisters)</a>
+            , and <a href="/mir-wiki/locations/the_sisters_islands.html">The Sisters</a>.
+            It first reached <a href="/mir-wiki/locations/ridgeback.html">Ridgeback</a> from The Sisters, hence its name in common.
+        </p>
+    </section>
+    <section>
+        <h2>Gods</h2>
+        <ul>
+            <li id="">
+                <strong></strong>
+                <p>
+                    Thought to be the god of knowledge and teaching.
+                </p>
+            </li>
+        </ul>
+    </section>
+    <section>
+        <h2>Origin</h2>
+        <p>
+            The name Sissakoor is a derivation of Sisterhood, as transliterated through various languages.
+        </p>
+    </section>
+<ruby block-end="article">
