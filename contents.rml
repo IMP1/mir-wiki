@@ -5,7 +5,7 @@
     <ruby>
         def category(title, children=nil)
             if children.nil? || children.empty?
-                return A(title)
+                return LI(A(title))
             end
             return LI(
                 DETAILS([
