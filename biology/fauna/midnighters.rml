@@ -1,7 +1,7 @@
 <ruby include="page_layout.rml">
 <ruby block-begin="title">Midnighters | <ruby block-super><ruby block-end="title">
 <ruby block-begin="article">
-    <aside class="out_of_world">
+    <aside class="out-of-world">
         <p>
             Midnighters are heavily based off traditional fantasy Elves.
         </p>
@@ -57,7 +57,21 @@
             Very occasionally a midnighter will find themselves to be a source of magical energy. 
             In these cases, the midnighter will never run out, as the energies from 
             <a href="/mir-wiki/culture/magic.html#The-Abyss">the Abyss</a> are being channelled into them directly.
-            This can result in distress and insanity in all but the most powerful midnighters.
+            This can result in distress and insanity in all but the most powerful (or fortunate) midnighters.
+        </p>
+    </section>
+    <section>
+        <h2>Life Cycle &amp; Health</h2>
+        <p>
+            Midnighers live for an average of 530 years <span class="out-of-world">(roughly 200 Earth-years)</span>, 
+            assuming they make it out of childhood and into their 60s <span class="out-of-world">(mid 20s)</span>.
+        </p>
+        <p>
+            Midnighters who do not keep their magical energies charged will shorten their lives, 
+            and the few midnighters who are their own magical source can sometimes be biologically immortal.
+        </p>
+        <p>
+            There are few natural diseases that afflict midnighters, but their magical energies can also have detrimental effects.
         </p>
     </section>
     <section>

@@ -1,6 +1,9 @@
 <ruby include="page_layout.rml">
 <ruby block-begin="title">Delvers | <ruby block-super><ruby block-end="title">
 <ruby block-begin="article">
+    <aside class="out-of-world">
+        Delvers are heavily based off Dwarves.
+    </aside>
     <h1>Delvers</h1>
     <section>
         <h2>Overview</h2>
@@ -13,15 +16,20 @@
         <p>
             Delvers can hear with their skin. Their skin reacts to pressure variations in the air around it, and their brain can interpret these variations as sound. Sometimes these sounds go straight to their central nervous system, and they will instinctively react to the sounds with no brain processing. This is most often found during cave collapses.
         </p>
-        <p>
-            Delvers are heavily based off Dwarves.
-        </p>
     </section>
     <section>
         <h2>Diet</h2>
         <p>
             Delvers would often eat whatever found could be found underground. This would mostly consist of mushrooms and other, smaller, subterranean animals.
             Delvers can use their electrical sensitivty to see <a href="">skolatsi</a> in the darkness.
+        </p>
+    </section>
+    <section>
+        <h2>Life Cycle &amp; Health</h2>
+        <p>
+            Delvers live for an average of 100 years <span class="out-of-world">(roughly 40 Earth-years)</span>.
+            The shortness is mostly due to a lack of nutritional intake in their early years, 
+            and some delvers who have left their underground lives find themselves living longer.
         </p>
     </section>
 <ruby block-end="article">

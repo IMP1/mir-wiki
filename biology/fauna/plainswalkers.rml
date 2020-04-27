@@ -1,6 +1,9 @@
 <ruby include="page_layout.rml">
 <ruby block-begin="title">Plainswalkers | <ruby block-super><ruby block-end="title">
 <ruby block-begin="article">
+    <aside class="out-of-world">
+        Plainswalkers are heavily based off Humans.
+    </aside>
     <h1>Plainswalkers</h1>
     <section>
         <h2>Overview</h2>
@@ -10,8 +13,14 @@
         <p>
             Many plainswalkers are nomadic, and travel in large insular groups. A few have managed to settle down and integrate well into other cultures.
         </p>
+    </section>
+    <section>
+        <h2>Life Cycle &amp; Health</h2>
         <p>
-            Plainswalkers are heavily based off Humans.
+            Plainswalkers live for an average of 130 years <span class="out-of-world">(roughly 50 Earth-years)</span>,
+            assuming they make it out of childhood and into their 60s <span class="out-of-world">(mid 20s)</span>.
+            There are a few diseases that plainswalkers are affected by that can be fatal in children, 
+            however in the larger towns with healers and herbalists, child mortality is much lower.
         </p>
     </section>
 <ruby block-end="article">
