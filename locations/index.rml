@@ -222,9 +222,16 @@
             link: "/mir-wiki/locations/the_sisters_islands.html",
         });
 
+        // Kardkore locations
+        locations.push({
+            name: "Kardkore",
+            scale: scale.continent,
+            link: "/mir-wiki/locations/kardkore.html",
+        });
+
         // Elosammos locations
         locations.push({
-            name: "Elosammos", // comes from greek (midnighter) for marsh-desert
+            name: "Elosammos",
             scale: scale.continent,
             link: "/mir-wiki/locations/elosammos.html",
         });

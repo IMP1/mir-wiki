@@ -1,0 +1,18 @@
+<ruby include="page_layout.rml">
+<ruby block-begin="title">Kardkore | <ruby block-super><ruby block-end="title">
+<ruby block-begin="article">
+    <h1>Kardkore</h1>
+    <section>
+        <h2>Overview</h2>
+        <p>
+            Kardkore is a tropical continent on the equator of Mir.
+            It is west of <a href="/mir-wiki/locations/elosammos.html">Elosammos</a>
+        </p>
+    </section>
+    <section>
+        <h2>Name Origin</h2>
+        <p>
+            Coming from the midnighter words for heart and land.
+        </p>
+    </section>
+<ruby block-end="article">
