@@ -1,0 +1,63 @@
+<ruby include="page_layout.rml">
+<ruby block-begin="title">Powerful Families | <ruby block-super><ruby block-end="title">
+<ruby block-begin="article">
+    <h1>Powerful Families</h1>
+    <p>
+        Throughout many species on Mir, family ties are strong. And the powerful seem to tend to cling to power. 
+        These two facts combine to form powerful families, accumulating power and keeping it to themselves.
+    </p>
+    <p>
+        Those with members as royalty are obvious candidates as powerful families, but there are others. 
+        Lords of smaller domains, who nevertheless command power and have influence.
+    </p>
+    <details>
+        <summary>
+            <h2>Redwing</h2>
+        </summary>
+        <h3>Members</h3>
+        <ul>
+            <li><a href="/mir-wiki/people/pala_redwing.html">Pala</a></li>
+            <li><a href="/mir-wiki/people/lowen_redwing.html">Lowen</a></li>
+        </ul>
+    </details>
+    <details>
+        <summary>
+            <h2>Hornehill</h2>
+        </summary>
+        <h3>Members</h3>
+        <ul>
+            <li><a href="/mir-wiki/people/jay_hornehill.html">Jay</a></li>
+            <li><a href="/mir-wiki/people/leyla_hornehill.html">Leyla</a></li>
+            <li><a href="/mir-wiki/people/jayson_hornehill.html">Jayson</a></li>
+            <li><a href="/mir-wiki/people/reyah_hornehill.html">Reyah</a></li>
+            <li><a href="/mir-wiki/people/salome_hornehill.html">Salome</a></li>
+        </ul>
+    </details>
+    <details>
+        <summary>
+            <h2>Proctor</h2>
+        </summary>
+        <h3>Members</h3>
+        <ul>
+            <li><a href="/mir-wiki/people/lily_proctor.html">Lily</a></li>
+        </ul>
+    </details>
+    <details>
+        <summary>
+            <h2>Westshore</h2>
+        </summary>
+        <h3>Members</h3>
+        <ul>
+            <li><a href="/mir-wiki/people/gale_westshore.html">Gale</a></li>
+        </ul>
+    </details>
+    <details>
+        <summary>
+            <h2>???</h2>
+        </summary>
+        <h3>Members</h3>
+        <ul>
+            <li><a href="/mir-wiki/people/???.html">???</a></li>
+        </ul>
+    </details>
+<ruby block-end="article">
