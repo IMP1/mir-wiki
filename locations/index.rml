@@ -23,12 +23,12 @@
         let locations = [];
 
         function sortByName() {
-            locations.sort( (a, b) => a.name < b.name ? -1 : 1 )
+            locations.sort( (a, b) => a.name < b.name ? -1 : 1 );
             populateList();
         }
 
         function sortByScale() {
-            locations.sort( (a, b) => a.scale < b.scale ? -1 : 1 )
+            locations.sort( (a, b) => a.scale < b.scale ? -1 : 1 );
             populateList();
         }
 
