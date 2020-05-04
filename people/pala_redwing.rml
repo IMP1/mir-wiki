@@ -1,0 +1,71 @@
+<ruby include="page_person_layout.rml">
+<ruby block-begin="title">Pala Redwing | <ruby block-super><ruby block-end="title">
+<ruby block-begin="person-details">
+    <dt>Race</dt>
+    <dd><a href="/mir-wiki/biology/fauna/plainswalkers.html">Plainswalker</a></dd>
+    <dt>Sex</dt>
+    <dd>Male</dd>
+    <dt>Born</dt>
+    <dd class="date">
+        <a href="/mir-wiki/culture/calendars.html" title="Palan Age" class="age">P/</a> <span>0th Year</span><span class="lenen">Lenen</span><span>21st Day</span>
+    </dd>
+    <dt>Died</dt>
+    <dd class="date">
+        <a href="/mir-wiki/culture/calendars.html" title="Palan Age" class="age">P/</a> <span>116th Year</span><span class="wentruth">Wentruth</span><span>3rd Day</span>
+    </dd>
+<ruby block-end="person-details">
+<ruby block-begin="article">
+    <h1>King Pala Redwing</h1>
+    <section>
+        <h2>Life</h2>
+        <section>
+            <h3>Overview</h3>
+            <p>
+                Pala Redwing was born in <a href="/mir-wiki/locations/bradcombe.html">Bradcombe</a>, 
+                the capital of <a href="/mir-wiki/locations/roke.html">Roke</a>, but spent most of his childhood in <a href="/mir-wiki/locations/winwick.html">Winwick</a>, in <a href="/mir-wiki/locations/sand_flats.html">Sand Flats</a>, living with the lords there, until returning to Bradcombe to become king.
+            </p>
+            <p>
+                As a child in Winwick, Pala was exposed to many believers of the <a href="/mir-wiki/culture/mythologies/clarity.html">Clarity</a> faith, and absorbed a fascination with the natural world, and a general distrust of mages and magic.
+            </p>
+            <p>
+                
+            </p>
+        </section>
+    </section>
+    <section>
+        <h2>Family</h2>
+        <svg id="family-tree"></svg>
+    </section>
+    <section>
+        <h2>Name Etymology</h2>
+        <dl>
+            <dt>Pala</dt>
+            <dd>
+                Pala is 
+            </dd>
+            <dt>Redwing</dt>
+            <dd>
+                A redwing is a bird that nests in rowan trees.
+            </dd>
+        </dl>
+    </section>
+<ruby block-end="article">
+<ruby block-begin="scripts">
+    <ruby block-super>
+    <script type="text/javascript">
+        let parents = [];
+        let siblings = [];
+        let children = [];
+        let me = {
+            name: "Pala Redwing",
+            birthdate: "0 / 21",
+            deathdate: "116 _ 3",
+        };
+        children.push({
+            name: "Lowen Redwing",
+            birthdate: "68 \\ 34",
+            deathdate: "?? _ 26",
+        });
+        createFamilyTree(me, parents, siblings, children);
+    </script>
+<ruby block-end="scripts">

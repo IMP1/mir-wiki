@@ -7,11 +7,11 @@
     <dd>Male</dd>
     <dt>Born</dt>
     <dd class="date">
-        <a href="/mir-wiki/culture/calendars.html" title="Palan Age" class="age">P/</a> <span>27th Year</span><span class="feallan">Feallan</span><span>34th Day</span>
+        <a href="/mir-wiki/culture/calendars.html" title="Palan Age" class="age">P/</a> <span>68th Year</span><span class="feallan">Feallan</span><span>34th Day</span>
     </dd>
     <dt>Died</dt>
     <dd class="date">
-        <a href="/mir-wiki/culture/calendars.html" title="Palan Age" class="age">P/</a> <span>91st Year</span><span class="wentruth">Wentruth</span><span>26th Day</span>
+        <a href="/mir-wiki/culture/calendars.html" title="Palan Age" class="age">P/</a> <span>??? Year</span><span class="wentruth">Wentruth</span><span>26th Day</span>
     </dd>
 <ruby block-end="person-details">
 <ruby block-begin="article">
@@ -21,7 +21,7 @@
         <section>
             <h3>Overview</h3>
             <p>
-                Lowen Redwing was raised in <a href="/mir-wiki/locations/bradcombe.html">Bradcombe>, 
+                Lowen Redwing was raised in <a href="/mir-wiki/locations/bradcombe.html">Bradcombe</a>, 
                 the capital of <a href="/mir-wiki/locations/roke.html">Roke</a>, to a life of relative luxury. 
                 He was a slight child and, as he grew up, he grew to love scholarly activities, and spend less time on physical training, 
                 with which his father, <a href="/mir-wiki/people/pala_redwing.html">Pala Redwing</a> was a little dissapointed. 
@@ -60,13 +60,13 @@
         let children = [];
         let me = {
             name: "Lowen Redwing",
-            birthdate: "27 \\ 34",
-            deathdate: "91 _ 26",
+            birthdate: "68 \\ 34",
+            deathdate: "?? _ 26",
         };
         parents.push({
             name: "Pala Redwing",
-            birthdate: "0 / 31",
-            deathdate: "48 / 7",
+            birthdate: "0 / 21",
+            deathdate: "116 _ 3",
         });
         createFamilyTree(me, parents, siblings, children);
     </script>
