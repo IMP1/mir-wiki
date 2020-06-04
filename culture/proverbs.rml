@@ -1,0 +1,13 @@
+<ruby include="page_layout.rml">
+<ruby block-begin="title">Proverbs | <ruby block-super><ruby block-end="title">
+<ruby block-begin="article">
+    <h1>Proverbs</h1>
+    <ul>
+        <li>
+            <quote>A stronger light sharpens the shadow.</quote>
+            <div>
+                A plainswalker proverb, cautioning against extreme action, lest it have the opposite effect.
+            </div>
+        </li>
+    </ul>
+<ruby block-end="article">
