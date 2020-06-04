@@ -1,0 +1,23 @@
+<ruby include="page_layout.rml">
+<ruby block-begin="title">Nosine (Island) | <ruby block-super><ruby block-end="title">
+<ruby block-begin="article">
+    <h1>Nosine (Island)</h1>
+    <section>
+        <h2>Overview</h2>
+        <p>
+            Nosine is the northern isle of <a href="/mir-wiki/locations/the_sisters_islands.html">The Sisters</a>.
+            Its 'sister' island is <a href="/mir-wiki/locations/abisai_island.html">Abisai</a>.
+        </p>
+    </section>
+    <section>
+        <h2>Name Origin</h2>
+        <p>
+            Nosine is named after the <a href="/mir-wiki/culture/mythologies/sissakoor.html#nosine">Sissakoor god</a> of the same name.
+        </p>
+    </section>
+<ruby block-end="article">
+<ruby block-begin="clarification">
+    <aside>
+        <p>For Nosine, the god of the Sissakoor religion, see <a href="/mir-wiki/culture/mythologies/sissakoor.html#nosine">Nosine (God)</a>.</p>
+    </aside>
+<ruby block-end="clarification">

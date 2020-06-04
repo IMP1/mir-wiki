@@ -12,10 +12,24 @@
     <section>
         <h2>Gods</h2>
         <ul>
-            <li id="">
-                <strong></strong>
+            <li id="nosine">
+                <strong>Nosine</strong>
+                <!-- Gnosi + Sinesi (σύνεση) -->
                 <p>
-                    Thought to be the god of knowledge and teaching.
+                    The god of worldly knowledge and teaching.
+                </p>
+                <p>
+                    Nosine is the sister of <a href="#abisai">Abisai</a>.
+                </p>
+            </li>
+            <li id="abisai">
+                <strong>Abisai</strong>
+                <!-- Abyss + Psyche -->
+                <p>
+                    The god of magic and spirits.
+                </p>
+                <p>
+                    Abisai is the sister of <a href="#nosine">Nosine</a>.
                 </p>
             </li>
         </ul>

@@ -221,6 +221,16 @@
             scale: scale.island_group,
             link: "/mir-wiki/locations/the_sisters_islands.html",
         });
+        locations.push({
+            name: "Nosine",
+            scale: scale.island,
+            link: "/mir-wiki/locations/nosine_island.html",
+        });
+        locations.push({
+            name: "Abisai",
+            scale: scale.island,
+            link: "/mir-wiki/locations/abisai_island.html",
+        });
 
         // Kardkore locations
         locations.push({

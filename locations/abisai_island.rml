@@ -1,0 +1,23 @@
+<ruby include="page_layout.rml">
+<ruby block-begin="title">Abisai (Island) | <ruby block-super><ruby block-end="title">
+<ruby block-begin="article">
+    <h1>Abisai (Island)</h1>
+    <section>
+        <h2>Overview</h2>
+        <p>
+            Abisai is the southern isle of <a href="/mir-wiki/locations/the_sisters_islands.html">The Sisters</a>.
+            Its 'sister' island is <a href="/mir-wiki/locations/nosine_island.html">Nosine</a>.
+        </p>
+    </section>
+    <section>
+        <h2>Name Origin</h2>
+        <p>
+            Abisai is named after the <a href="/mir-wiki/culture/mythologies/sissakoor.html#abisai">Sissakoor god</a> of the same name.
+        </p>
+    </section>
+<ruby block-end="article">
+<ruby block-begin="clarification">
+    <aside>
+        <p>For Abisai, the god of the Sissakoor religion, see <a href="/mir-wiki/culture/mythologies/sissakoor.html#abisai">Abisai (God)</a>.</p>
+    </aside>
+<ruby block-end="clarification">
