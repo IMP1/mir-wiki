@@ -25,6 +25,25 @@
         </p>
     </section>
     <section>
+        <h2>Physique</h2>
+        <p>
+            Delvers typically grow to heights between 1.2m (4') and 1.5m (5'). 
+            This is partially due to a lack of nutritional intake in their infancy, 
+            and delvers raised in other conditions can reach heights of 1.7m (5' 7").
+        </p>
+        <p>
+            <!-- PROPORTIONS -->
+        </p>
+        <p>
+            <!-- WEIGHT, MUSCLE_MASS,  -->
+        </p>
+        <p>
+            Heights don't significantly differ across the sexes, and young delvers all look very similar,
+            but female adults have larger hips and legs. This generally makes them faster runners but slower crawlers.
+            Male adults generally develop larger arms and shoulders.
+        </p>
+    </section>
+    <section>
         <h2>Life Cycle &amp; Health</h2>
         <p>
             Delvers live for an average of 100 years <span class="out-of-world">(roughly 40 Earth-years)</span>.
