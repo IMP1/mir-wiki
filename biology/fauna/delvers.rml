@@ -8,13 +8,14 @@
     <section>
         <h2>Overview</h2>
         <p>
-            Many delvers spend most of their lives underground. Those who venture above ground either prefer colder regions or tend to live nocturnally. This is because, while they have no problem with heat, delvers cannot handle the sunlight, as their skin is very succeptible to sun damage. They also struggle to see in high light levels, but can see very well in low light. Delvers also have a sensitivity to electrical charge in and between objects. 
+            Many delvers spend most of their lives underground. Those who venture above ground either prefer darker regions or tend to live nocturnally. This is because, while they prefer the heat, delvers cannot handle the sunlight, as their skin is very succeptible to sun damage. They also struggle to see in high light levels, but can see very well in low light. Delvers also have a sensitivity to electrical charge in and between objects. 
         </p>
         <p>
             Delvers have very insensitive senses of smell. They can pick out specific smells, such as those that would portend danger deep underground, but other than this, they need a smell to be very strong before they realise it. As such, they can tolerate most foodstuffs, and enjoy very strong-smelling foods.
         </p>
         <p>
-            Delvers can hear with their skin. Their skin reacts to pressure variations in the air around it, and their brain can interpret these variations as sound. Sometimes these sounds go straight to their central nervous system, and they will instinctively react to the sounds with no brain processing. This is most often found during cave collapses.
+            Delvers can hear with the hairs on their skin. These hairs reacts to pressure variations in the air around it, and their brain can interpret these variations as sound. Sometimes these sounds go straight to their central nervous system, and they will instinctively react to the sounds with no brain processing. This is most often found during cave collapses. 
+            This also means delvers have no ears. 
         </p>
     </section>
     <section>
@@ -30,6 +31,10 @@
             Delvers typically grow to heights between 1.2m (4') and 1.5m (5'). 
             This is partially due to a lack of nutritional intake in their infancy, 
             and delvers raised in other conditions can reach heights of 1.7m (5' 7").
+        </p>
+        <p>
+            The bodies of delvers are relatviely streamlined which aids their digging. 
+            They have no ears and their noses don't protrude much.
         </p>
         <p>
             <!-- PROPORTIONS -->
@@ -49,6 +54,12 @@
             Delvers live for an average of 100 years <span class="out-of-world">(roughly 40 Earth-years)</span>.
             The shortness is mostly due to a lack of nutritional intake in their early years, 
             and some delvers who have left their underground lives find themselves living longer.
+        </p>
+    </section>
+    <section>
+        <h2>Societies</h2>
+        <p>
+            
         </p>
     </section>
 <ruby block-end="article">
