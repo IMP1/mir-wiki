@@ -1,0 +1,41 @@
+<ruby include="page_layout.rml">
+<ruby block-begin="title">Technology | <ruby block-super><ruby block-end="title">
+<ruby block-begin="article">
+    <h1>Technology</h1>
+    <section>
+        <h2>Overview</h2>
+        <p>
+            Across Mir, tools range from simple stone and flint to forged metal.
+            Animals are used as beasts of burden by some societies and species.
+            Food acquisition ranges from agriculture and intensive farming to nomadic foraging.
+        </p>
+    </section>
+    <section>
+        <h2>Agriculture</h2>
+        <p>
+            Hoes, Spades, Ploughs, Scythes, Shears, Forks, 
+        </p>
+    </section>
+    <section>
+        <h2>Warfare</h2>
+        <p>
+            Swords, Spears, Bows
+        </p>
+    </section>
+    <section>
+        <h2>Other Tools</h2>
+        <p>
+            Axes, Knives, Picks, Cart Wheels, 
+        </p>
+    </section>
+<ruby block-end="article">
+
+<!-- 
+Everyone knows that the best smithing in Ridgeback is from Coldwood.
+Everyone just knows that. 
+And that means the best axes, the best forks, the best scythes and knives and shears.
+The craft brings people together there. All sorts: plainswalkers, delvers, midnighters; 
+they all put that aside and lend their unique skills. 
+Those delvers can see something we can't, yknow? 
+They call it Hallert or something.
+ -->

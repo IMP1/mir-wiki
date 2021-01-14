@@ -1,0 +1,82 @@
+<ruby include="page_layout.rml">
+<ruby block-begin="title">Military | <ruby block-super><ruby block-end="title">
+<ruby block-begin="article">
+    <h1>Military</h1>
+
+    <section>
+        <h2>Overview</h2>
+        <p>
+            
+        </p>
+    </section>
+    <section>
+        <h2>Ridgeback</h2>
+        <p>
+            These are the more common roles that members of a ship's crew would take on. Often some of these would be combined and would be carried out by a singular crew member.
+        </p>
+        <section>
+<!-- 
+# Military Ranks
+
+King
+Major Commander (In charge of the entire army)
+Royal Standard Bearer
+Commander (In charge of a Formation (4-12 Units))
+Formation Standard Bearer
+Fortmaster
+Principal (In charge of a Unit (~60 Solidiers))
+Specialist
+Soldier
+Recruit
+ -->
+            <h3>Ranks</h3>
+            <dl>
+                <dt>King</dt>
+                <dd>
+                    The ruler of the realm has ultimate authority over their people, including their armies.
+                </dd>
+
+                <dt>Major Commander</dt>
+                <dd>
+                    The major commander is in charge of the entire army. They cooridinate with the king and their tacticians to create general strategies.
+                </dd>
+
+                <dt>Commander</dt>
+                <dd>
+                    The commander is in charge of a <em>Formation</em>. A Formation is made up of between 4 and 12 Units.
+                </dd>
+
+                <dt>Formation Standard Bearer</dt>
+                <dd>
+                    
+                </dd>
+
+                <dt>Fortmaster</dt>
+                <dd>
+                    A fortmaster is in charge of the workings of a Formation's encampment. 
+                    They handle the day-to-day goings on of the camp, settle any disputes, and handle 
+                </dd>
+
+                <dt>Principal</dt>
+                <dd>
+                    The Principal is in charge of a <em>Unit</em>. A Unit would be made up of about 60 soldiers.
+                </dd>
+
+                <dt>Specialist</dt>
+                <dd>
+                    
+                </dd>
+
+                <dt>Soldier</dt>
+                <dd>
+                    
+                </dd>
+
+                <dt>Recruit</dt>
+                <dd>
+                    
+                </dd>
+            </dl>
+        </section>
+    </section>
+<ruby block-end="article">
