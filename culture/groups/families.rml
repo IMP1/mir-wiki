@@ -19,6 +19,8 @@
             <li><a href="/mir-wiki/people/pala_redwing.html">Pala</a></li>
             <li><a href="/mir-wiki/people/lowen_redwing.html">Lowen</a></li>
         </ul>
+        <h3>Emblems</h3>
+        <span>A red bird</span>
     </details>
     <details>
         <summary>
@@ -32,6 +34,11 @@
             <li><a href="/mir-wiki/people/reyah_hornehill.html">Reyah</a></li>
             <li><a href="/mir-wiki/people/salome_hornehill.html">Salome</a></li>
         </ul>
+        <h3>Emblem</h3>
+        <p>
+            A sparky fire
+        </p>
+        <img src="/mir-wiki/_images/sigil_hornehill.png">
     </details>
     <details>
         <summary>
@@ -53,11 +60,90 @@
     </details>
     <details>
         <summary>
+            <h2>Horlay</h2>
+        </summary>
+        <h3>Members</h3>
+        <ul>
+            <li><a href="/mir-wiki/people/???.html">???</a></li>
+        </ul>
+        <h3>History</h3>
+        <p>
+            The Horlay family were instrumental in the conquering of <a href="/mir-wiki/locations/sand_flats.html">Sand Flats</a> from the Wells.
+            As a reward, they were given lordship over the lands there. They then adopted the sunrise/sunset sigil.
+            This was a multi-purpose change. It showed the people of Sand Flats that they were included in the new age.
+            It also showed the previous lords that their time had ended, and a new time had begun.
+            Old Norse name meaning rock. Halle -> Hall-e -> Horlay
+        </p>
+    </details>
+    <details>
+        <summary>
+            <h2>Stiggard</h2>
+        </summary>
+        <h3>Members</h3>
+        <ul>
+            <li><a href="/mir-wiki/people/???.html">???</a></li>
+        </ul>
+        <h3>History</h3>
+        <p>
+            Before the <a href="/mir-wiki/events/war_for_ridgeback.html">War for Ridgeback</a>, the ??? ruled the lands of <a href="/mir-wiki/locations/estearth.html">Estearth</a>.
+            Name comes from old english Stig = house + Guard
+        </p>
+        <h3>Emblems</h3>
+        <p>
+            The ??? adopted the sigil of the <a href="/mir-wiki/biology/fauna/moondeer.html">Moondeer</a>.
+        </p>
+    </details>
+    <details>
+        <summary>
             <h2>???</h2>
         </summary>
         <h3>Members</h3>
         <ul>
             <li><a href="/mir-wiki/people/???.html">???</a></li>
         </ul>
+        <h3>History</h3>
+        <p>
+            Lords of Kingsooth
+        </p>
+        <h3>Emblems</h3>
+        <p>
+            Three Waves
+        </p>
+    </details>
+    <details>
+        <summary>
+            <h2>Wells</h2>
+        </summary>
+        <h3>Members</h3>
+        <ul>
+            <li><a href="/mir-wiki/people/???.html">???</a></li>
+        </ul>
+        <h3>History</h3>
+        <p>
+            Lords of Sand Flats before it was taken by the Horlays.
+        </p>
+        <h3>Emblems</h3>
+        <p>
+            Shining Sun
+        </p>
+    </details>
+    <details>
+        <summary>
+            <h2>Halack</h2>
+        </summary>
+        <h3>Members</h3>
+        <ul>
+            <li><a href="/mir-wiki/people/???.html">???</a></li>
+        </ul>
+        <h3>History</h3>
+        <p>
+            Lords of Frosthelm
+            Name comes from Krakr -> Kalak -> Halack (Means Crow)
+        </p>
+        <h3>Emblems</h3>
+        <p>
+            A black crow on a white circle.
+        </p>
+        <img src="/mir-wiki/_images/sigil_halack.png">
     </details>
 <ruby block-end="article">
