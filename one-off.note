@@ -50,9 +50,11 @@ Possessed locals
 
 ### A Light in the Dark
 
-Will-o'-Wisp trying to lead y'all astray.
+Will-o'-Wisp trying to lead the party astray and consume them. 
+It does this with its lights, tempting the party to follow the lights until it finds an otherwise dark spot, 
+extinguishes its own light, and then goes in for the attack.
 
-  - [ ] Look up Will-o'-Wisp mechanics.
+Perhaps there can be some genuine people around with lights, to give the party a bit of confusion.
 
 ### Like a Dwarf Possessed
 
@@ -63,11 +65,16 @@ On every hit they sustain, they roll checks to see if they snap out of the posse
 If they don't, then sucks for them.
 If they do, then they can plead with the players to spare them, saying they were possessed.
 
+Their intent is to break out of their mental prisons and go home to their families.
+They don't really have an approach.
+The intent of their possessors is to create havok, spread (and protect?) the darkness growing in the forest.
+Their approach is to attack everyone on sight.
+
   - [ ] Create a statblock and some DCs for them snapping out of it.
 
-STR: 11 (+0)
+STR: 13 (+1)
 DEX: 12 (+1)
-CON: 12 (+1)
+CON: 14 (+2)
 INT: 10 (+0)
 WIS: 11 (+0)
 CHA: 10 (+0)
@@ -77,11 +84,26 @@ Advantage against saving throws against being charmed or frightened.
 ### Gebbeth
 
 A shadow attacks one of the party, intending to suck out their lifeforce.
+Its goal is to consume the lifeforce of anyone, and spread into more shadows.
+Its approach is to attack anyone coming close enough.
+
+  - [ ] Statblock:
 
 ### Guardians
 
 Sprites mistake the party for intruders, mistaking their intentions.
 If the party has either natural, or non-natural stuff (armour, equipment) [not sure which way round makes more sense] then the sprites will be mistrustful.
 The sprites will either give the party some nice buffs, or some not-nice debuffs.
+
+Their intention is to try to thwart the spread of darkness through the forest.
+Their approach is to learn more about what this darkness is, and call for help if need by from anyone who will help.
+Their objection to the party is the (mistaken) belief that the party are intruders and are at best unknown,
+and at worst on the side of the shadows.
+
+### Not In My Back Yard
+
+Some wood elves are worried about the spreading darkness.
+Their intention is to find the cause and destroy it.
+Their approach is to perform some rituals to follow the darkness to its centre.
 
 
