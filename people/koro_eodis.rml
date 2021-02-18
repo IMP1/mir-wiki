@@ -1,0 +1,57 @@
+<ruby include="page_person_layout.rml">
+<ruby block-begin="title">Koro Eodis | <ruby block-super><ruby block-end="title">
+<ruby block-begin="person-details">
+    <dt>Race</dt>
+    <dd><a href="/mir-wiki/biology/fauna/delvers.html">Delver</a></dd>
+    <dt>Sex</dt>
+    <dd>Male</dd>
+    <dt>Born</dt>
+    <dd>???</dd>
+<ruby block-end="person-details">
+<ruby block-begin="article">
+    <h1>Lord Koro Eodis</h1>
+    <section>
+        <h2>Life</h2>
+        <section>
+            <h3>Overview</h3>
+            <p>
+                Koro Eodis is the Lord of <a href="/mir-wiki/locations/kingsooth.html">Kingsooth</a>, 
+                born to <a href="/mir-wiki/people/???.html"></a> and <a href="/mir-wiki/people/???.html"></a>.
+            </p>
+            <p>
+                
+            </p>
+        </section>
+    </section>
+    <section>
+        <h2>Family</h2>
+        <svg id="family-tree"></svg>
+    </section>
+    <section>
+        <h2>Name Etymology</h2>
+        <dl>
+            <dt>Koro</dt>
+            <dd>
+                From the word <em>Skoroh</em>, meaning To Dig in Hohrintoh.
+            </dd>
+            <dt>Eodis</dt>
+            <dd>
+                From the word <em>Deh-Odisuvoloh</em>, meaning Womb in Hohrintoh.
+            </dd>
+        </dl>
+    </section>
+<ruby block-end="article">
+<ruby block-begin="scripts">
+    <ruby block-super>
+    <script type="text/javascript">
+        let parents = [];
+        let siblings = [];
+        let children = [];
+        let me = {
+            name: "Koro Eodis",
+            birthdate: "",
+            deathdate: null,
+        };
+        createFamilyTree(me, parents, siblings, children);
+    </script>
+<ruby block-end="scripts">
