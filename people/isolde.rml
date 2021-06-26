@@ -1,0 +1,57 @@
+<ruby include="page_person_layout.rml">
+<ruby block-begin="title">Isolde | <ruby block-super><ruby block-end="title">
+<ruby block-begin="person-details">
+    <dt>Race</dt>
+    <dd><a href="/mir-wiki/biology/fauna/midnighters.html">Midnighter</a></dd>
+    <dt>Sex</dt>
+    <dd>Female</dd>
+    <dt>Born</dt>
+    <dd>
+
+    </dd>
+<ruby block-end="person-details">
+<ruby block-begin="article">
+    <h1>Dread Pirate Isolde</h1>
+    <section>
+        <h2>Life</h2>
+        <section>
+            <h3>Childhood</h3>
+            <p>
+                
+            </p>
+        </section>
+        <section>
+            <h3>Piracy</h3>
+            <p>
+                <!-- Inspired by https://en.wikipedia.org/wiki/Sadie_Farrell -->
+            </p>
+        </section>
+    </section>
+    <section>
+        <h2>Family</h2>
+        <svg id="family-tree"></svg>
+    </section>
+    <section>
+        <h2>Name Etymology</h2>
+        <dl>
+            <dt>Isolde</dt>
+            <dd>
+                Welsh name, meaning Ice Ruler
+            </dd>
+        </dl>
+    </section>
+<ruby block-end="article">
+<ruby block-begin="scripts">
+    <ruby block-super>
+    <script type="text/javascript">
+        let parents = [];
+        let siblings = [];
+        let children = [];
+        let me = {
+            name: "Isolde",
+            birthdate: "",
+            deathdate: null,
+        };
+        createFamilyTree(me, parents, siblings, children);
+    </script>
+<ruby block-end="scripts">

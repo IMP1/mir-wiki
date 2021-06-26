@@ -1,0 +1,11 @@
+<ruby include="page_layout.rml">
+<ruby block-begin="title">Greycap | <ruby block-super><ruby block-end="title">
+<ruby block-begin="article">
+    <h1>Greycap</h1>
+    <section>
+        <h2>Overview</h2>
+        <p>
+            The greycap mushroom grows abundantly in parts of the Wetlands and, when eaten raw, can give the diner glimpses into the abyss. This is obviously not to everyone's taste, but some aspiring mages (or curious travellers) will travel great dinstances to try it, hoping to enhance their powers or release something within themselves.
+        </p>
+    </section>
+<ruby block-end="article">

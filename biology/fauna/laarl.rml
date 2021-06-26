@@ -1,0 +1,14 @@
+<ruby include="page_layout.rml">
+<ruby block-begin="title">Laarl | <ruby block-super><ruby block-end="title">
+<ruby block-begin="article">
+    <h1>Laarl</h1>
+    <section>
+        <h2>Overview</h2>
+        <p>
+            Laarl are small reptillian omnivores. They are often found in caves, and often move into abandoned underground structures, enjoying the damp.
+        </p>
+        <p>
+            Laarl have very strong back legs, and can perform a powerful forward leap. The males have hardened foreheads, and the females have horns of varying sizes.
+        </p>
+    </section>
+<ruby block-end="article">

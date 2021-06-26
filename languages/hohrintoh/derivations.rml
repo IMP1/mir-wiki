@@ -24,7 +24,7 @@
                 <dt>Place</dt>
                 <dd>(circumfix) Where the action might take place</dd>
                 <dt>Complement</dt>
-                <dd>(prefix) An action that recieves anything this action gives</dd>
+                <dd>(prefix) An action that "recieves" anything this action "gives"</dd>
                 <dt>Instigation</dt>
                 <dd>(prefix) Another action that would result in this action</dd>
             </dl>
@@ -195,6 +195,24 @@
                     <dd><span></span><p></p></dd>
                     <dt>Complement</dt>
                     <dd><span>Arroveloh</span><p>To originate from</p></dd>
+                    <dt>Instigation</dt>
+                    <dd><span></span><p></p></dd>
+                </dl>
+            </li>
+            <li>
+                <h3>To Eat</h3>
+                <p></p>
+                <dl class="derivation">
+                    <dt>Root</dt>
+                    <dd><span></span></dd>
+                    <dt>Basic</dt>
+                    <dd><span></span><p></p></dd>
+                    <dt>Noun</dt>
+                    <dd><span></span><p></p></dd>
+                    <dt>Place</dt>
+                    <dd><span></span><p></p></dd>
+                    <dt>Complement</dt>
+                    <dd><span></span><p></p></dd>
                     <dt>Instigation</dt>
                     <dd><span></span><p></p></dd>
                 </dl>

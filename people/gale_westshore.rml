@@ -48,6 +48,11 @@
             birthdate: "",
             deathdate: null,
         };
+        parents.push({
+            name: "Pashja Westshore",
+            birthdate: "",
+            deathdate: null,
+        });
         createFamilyTree(me, parents, siblings, children);
     </script>
 <ruby block-end="scripts">

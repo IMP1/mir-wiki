@@ -40,6 +40,7 @@
                 <li>Owl</li>
                 <li>Sparrow</li>
                 <li>Redwing</li>
+                <li>Hawk</li>
             </ul>
         </section>
         <section>
@@ -49,6 +50,12 @@
                 <li>Boar</li>
                 <li>Bear</li>
                 <li>Goats</li>
+                <li>
+                    <a href="/mir-wiki/biology/fauna/laarl.html">Laarl</a>
+                </li>
+                <li>
+                    <a href="/mir-wiki/biology/fauna/osa.html">Osa</a>
+                </li>
                 <li>
                     <a href="/mir-wiki/biology/fauna/skolatsi.html">Skolatsi</a>
                 </li>

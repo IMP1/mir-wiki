@@ -1,0 +1,53 @@
+<ruby include="page_person_layout.rml">
+<ruby block-begin="title">Hawk | <ruby block-super><ruby block-end="title">
+<ruby block-begin="person-details">
+    <dt>Race</dt>
+    <dd><a href="/mir-wiki/biology/fauna/midnighters.html">Midnighter</a></dd>
+    <dt>Sex</dt>
+    <dd>Male</dd>
+    <dt>Born</dt>
+    <dd>???</dd>
+<ruby block-end="person-details">
+<ruby block-begin="article">
+    <h1>Hawk</h1>
+    <section>
+        <h2>Life</h2>
+        <section>
+            <h3>Overview</h3>
+            <p>
+                Everyone's heard of Hawk, but not everyone knows his real name is Sparrow. 
+                I guess he felt his little name didn't fit with his big personality. 
+            </p>
+            <p>
+                He's got his fingers in all the pies in Rifford. At least, all the ones he can, which are also all the ones he considers important. The guards leave him alone, and he makes sure to never do anything outright against their will. But he knows all the traders, and they know him. Some he has 'arrangements' with, where they'll pay him a tax, some he has more friendly dealings with. He's a big presense wherever he goes.
+            </p>
+        </section>
+    </section>
+    <section>
+        <h2>Family</h2>
+        <svg id="family-tree"></svg>
+    </section>
+    <section>
+        <h2>Name Etymology</h2>
+        <dl>
+            <dt>Hawk</dt>
+            <dd>
+                Named after the bird
+            </dd>
+        </dl>
+    </section>
+<ruby block-end="article">
+<ruby block-begin="scripts">
+    <ruby block-super>
+    <script type="text/javascript">
+        let parents = [];
+        let siblings = [];
+        let children = [];
+        let me = {
+            name: "Hawk",
+            birthdate: "",
+            deathdate: null,
+        };
+        createFamilyTree(me, parents, siblings, children);
+    </script>
+<ruby block-end="scripts">

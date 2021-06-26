@@ -1,0 +1,142 @@
+<ruby include="page_layout.rml">
+<ruby block-begin="styles">
+    <ruby block-super>
+    <link rel="stylesheet" type="text/css" href="/mir-wiki/_styles/language.css">
+<ruby block-end="styles">
+<ruby block-begin="title">Proto-Hohrintoh | <ruby block-super><ruby block-end="title">
+<ruby block-begin="article">
+    <h1>Proto-Hohrintoh</h1>
+    <section>
+        <h2>Overview</h2>
+        <p>
+            This is the proto-language for <a href="/mir-wiki/languages/hohrintoh/index.html">Hohrintoh</a>. It is a subset of the vocabulary, and was used in the process of creating Hohrintoh, to provide a base from which to adapt and morph, simulating the changes over time that natural languages have undergone.
+        </p>
+    </section>
+    <section>
+        <h2>Process</h2>
+        <p>
+            I had certain themes I wanted for Hohrintoh, so some of the proto-langauge was reverse-engineered, or at least created with them in mind. The main theme was having a strong focus on verbs, with the word order being Verb-Subject-Object, and most nouns being nounified verbs. Other themes included having little distinction between the present and future continuous tenses. I also had in mind some idea of the sounds that would be used, and that they would be what I (with my UK English speaking biases) considered low and resonant.
+        </p>
+        <p>
+            So I had already come up with <a href="/mir-wiki/languages/hohrintoh/derivations.html">some words</a>, using a technique of making up a root words for a basic concept, usually an action because of the focus on verbs, and then thinking about what derived words and meanings that concept could lead to.
+        </p>
+    </section>
+    <section>
+        <details>
+            <summary><h2>Initial Vocabulary</h2></summary>
+            <table>
+                <tr>
+                    <th>Word</th>
+                    <th>Part of Speech</th>
+                    <th>Meaning</th>
+                    <th>Notes</th>
+                </tr>
+                <tr>
+                    <td>Ohmbar</td>
+                    <td>Verb</td>
+                    <td>To warm</td>
+                    <td>Associated with comfort and home</td>
+                </tr>
+                <tr>
+                    <td>Deh-Ohmbar</td>
+                    <td>Noun</td>
+                    <td>A fire</td>
+                </tr>
+                <tr>
+                    <td>Hoh-Ohmbar</td>
+                    <td>Noun</td>
+                    <td>A caregiver or parent</td>
+                </tr>
+            </table>
+        </details>
+        <details>
+            <summary><h2>Phonology</h2></summary>
+            <h3>Consonants</h3>
+            <table>
+                <tr>
+                    <td></td>
+                    <th>Bilabial</th>
+                    <th>Labiodental</th>
+                    <th>Dental</th>
+                    <th>Alveolar</th>
+                    <th>Postalveolar</th>
+                    <th>Retroflex</th>
+                    <th>Palatal</th>
+                    <th>Velar</th>
+                    <th>Uvular</th>
+                    <th>Pharyngeal</th>
+                    <th>Glottol</th>
+                </tr>
+                <tr>
+                    <th>Plosive</th>
+                </tr>
+                <tr>
+                    <th>Nasal</th>
+                </tr>
+                <tr>
+                    <th>Trill</th>
+                </tr>
+                <tr>
+                    <th>Tap / Flap</th>
+                </tr>
+                <tr>
+                    <th>Fricative</th>
+                </tr>
+                <tr>
+                    <th>Lateral Fricative</th>
+                </tr>
+                <tr>
+                    <th>Approximant</th>
+                </tr>
+                <tr>
+                    <th>Lateral Approximant</th>
+                </tr>
+            </table>
+            <h3>Vowels</h3>
+            <table>
+                <tr>
+                    <td></td>
+                    <th colspan="2">Front</th>
+                    <th colspan="2">Central</th>
+                    <th>Back</th>
+                </tr>
+                <tr>
+                    <th>Close</th>
+                </tr>
+                <tr>
+                    <th></th>
+                </tr>
+                <tr>
+                    <th>Close-Mid</th>
+                </tr>
+                <tr>
+                    <th></th>
+                </tr>
+                <tr>
+                    <th>Open-Mid</th>
+                </tr>
+                <tr>
+                    <th></th>
+                </tr>
+                <tr>
+                    <th>Open</th>
+                </tr>
+            </table>
+        </details>
+        <details>
+            <summary><h2>Syntax</h2></summary>
+        </details>
+        <details>
+            <summary><h2>Grammar</h2></summary>
+        </details>
+        <details>
+            <summary><h2>Phonological Metamorphosis</h2></summary>
+        </details>
+        <details>
+            <summary><h2>Grammatical Metamorphosis</h2></summary>
+        </details>
+        <details>
+            <summary><h2>Writing Systems</h2></summary>
+        </details>
+    </section>
+<ruby block-end="article">

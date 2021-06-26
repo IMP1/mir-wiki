@@ -1,0 +1,14 @@
+<ruby include="page_layout.rml">
+<ruby block-begin="title">Osa | <ruby block-super><ruby block-end="title">
+<ruby block-begin="article">
+    <h1>Osa</h1>
+    <section>
+        <h2>Overview</h2>
+        <p>
+            The osa is a thick-set herbivore, with sturdy legs and a strong back. They are used to pull carts and/or carry wares or equipment. 
+        </p>
+        <p>
+            The females have large horns, which some people use for drinking or rudimentary tools, and the males are slightly smaller and faster.
+        </p>
+    </section>
+<ruby block-end="article">

@@ -1,0 +1,42 @@
+<ruby include="page_layout.rml">
+<ruby block-begin="title">Music | <ruby block-super><ruby block-end="title">
+<ruby block-begin="article">
+    <h1>Music</h1>
+    <section>
+        <h2>Overview</h2>
+        <p>
+
+        </p>
+    </section>
+    <section>
+        <h2>Scales</h2>
+        <p>
+            
+        </p>
+    </section>
+    <section>
+        <h2>Instruments</h2>
+        <p>
+            Stringed Instrument (Lute-esque)
+        </p>
+        <p>
+            Blown Instrument (Flute-esque)
+        </p>
+        <p>
+            Drums
+        </p>
+    </section>
+<ruby block-end="article">
+
+<!-- 
+    Try out some weird dorian scales.
+    Maybe make up my own scales that are s;ightly different in some way.
+    I don't know enough about music theory and don't really have the energy to find out about it.
+    I'm not sure it matters, right? The theory was built up after the fact. 
+    I know enough about the basic of harmonics, I reckon. 
+      - [ ] Choose some fractions/rations for a nice(/weird?) scale
+      - [ ] Choose some notes to use as the strings of an instrument.
+      - [ ] Come up with some folky songs.
+      - [ ] Rework the singing whale into the new music system?
+
+ -->

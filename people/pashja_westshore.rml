@@ -1,0 +1,57 @@
+<ruby include="page_person_layout.rml">
+<ruby block-begin="title">Pashja Westshore | <ruby block-super><ruby block-end="title">
+<ruby block-begin="person-details">
+    <dt>Race</dt>
+    <dd><a href="/mir-wiki/biology/fauna/midnighters.html">Plainswalker</a></dd>
+    <dt>Sex</dt>
+    <dd>Female</dd>
+    <dt>Born</dt>
+    <dd>???</dd>
+<ruby block-end="person-details">
+<ruby block-begin="article">
+    <h1>Pashja Westshore</h1>
+    <section>
+        <h2>Life</h2>
+        <section>
+            <h3>Overview</h3>
+            <p>
+                Pashja Westshore (Gale's mother) always had a way with words. She could hide layers of meaning in any sentence she said, and spin goodwill from almost anyone with careful choice of what she said.
+            </p>
+            <p>
+                Her appearance was the very escense of nondescript. She could blend in at any noble plainswalker setting. She was a cunning woman, and was very interested in the dealings of politicians and lords. She and her husband, who married in to the Westshores from a wealthy family, were good friends with the Hornehills.
+            </p>
+        </section>
+    </section>
+    <section>
+        <h2>Family</h2>
+        <svg id="family-tree"></svg>
+    </section>
+    <section>
+        <h2>Name Etymology</h2>
+        <dl>
+            <dt>Pashja</dt>
+            <dd>
+                Derived from badger.
+            </dd>
+        </dl>
+    </section>
+<ruby block-end="article">
+<ruby block-begin="scripts">
+    <ruby block-super>
+    <script type="text/javascript">
+        let parents = [];
+        let siblings = [];
+        let children = [];
+        let me = {
+            name: "Pashja Westshore",
+            birthdate: "",
+            deathdate: null,
+        };
+        children.push({
+            name: "Gale Westshore",
+            birthdate: "",
+            deathdate: null,
+        });
+        createFamilyTree(me, parents, siblings, children);
+    </script>
+<ruby block-end="scripts">

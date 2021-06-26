@@ -180,7 +180,7 @@
         words.push({
             name: "Arinleroh",
             part_of_speech: part_of_speech.verb,
-            definition: "A conversation.",
+            definition: "To converse.",
         });
         words.push({
             name: "Rikarindoh",
@@ -322,6 +322,12 @@
             definition: "To be electricuted.",
         });
 
+        words.push({
+            name: "",
+            part_of_speech: part_of_speech.verb,
+            definition: "To Eat",
+        });
+
 
         // -----
         // Unconfirmed vocab:
@@ -330,7 +336,7 @@
         words.push({
             name: "Kalar",
             part_of_speech: part_of_speech.verb,
-            definition: "Loving",
+            definition: "To love",
         });
         words.push({
             name: "Rovelar",
@@ -348,6 +354,22 @@
             part_of_speech: part_of_speech.noun,
             definition: "Coal",
         });
+
+        // TODO:
+        // Add words
+        //   * Eating (food, meal, cooking, hunger)
+        //   * Drinking (drink, thirst)
+        //   * Birthing (child, birth, beget, concieve)
+        //   * Farming (farmer, crop, farm, soil)
+        //   * Dying (death, danger, mourn, widows)
+        //   * Help (help(v), help(n), helper, helpee, thanks)
+        //   * Friend/Teacher/Family
+        //   * See/Hear/Smell/Taste/Feel/etc.
+        //   * Pronouns (Break down by plurality/living/person/)
+        // Add words from these useul lists:
+        //   * https://i.redd.it/um9qm4pph5d51.jpg
+        //   * https://fiatlingua.org/wp-content/uploads/2014/08/fl-000024-00.pdf
+        //   * https://en.wikipedia.org/wiki/Swadesh_list
 
         // words.push({
         //     name: "Or",
