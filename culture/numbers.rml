@@ -1,0 +1,19 @@
+<ruby include="page_layout.rml">
+<ruby block-begin="title">Numbers | <ruby block-super><ruby block-end="title">
+<ruby block-begin="article">
+    <h1>Numbers</h1>
+    <section>
+        <h2>Base-18</h2>
+        <p>
+            Each finger counts as one, but each thumb counts as five.
+            So all fingers = 18
+        </p>
+    </section>
+    <section>
+        <h2>Base 6</h2>
+        <p>
+            Each digit on one hand counts as one, and each on the other is 6.
+            So all fingers = 35
+        </p>
+    </section>
+<ruby block-end="article">
